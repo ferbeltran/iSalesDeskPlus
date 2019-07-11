@@ -19,13 +19,13 @@ namespace iSalesDeskPlus
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/Login");
+            await NavigationService.NavigateAsync("Login");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<Login, LoginViewModel>();
+            containerRegistry.RegisterForNavigation<Login>();
         }
     }
 }

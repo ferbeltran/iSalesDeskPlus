@@ -197,7 +197,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\iSalesDeskPlus\iSalesDeskPlus.csproj">
-      <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
+      <Project>{55891DED-B63A-408A-BE6F-7A8119C47185}</Project>
       <Name>iSalesDeskPlus</Name>
     </ProjectReference>
   </ItemGroup>

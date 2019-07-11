@@ -1,23 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="iSalesDeskPlus.Views.Login"
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-    Title="{Binding Title}"
-    prism:ViewModelLocator.AutowireViewModel="True"
-    Visual="Material">
+<ContentPage x:Class="iSalesDeskPlus.Views.Login"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             Title="{Binding Title}"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             BackgroundColor="#333333"
+             Visual="Material">
 
-    <StackLayout
-        HorizontalOptions="CenterAndExpand"
-        Orientation="Vertical"
-        VerticalOptions="CenterAndExpand">
-        <Entry
-            Placeholder="Email"
-            Text="{Binding Email}"
-            Visual="Material" />
+    <StackLayout Padding="30"
+                 Orientation="Vertical"
+                 Spacing="10"
+                 HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand">
+        <Entry BackgroundColor="White"
+               Keyboard="Email"
+               Placeholder="Email"
+               Text="{Binding Email}"
+               Visual="Material" />
 
-        <Entry Placeholder="Password" Text="{Binding Password}" />
+        <Entry BackgroundColor="White"
+               IsPassword="true"
+               Placeholder="Password"
+               Text="{Binding Password}" />
+
+        <Button Margin="0,20,0,0"
+                HeightRequest="50"
+                Command="{Binding LoginCommand}"
+                Text="Login" />
+
+        <ActivityIndicator Margin="0,40,0,0"
+                           IsRunning="{Binding IsLoading}"
+                           Color="Crimson" />
     </StackLayout>
 
 </ContentPage>
