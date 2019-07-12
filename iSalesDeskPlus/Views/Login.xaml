@@ -1,92 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="iSalesDeskPlus.Views.Login"
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-    xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
-    prism:ViewModelLocator.AutowireViewModel="True"
-    BackgroundImageSource="background.png">
+<ContentPage x:Class="iSalesDeskPlus.Views.Login"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             BackgroundImageSource="gradient.png">
 
-    <StackLayout
-        Padding="15"
-        HorizontalOptions="CenterAndExpand"
-        Orientation="Vertical"
-        Spacing="10"
-        VerticalOptions="FillAndExpand">
+    <StackLayout Padding="{StaticResource PagePadding}"
+                 Orientation="Vertical"
+                 Spacing="{StaticResource PageSpacing}"
+                 HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="FillAndExpand">
 
-        <Label
-            Margin="0,70,0,0"
-            FontAttributes="Bold"
-            FontSize="40"
-            Text="iSolve"
-            TextColor="White" />
+        <Label Margin="0,70,0,0"
+               FontAttributes="Bold"
+               FontSize="40"
+               Text="iSolve"
+               TextColor="White" />
 
-        <Label
-            Margin="30,-20,0,50"
-            FontAttributes="Bold"
-            FontSize="30"
-            Text="Produce"
-            TextColor="OrangeRed" />
+        <Label Margin="30,-20,0,50"
+               FontAttributes="Bold"
+               FontSize="30"
+               Text="Produce"
+               TextColor="DarkOrange" />
 
 
-        <xfx:XfxEntry
-            ActivePlaceholderColor="#f8ad1c"
-            Placeholder="Email"
-            PlaceholderColor="DarkOrange"
-            Text="{Binding Email}"
-            TextColor="White"
-            WidthRequest="250" />
-        <xfx:XfxEntry
-            ActivePlaceholderColor="#f8ad1c"
-            ErrorText="{Binding PasswordErrorText}"
-            IsPassword="True"
-            Placeholder="Password"
-            PlaceholderColor="DarkOrange"
-            Text="{Binding Password}"
-            TextColor="White" />
+        <xfx:XfxEntry ActivePlaceholderColor="#f8ad1c"
+                      Placeholder="Email"
+                      PlaceholderColor="DarkOrange"
+                      Style="{StaticResource LoginEntryStyle}"
+                      Text="{Binding Email}"
+                      TextColor="White" />
+        <xfx:XfxEntry ActivePlaceholderColor="#f8ad1c"
+                      ErrorText="{Binding PasswordErrorText}"
+                      IsPassword="True"
+                      Placeholder="Password"
+                      Style="{StaticResource LoginEntryStyle}"
+                      PlaceholderColor="DarkOrange"
+                      Text="{Binding Password}"
+                      TextColor="White" />
 
 
-        <Frame
-            Margin="0,30,0,0"
-            Padding="0"
-            CornerRadius="25"
-            HasShadow="True"
-            IsClippedToBounds="True">
-            <Button
-                BackgroundColor="#21242c"
-                Command="{Binding LoginCommand}"
-                CornerRadius="25"
-                FontAttributes="Bold"
-                FontSize="Large"
-                HeightRequest="50"
+        <Button Command="{Binding LoginCommand}"
+                Style="{StaticResource LoginButtonStyle}"
                 Text="Log in"
                 TextColor="White" />
-        </Frame>
+
 
         <Label HorizontalOptions="Center">
             <Label.FormattedText>
                 <FormattedString>
-                    <Span
-                        FontAttributes="None"
-                        FontSize="Small"
-                        Text="Powered by "
-                        TextColor="White" />
+                    <Span FontAttributes="None"
+                          FontSize="Small"
+                          Text="Powered by "
+                          TextColor="White" />
 
-                    <Span
-                        FontAttributes="Bold"
-                        FontSize="Small"
-                        Text="iSolve Produce"
-                        TextColor="WhiteSmoke" />
+                    <Span FontAttributes="Bold"
+                          FontSize="Small"
+                          Text="iSolve Produce"
+                          TextColor="WhiteSmoke" />
                 </FormattedString>
             </Label.FormattedText>
         </Label>
 
 
-        <ActivityIndicator
-            Margin="0,40,0,0"
-            IsRunning="{Binding IsLoading}"
-            Color="Crimson" />
+        <ActivityIndicator Margin="0,40,0,0"
+                           IsRunning="{Binding IsLoading}"
+                           Color="Crimson" />
     </StackLayout>
 
 </ContentPage>

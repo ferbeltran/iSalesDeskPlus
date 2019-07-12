@@ -13,6 +13,7 @@ namespace iSalesDeskPlus.ViewModels
         {
 
         }
+
         private string email = "fernando@isolveproduce.com";
         public string Email
         {

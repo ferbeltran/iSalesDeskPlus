@@ -1,98 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="iSalesDeskPlus.Views.MergedLogin"
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:icons="clr-namespace:iSalesDeskPlus.Utils"
-    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-    xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
-    prism:ViewModelLocator.AutowireViewModel="True"
-    BackgroundImageSource="gradient.png">
+<ContentPage x:Class="iSalesDeskPlus.Views.MergedLogin"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:icons="clr-namespace:iSalesDeskPlus.Utils"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             BackgroundImageSource="gradient.png">
 
-    <StackLayout
-        Padding="15"
-        HorizontalOptions="CenterAndExpand"
-        Orientation="Vertical"
-        Spacing="10"
-        VerticalOptions="FillAndExpand">
+<!--    <StackLayout Padding="15"
+                 Orientation="Vertical"
+                 Spacing="10"
+                 HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="FillAndExpand">
 
-        <Label
-            Margin="0,70,0,0"
-            FontAttributes="Bold"
-            FontSize="40"
-            Text="iSolve"
-            TextColor="White" />
+        <Label Margin="0,70,0,0"
+               FontAttributes="Bold"
+               FontSize="40"
+               Text="iSolve"
+               TextColor="White" />
 
-        <Label
-            Margin="30,-20,0,50"
-            FontAttributes="Bold"
-            FontSize="30"
-            Text="Produce"
-            TextColor="OrangeRed" />
+        <Label Margin="30,-20,0,50"
+               FontAttributes="Bold"
+               FontSize="30"
+               Text="Produce"
+               TextColor="OrangeRed" />
 
 
-        <xfx:XfxEntry
-            ActivePlaceholderColor="#f8ad1c"
-            Placeholder="Email"
-            PlaceholderColor="DarkOrange"
-            Text="{Binding Email}"
-            TextColor="White"
-            WidthRequest="250" />
-        <xfx:XfxEntry
-            ActivePlaceholderColor="#f8ad1c"
-            ErrorText="{Binding PasswordErrorText}"
-            IsPassword="True"
-            Placeholder="Password"
-            PlaceholderColor="DarkOrange"
-            Text="{Binding Password}"
-            TextColor="White" />
+        <xfx:XfxEntry WidthRequest="250"
+                      ActivePlaceholderColor="#f8ad1c"
+                      Placeholder="Email"
+                      PlaceholderColor="DarkOrange"
+                      Text="{Binding Email}"
+                      TextColor="White" />
+        <xfx:XfxEntry ActivePlaceholderColor="#f8ad1c"
+                      ErrorText="{Binding PasswordErrorText}"
+                      IsPassword="True"
+                      Placeholder="Password"
+                      PlaceholderColor="DarkOrange"
+                      Text="{Binding Password}"
+                      TextColor="White" />
 
 
         <StackLayout Margin="0,30,0,0" Orientation="Horizontal">
 
-            <Label
-                FontAttributes="Bold"
-                FontSize="Title"
-                HorizontalOptions="StartAndExpand"
-                Text="Log in"
-                TextColor="White"
-                VerticalOptions="CenterAndExpand" />
-            <Button
-                BackgroundColor="White"
-                Command="{Binding LoginCommand}"
-                CornerRadius="40"
-                FontFamily="{StaticResource MaterialFontFamily}"
-                FontSize="Title"
-                HeightRequest="80"
-                HorizontalOptions="Center"
-                Text="{Binding Source={x:Static icons:MaterialIcons.ArrowRight}}"
-                TextColor="{StaticResource Grison}"
-                WidthRequest="80" />
+            <Label FontAttributes="Bold"
+                   FontSize="Title"
+                   Text="Log in"
+                   TextColor="White"
+                   HorizontalOptions="StartAndExpand"
+                   VerticalOptions="CenterAndExpand" />
+            <Button WidthRequest="60"
+                    HeightRequest="60"
+                    BackgroundColor="White"
+                    Command="{Binding LoginCommand}"
+                    CornerRadius="30"
+                    FontFamily="{StaticResource MaterialFontFamily}"
+                    FontSize="Title"
+                    Text="{Binding Source={x:Static icons:MaterialIcons.ArrowRight}}"
+                    TextColor="{StaticResource Grison}"
+                    HorizontalOptions="Center" />
         </StackLayout>
 
         <Label HorizontalOptions="Center">
             <Label.FormattedText>
                 <FormattedString>
-                    <Span
-                        FontAttributes="None"
-                        FontSize="Small"
-                        Text="Powered by "
-                        TextColor="White" />
+                    <Span FontAttributes="None"
+                          FontSize="Small"
+                          Text="Powered by "
+                          TextColor="White" />
 
-                    <Span
-                        FontAttributes="Bold"
-                        FontSize="Small"
-                        Text="iSolve Produce"
-                        TextColor="WhiteSmoke" />
+                    <Span FontAttributes="Bold"
+                          FontSize="Small"
+                          Text="iSolve Produce"
+                          TextColor="WhiteSmoke" />
                 </FormattedString>
             </Label.FormattedText>
         </Label>
 
 
-        <ActivityIndicator
-            Margin="0,40,0,0"
-            IsRunning="{Binding IsLoading}"
-            Color="Crimson" />
+        <ActivityIndicator Margin="0,40,0,0"
+                           IsRunning="{Binding IsLoading}"
+                           Color="Crimson" />
     </StackLayout>
-
+-->
 </ContentPage>

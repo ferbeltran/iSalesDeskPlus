@@ -1,7 +1,68 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<ResourceDictionary
-    x:Class="iSalesDeskPlus.Styles.GeneralDevice"
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" />
+<ResourceDictionary x:Class="iSalesDeskPlus.Styles.GeneralDevice"
+                    xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+
+    <OnIdiom x:Key="PageSpacing"
+             x:TypeArguments="x:Double"
+             Phone="15"
+             Tablet="30" />
+    <OnIdiom x:Key="PagePadding"
+             x:TypeArguments="Thickness"
+             Phone="15"
+             Tablet="30" />
+
+    <Style x:Key="LoginButtonStyle" TargetType="Button">
+        <Setter Property="HeightRequest">
+            <Setter.Value>
+                <OnIdiom x:TypeArguments="x:Double"
+                         Phone="50"
+                         Tablet="70" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="FontSize">
+            <Setter.Value>
+                <OnIdiom x:TypeArguments="x:Double"
+                         Phone="18"
+                         Tablet="28" />
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="CornerRadius" Value="25" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="BackgroundColor" Value="{StaticResource Orange}" />
+    </Style>
+
+    <Style x:Key="LoginEntryStyle" TargetType="Entry">
+        <Setter Property="HeightRequest">
+            <Setter.Value>
+                <OnIdiom x:TypeArguments="x:Double"
+                         Phone="60"
+                         Tablet="80" />
+            </Setter.Value>
+        </Setter>
+        
+         <Setter Property="WidthRequest">
+            <Setter.Value>
+                <OnIdiom x:TypeArguments="x:Double"
+                         Phone="250"
+                         Tablet="370" />
+            </Setter.Value>
+        </Setter>
+        
+        <Setter Property="FontSize">
+            <Setter.Value>
+                <OnIdiom x:TypeArguments="x:Double"
+                         Phone="16"
+                         Tablet="22" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+</ResourceDictionary>
