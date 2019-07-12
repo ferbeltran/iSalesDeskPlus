@@ -1,11 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms"
-             x:Class="iSalesDeskPlus.App">
-	<Application.Resources>
+<prism:PrismApplication
+    x:Class="iSalesDeskPlus.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms">
+    <Application.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:Key="MaterialFontFamily" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Material-Design-Icons" />
+                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+            </OnPlatform>
 
-		<!-- Application resource dictionary -->
+            <Color x:Key="Azulin">#62c3ea</Color>
+            <Color x:Key="Grison">#3d4351</Color>
+            <Color x:Key="Naranjita">#feae43</Color>
+            <Color x:Key="Carmesi">#d10614</Color>
 
-	</Application.Resources>
+        </ResourceDictionary>
+    </Application.Resources>
 </prism:PrismApplication>

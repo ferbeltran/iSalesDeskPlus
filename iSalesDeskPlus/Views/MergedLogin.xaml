@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="iSalesDeskPlus.Views.Login"
+    x:Class="iSalesDeskPlus.Views.MergedLogin"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:icons="clr-namespace:iSalesDeskPlus.Utils"
     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
     xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
     prism:ViewModelLocator.AutowireViewModel="True"
-    BackgroundImageSource="background.png">
+    BackgroundImageSource="gradient.png">
 
     <StackLayout
         Padding="15"
@@ -47,22 +48,27 @@
             TextColor="White" />
 
 
-        <Frame
-            Margin="0,30,0,0"
-            Padding="0"
-            CornerRadius="25"
-            HasShadow="True"
-            IsClippedToBounds="True">
-            <Button
-                BackgroundColor="#21242c"
-                Command="{Binding LoginCommand}"
-                CornerRadius="25"
+        <StackLayout Margin="0,30,0,0" Orientation="Horizontal">
+
+            <Label
                 FontAttributes="Bold"
-                FontSize="Large"
-                HeightRequest="50"
+                FontSize="Title"
+                HorizontalOptions="StartAndExpand"
                 Text="Log in"
-                TextColor="White" />
-        </Frame>
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+            <Button
+                BackgroundColor="White"
+                Command="{Binding LoginCommand}"
+                CornerRadius="40"
+                FontFamily="{StaticResource MaterialFontFamily}"
+                FontSize="Title"
+                HeightRequest="80"
+                HorizontalOptions="Center"
+                Text="{Binding Source={x:Static icons:MaterialIcons.ArrowRight}}"
+                TextColor="{StaticResource Grison}"
+                WidthRequest="80" />
+        </StackLayout>
 
         <Label HorizontalOptions="Center">
             <Label.FormattedText>

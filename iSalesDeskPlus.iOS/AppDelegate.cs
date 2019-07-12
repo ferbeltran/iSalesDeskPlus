@@ -3,6 +3,7 @@ using Prism;
 using Prism.Ioc;
 using UIKit;
 using Xamarin.Forms;
+using Xfx;
 
 namespace iSalesDeskPlus.iOS
 {
@@ -11,6 +12,7 @@ namespace iSalesDeskPlus.iOS
     {
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            XfxControls.Init();
             global::Xamarin.Forms.Forms.Init();
             FormsMaterial.Init();
             LoadApplication(new App(new iOSInitializer()));

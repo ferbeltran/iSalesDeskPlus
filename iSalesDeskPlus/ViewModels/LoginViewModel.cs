@@ -1,4 +1,6 @@
 ﻿using System.Threading.Tasks;
+using Acr.UserDialogs;
+using iSalesDeskPlus.Utils;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -9,7 +11,7 @@ namespace iSalesDeskPlus.ViewModels
     {
         public LoginViewModel(INavigationService navigationService) : base(navigationService)
         {
-            LoginCommand = new DelegateCommand(HandleLogin);
+
         }
         private string email = "fernando@isolveproduce.com";
         public string Email
@@ -31,16 +33,25 @@ namespace iSalesDeskPlus.ViewModels
             get { return isLoading; }
             set { SetProperty(ref isLoading, value); }
         }
+        
+        private DelegateCommand loginCommand;
+        public DelegateCommand LoginCommand =>
+            loginCommand ?? (loginCommand = new DelegateCommand(async () => await HandleLogin()));
 
-        public DelegateCommand LoginCommand { get; set; }
-
-        private async void HandleLogin()
+        async Task HandleLogin()
         {
-            IsLoading = true;
+            var toastConfig = new ToastConfig("Toasting...");
+            toastConfig.SetDuration(3000);
+           
+            await Task.Delay(1);
+       
 
-            await Task.Delay(2000);
+            ToastConfig.DefaultBackgroundColor = System.Drawing.Color.AliceBlue;
+            ToastConfig.DefaultMessageTextColor = System.Drawing.Color.Red;
+            ToastConfig.DefaultActionTextColor = System.Drawing.Color.DarkRed;
+            ToastConfig.DefaultPosition = ToastPosition.Top;
 
-            IsLoading = false;
+            UserDialogs.Instance.Toast(toastConfig);
         }
 
 
