@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Acr.UserDialogs;
 using iSalesDeskPlus.Utils;
+using iSalesDeskPlus.Utils.Behaviors;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -34,25 +35,32 @@ namespace iSalesDeskPlus.ViewModels
             get { return isLoading; }
             set { SetProperty(ref isLoading, value); }
         }
-        
+
+        private AnimationType animation = AnimationType.Scale;
+        public AnimationType Animation
+        {
+            get { return animation; }
+            set { SetProperty(ref animation, value); }
+        }
+
         private DelegateCommand loginCommand;
         public DelegateCommand LoginCommand =>
-            loginCommand ?? (loginCommand = new DelegateCommand(async () => await HandleLogin()));
+            loginCommand ?? (loginCommand = new DelegateCommand(async () => await HandleLogin(), () => (!string.IsNullOrEmpty(Email) && !string.IsNullOrEmpty(Password))))
+                               .ObservesProperty(() => Email)
+                               .ObservesProperty(() => Password);
 
         async Task HandleLogin()
         {
-            var toastConfig = new ToastConfig("Toasting...");
-            toastConfig.SetDuration(3000);
-           
-            await Task.Delay(1);
-       
+            Animation = IsNotConnected ? AnimationType.Shake : AnimationType.Scale;
 
-            ToastConfig.DefaultBackgroundColor = System.Drawing.Color.AliceBlue;
-            ToastConfig.DefaultMessageTextColor = System.Drawing.Color.Red;
-            ToastConfig.DefaultActionTextColor = System.Drawing.Color.DarkRed;
-            ToastConfig.DefaultPosition = ToastPosition.Top;
+            if (IsNotConnected)
+            {
 
-            UserDialogs.Instance.Toast(toastConfig);
+                Xamarin.Essentials.MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    ShowNoInternetToast();
+                });
+            }
         }
 
 

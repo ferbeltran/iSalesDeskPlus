@@ -1,73 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage x:Class="iSalesDeskPlus.Views.Login"
-             xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-             xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
-             prism:ViewModelLocator.AutowireViewModel="True"
-             BackgroundImageSource="gradient.png">
+<ContentPage
+    x:Class="iSalesDeskPlus.Views.Login"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:behaviors="clr-namespace:iSalesDeskPlus.Utils.Behaviors"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
+    prism:ViewModelLocator.AutowireViewModel="True">
 
-    <StackLayout Padding="{StaticResource PagePadding}"
-                 Orientation="Vertical"
-                 Spacing="{StaticResource PageSpacing}"
-                 HorizontalOptions="CenterAndExpand"
-                 VerticalOptions="FillAndExpand">
+    <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Image
+            AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+            AbsoluteLayout.LayoutFlags="All"
+            Aspect="AspectFill"
+            Source="gradient.png" />
 
-        <Label Margin="0,70,0,0"
-               FontAttributes="Bold"
-               FontSize="40"
-               Text="iSolve"
-               TextColor="White" />
+        <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <StackLayout
+                Padding="{StaticResource PagePadding}"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Vertical"
+                Spacing="{StaticResource PageSpacing}"
+                VerticalOptions="FillAndExpand">
 
-        <Label Margin="30,-20,0,50"
-               FontAttributes="Bold"
-               FontSize="30"
-               Text="Produce"
-               TextColor="DarkOrange" />
+                <Label
+                    Margin="0,70,0,0"
+                    FontAttributes="Bold"
+                    FontFamily="{StaticResource MontserratRegular}"
+                    FontSize="30"
+                    Text="Welcome to"
+                    TextColor="White" />
 
-
-        <xfx:XfxEntry ActivePlaceholderColor="#f8ad1c"
-                      Placeholder="Email"
-                      PlaceholderColor="DarkOrange"
-                      Style="{StaticResource LoginEntryStyle}"
-                      Text="{Binding Email}"
-                      TextColor="White" />
-        <xfx:XfxEntry ActivePlaceholderColor="#f8ad1c"
-                      ErrorText="{Binding PasswordErrorText}"
-                      IsPassword="True"
-                      Placeholder="Password"
-                      Style="{StaticResource LoginEntryStyle}"
-                      PlaceholderColor="DarkOrange"
-                      Text="{Binding Password}"
-                      TextColor="White" />
+                <Label
+                    Margin="0,-20,0,0"
+                    FontAttributes="Bold"
+                    FontFamily="{StaticResource MontserratSemibold}"
+                    FontSize="26"
+                    Text="iSalesDesk+"
+                    TextColor="White" />
 
 
-        <Button Command="{Binding LoginCommand}"
-                Style="{StaticResource LoginButtonStyle}"
-                Text="Log in"
-                TextColor="White" />
+                <BoxView Style="{StaticResource BoxViewStyle}" />
 
 
-        <Label HorizontalOptions="Center">
-            <Label.FormattedText>
-                <FormattedString>
-                    <Span FontAttributes="None"
-                          FontSize="Small"
-                          Text="Powered by "
-                          TextColor="White" />
+                <xfx:XfxEntry
+                    ActivePlaceholderColor="#f8ad1c"
+                    Placeholder="Email"
+                    PlaceholderColor="DarkOrange"
+                    Style="{StaticResource LoginEntryStyle}"
+                    Text="{Binding Email}"
+                    TextColor="White" />
+                <xfx:XfxEntry
+                    ActivePlaceholderColor="#f8ad1c"
+                    ErrorText="{Binding PasswordErrorText}"
+                    IsPassword="True"
+                    Placeholder="Password"
+                    PlaceholderColor="DarkOrange"
+                    Style="{StaticResource LoginEntryStyle}"
+                    Text="{Binding Password}"
+                    TextColor="White" />
 
-                    <Span FontAttributes="Bold"
-                          FontSize="Small"
-                          Text="iSolve Produce"
-                          TextColor="WhiteSmoke" />
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
 
 
-        <ActivityIndicator Margin="0,40,0,0"
-                           IsRunning="{Binding IsLoading}"
-                           Color="Crimson" />
-    </StackLayout>
+                <Button
+                    Command="{Binding LoginCommand}"
+                    Style="{StaticResource LoginButtonStyle}"
+                    Text="Log in"
+                    TextColor="White">
+                    <Button.Behaviors>
+                        <behaviors:ViewTappedAnimation AnimationType="{Binding Animation}" />
+                    </Button.Behaviors>
+                </Button>
+
+
+
+                <Label Style="{StaticResource PoweredByStyle}" Text="Powered by iSolve Produce" />
+
+
+                <ActivityIndicator
+                    Margin="0,40,0,0"
+                    IsRunning="{Binding IsLoading}"
+                    Visual="Material"
+                    Color="Crimson" />
+            </StackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
 
 </ContentPage>

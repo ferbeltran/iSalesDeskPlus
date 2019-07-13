@@ -1,32 +1,89 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<ResourceDictionary x:Class="iSalesDeskPlus.Styles.GeneralDevice"
-                    xmlns="http://xamarin.com/schemas/2014/forms"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+<ResourceDictionary
+    x:Class="iSalesDeskPlus.Styles.GeneralDevice"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
 
-    <OnIdiom x:Key="PageSpacing"
-             x:TypeArguments="x:Double"
-             Phone="15"
-             Tablet="30" />
-    <OnIdiom x:Key="PagePadding"
-             x:TypeArguments="Thickness"
-             Phone="15"
-             Tablet="30" />
+    <!--  Padding y Spacing del Contenedor principal de la página  -->
+    <OnIdiom
+        x:Key="PageSpacing"
+        x:TypeArguments="x:Double"
+        Phone="15"
+        Tablet="30" />
+    <OnIdiom
+        x:Key="PagePadding"
+        x:TypeArguments="Thickness"
+        Phone="15"
+        Tablet="30" />
 
+
+    <!--  Espaciado entre el Logo y los Controles  -->
+    <Style x:Key="BoxViewStyle" TargetType="BoxView">
+        <Setter Property="HeightRequest">
+            <Setter.Value>
+                <OnIdiom
+                    x:TypeArguments="x:Double"
+                    Phone="20"
+                    Tablet="50" />
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="Color" Value="Transparent" />
+    </Style>
+
+
+    <!--  Entries de Email y Password  -->
+    <Style x:Key="LoginEntryStyle" TargetType="Entry">
+        <Setter Property="HeightRequest">
+            <Setter.Value>
+                <OnIdiom
+                    x:TypeArguments="x:Double"
+                    Phone="60"
+                    Tablet="80" />
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="WidthRequest">
+            <Setter.Value>
+                <OnIdiom
+                    x:TypeArguments="x:Double"
+                    Phone="250"
+                    Tablet="370" />
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="FontSize">
+            <Setter.Value>
+                <OnIdiom
+                    x:TypeArguments="x:Double"
+                    Phone="15"
+                    Tablet="20" />
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="FontFamily" Value="{StaticResource MontserratRegular}" />
+    </Style>
+
+
+
+    <!--  Botón de Login  -->
     <Style x:Key="LoginButtonStyle" TargetType="Button">
         <Setter Property="HeightRequest">
             <Setter.Value>
-                <OnIdiom x:TypeArguments="x:Double"
-                         Phone="50"
-                         Tablet="70" />
+                <OnIdiom
+                    x:TypeArguments="x:Double"
+                    Phone="50"
+                    Tablet="60" />
             </Setter.Value>
         </Setter>
         <Setter Property="FontSize">
             <Setter.Value>
-                <OnIdiom x:TypeArguments="x:Double"
-                         Phone="18"
-                         Tablet="28" />
+                <OnIdiom
+                    x:TypeArguments="x:Double"
+                    Phone="18"
+                    Tablet="23" />
             </Setter.Value>
         </Setter>
 
@@ -34,34 +91,23 @@
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="HorizontalOptions" Value="FillAndExpand" />
         <Setter Property="TextColor" Value="White" />
-        <Setter Property="BackgroundColor" Value="{StaticResource Orange}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource PrimaryDarkColor}" />
     </Style>
 
-    <Style x:Key="LoginEntryStyle" TargetType="Entry">
-        <Setter Property="HeightRequest">
-            <Setter.Value>
-                <OnIdiom x:TypeArguments="x:Double"
-                         Phone="60"
-                         Tablet="80" />
-            </Setter.Value>
-        </Setter>
-        
-         <Setter Property="WidthRequest">
-            <Setter.Value>
-                <OnIdiom x:TypeArguments="x:Double"
-                         Phone="250"
-                         Tablet="370" />
-            </Setter.Value>
-        </Setter>
-        
+    <!--  Label de Subtitulo en el Login  -->
+    <Style x:Key="PoweredByStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="White" />
         <Setter Property="FontSize">
             <Setter.Value>
-                <OnIdiom x:TypeArguments="x:Double"
-                         Phone="16"
-                         Tablet="22" />
+                <OnIdiom
+                    x:TypeArguments="x:Double"
+                    Phone="13"
+                    Tablet="17" />
             </Setter.Value>
         </Setter>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
     </Style>
+
 
 
 

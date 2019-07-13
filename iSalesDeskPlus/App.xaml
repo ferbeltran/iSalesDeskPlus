@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<prism:PrismApplication x:Class="iSalesDeskPlus.App"
-                        xmlns="http://xamarin.com/schemas/2014/forms"
-                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                        xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms">
+<prism:PrismApplication
+    x:Class="iSalesDeskPlus.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms">
     <Application.Resources>
         <ResourceDictionary x:Name="mainDictionary">
             <OnPlatform x:Key="MaterialFontFamily" x:TypeArguments="x:String">
@@ -10,10 +11,37 @@
                 <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
             </OnPlatform>
 
-            <Color x:Key="Blue">#62c3ea</Color>
-            <Color x:Key="Gray">#3d4351</Color>
-            <Color x:Key="Orange">#feae43</Color>
-            <Color x:Key="Red">#d10614</Color>
+            <OnPlatform x:Key="MontserratLight" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Montserrat-Light" />
+                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="MontserratRegular" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Montserrat-Regular" />
+                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="MontserratMedium" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Montserrat-Medium" />
+                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="MontserratSemibold" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Montserrat-SemiBold" />
+                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="MontserratBold" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Montserrat-Bold" />
+                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+            </OnPlatform>
+
+
+            <Color x:Key="PrimaryColor">#3b404e</Color>
+            <Color x:Key="PrimaryDarkColor">#21242c</Color>
+            <Color x:Key="SecondaryColor">#666370</Color>
+            <Color x:Key="AccentColor">#D33E43</Color>
+            <Color x:Key="AccentAltColor">#460A04</Color>
 
         </ResourceDictionary>
     </Application.Resources>

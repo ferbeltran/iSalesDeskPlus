@@ -37,6 +37,11 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Material-Design-Icons.ttf</string>
+    <string>Montserrat-Bold.ttf</string>
+    <string>Montserrat-Semibold.ttf</string>
+    <string>Montserrat-Light.ttf</string>
+    <string>Montserrat-Medium.ttf</string>
+    <string>Montserrat-Regular.ttf</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

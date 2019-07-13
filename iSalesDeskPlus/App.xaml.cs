@@ -24,7 +24,7 @@ namespace iSalesDeskPlus
             InitializeComponent();
             LoadDeviceStyles();
 
-            await NavigationService.NavigateAsync("Login");
+            await NavigationService.NavigateAsync("NewLogin");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -32,9 +32,6 @@ namespace iSalesDeskPlus
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<Login, LoginViewModel>();
             containerRegistry.RegisterForNavigation<NewLogin, LoginViewModel>();
-            containerRegistry.RegisterForNavigation<MergedLogin, LoginViewModel>();
-            containerRegistry.RegisterForNavigation<TabbedLogins>();
-
         }
 
         //Se calcula el tamano del dispositivo y se le asignan el ResourceDictionary acorde al mismo
