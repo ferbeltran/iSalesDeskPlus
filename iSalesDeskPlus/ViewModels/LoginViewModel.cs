@@ -22,7 +22,7 @@ namespace iSalesDeskPlus.ViewModels
             set { SetProperty(ref email, value); }
         }
 
-        private string password = "";
+        private string password = "123";
         public string Password
         {
             get { return password; }
@@ -55,12 +55,20 @@ namespace iSalesDeskPlus.ViewModels
 
             if (IsNotConnected)
             {
-
                 Xamarin.Essentials.MainThread.BeginInvokeOnMainThread(() =>
                 {
                     ShowNoInternetToast();
                 });
             }
+
+            IsLoading = true;
+            //Simulamos el inicio del Login
+
+            await Task.Delay(1500);
+
+            await NavigationService.NavigateAsync("app:///Tabs/NavigationPage/Inventory");
+
+            IsLoading = false;
         }
 
 
