@@ -1,10 +1,12 @@
 ﻿using System.Threading.Tasks;
-using Acr.UserDialogs;
+using iSalesDeskPlus.Contracts;
+using iSalesDeskPlus.Data;
 using iSalesDeskPlus.Utils;
 using iSalesDeskPlus.Utils.Behaviors;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
+using Refit;
 
 namespace iSalesDeskPlus.ViewModels
 {
@@ -57,16 +59,30 @@ namespace iSalesDeskPlus.ViewModels
             {
                 Xamarin.Essentials.MainThread.BeginInvokeOnMainThread(() =>
                 {
-                    ShowNoInternetToast();
+                    ShowToast();
                 });
             }
 
             IsLoading = true;
-            //Simulamos el inicio del Login
 
-            await Task.Delay(1500);
+            Singleton.Instance.InitHttpClient();
+            var loginService = RestService.For<ILoginService>(Singleton.Instance.HttpClient);
 
-            await NavigationService.NavigateAsync("app:///Tabs/NavigationPage/Inventory");
+            try
+            {
+                var loggedUser = await loginService.Login(Email, Password, "3.0.0");
+                if (loggedUser != null && loggedUser.PK != 0)
+                {
+                    ShowToast("A webo ya te loggeaste!");
+                }
+            }
+            catch
+            {
+
+            }
+
+           
+            //await NavigationService.NavigateAsync("app:///Tabs");
 
             IsLoading = false;
         }

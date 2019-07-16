@@ -1,18 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-            prism:ViewModelLocator.AutowireViewModel="True"
-            xmlns:views="clr-namespace:iSalesDeskPlus.Views"
-            Title="iSalesDesk+"
-            x:Class="iSalesDeskPlus.Views.Tabs">
-    <TabbedPage.Children>
+<TabbedPage
+    x:Class="iSalesDeskPlus.Views.Tabs"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    xmlns:views="clr-namespace:iSalesDeskPlus.Views"
+    Title="iSalesDesk+"
+    prism:ViewModelLocator.AutowireViewModel="True">
 
-                <views:Inventory/>
+
+    <NavigationPage
+        Title="Inventory"
+        BarBackgroundColor="#303030"
+        BarTextColor="White">
        
+        <x:Arguments>
+            <views:Inventory />
+        </x:Arguments>
+    </NavigationPage>
 
-                <views:Settings/>
 
-    </TabbedPage.Children>
+    <NavigationPage
+        Title="Settings"
+        BarBackgroundColor="#303030"
+        BarTextColor="White">
+       
+        <x:Arguments>
+            <views:Settings />
+        </x:Arguments>
+    </NavigationPage>
+
 
 </TabbedPage>

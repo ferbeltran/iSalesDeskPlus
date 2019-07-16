@@ -1,5 +1,4 @@
-﻿using Acr.UserDialogs;
-using iSalesDeskPlus.Contracts;
+﻿using iSalesDeskPlus.Contracts;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -68,7 +67,7 @@ namespace iSalesDeskPlus.ViewModels
 
         }
 
-        public void ShowNoInternetToast(string message = "You are not connected to the Internet. Please check your network settings.")
+        public void ShowToast(string message = "You are not connected to the Internet. Please check your network settings.")
         {
             DependencyService.Get<IMessage>().ShortAlert(message);
         }

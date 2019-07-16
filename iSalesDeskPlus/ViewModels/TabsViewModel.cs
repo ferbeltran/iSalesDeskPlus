@@ -1,11 +1,14 @@
-﻿using System;
-using Prism.Navigation;
+﻿using Prism.Commands;
+using Prism.Mvvm;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace iSalesDeskPlus.ViewModels
 {
-    public class TabsViewModel : ViewModelBase
+    public class TabsViewModel : BindableBase
     {
-        public TabsViewModel(INavigationService navigationService) : base(navigationService)
+        public TabsViewModel()
         {
 
         }

@@ -172,9 +172,6 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Acr.UserDialogs">
-      <Version>7.0.4</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.581479" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="7.1.0.431" />
     <PackageReference Include="Xamarin.Forms.Visual.Material">
@@ -194,16 +191,22 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\abstract%403x.png" />
+    <BundleResource Include="Resources\blue%403x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\abstract%402x.png" />
+    <BundleResource Include="Resources\blue%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\gradient%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\gradient%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pink%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pink%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

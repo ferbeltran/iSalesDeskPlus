@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Acr.UserDialogs" Version="7.0.4" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.581479" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="7.1.0.431" />
@@ -17,7 +16,6 @@
 
   <ItemGroup>
     <Folder Include="Controls\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,7 +31,13 @@
     <EmbeddedResource Update="Styles\SmallDevice.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\Inventory.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\NewLogin.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Tabs.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

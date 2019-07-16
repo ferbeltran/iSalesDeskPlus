@@ -8,32 +8,32 @@
         <ResourceDictionary x:Name="mainDictionary">
             <OnPlatform x:Key="MaterialFontFamily" x:TypeArguments="x:String">
                 <On Platform="iOS" Value="Material-Design-Icons" />
-                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+                <On Platform="Android" Value="Material-Design-Icons.ttf#Material Design Icons" />
             </OnPlatform>
 
             <OnPlatform x:Key="MontserratLight" x:TypeArguments="x:String">
                 <On Platform="iOS" Value="Montserrat-Light" />
-                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+                <On Platform="Android" Value="Montserrat-Light.ttf#Montserrat Light" />
             </OnPlatform>
 
             <OnPlatform x:Key="MontserratRegular" x:TypeArguments="x:String">
                 <On Platform="iOS" Value="Montserrat-Regular" />
-                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+                <On Platform="Android" Value="Montserrat-Regular.ttf#Montserrat Regular" />
             </OnPlatform>
 
             <OnPlatform x:Key="MontserratMedium" x:TypeArguments="x:String">
                 <On Platform="iOS" Value="Montserrat-Medium" />
-                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+                <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat Medium" />
             </OnPlatform>
 
             <OnPlatform x:Key="MontserratSemibold" x:TypeArguments="x:String">
                 <On Platform="iOS" Value="Montserrat-SemiBold" />
-                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+                <On Platform="Android" Value="Montserrat-SemiBold.ttf#Montserrat SemiBold" />
             </OnPlatform>
 
             <OnPlatform x:Key="MontserratBold" x:TypeArguments="x:String">
                 <On Platform="iOS" Value="Montserrat-Bold" />
-                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+                <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat Bold" />
             </OnPlatform>
 
 

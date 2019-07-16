@@ -1,5 +1,9 @@
-﻿using System;
+﻿using Prism.Commands;
+using Prism.Mvvm;
 using Prism.Navigation;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace iSalesDeskPlus.ViewModels
 {
@@ -7,6 +11,7 @@ namespace iSalesDeskPlus.ViewModels
     {
         public InventoryViewModel(INavigationService navigationService) : base(navigationService)
         {
+
         }
     }
 }
