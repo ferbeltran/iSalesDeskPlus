@@ -1,12 +1,12 @@
 ﻿using System.Runtime.CompilerServices;
 using Foundation;
-using iSalesDeskPlus.iOS.Helpers;
+using iSalesDeskPlus.iOS.Services;
+using iSalesDeskPlus.Services;
 using UIKit;
 
-[assembly: Xamarin.Forms.Dependency(typeof(Messager))]
-namespace iSalesDeskPlus.iOS.Helpers
+namespace iSalesDeskPlus.iOS.Services
 {
-    public class Messager : iSalesDeskPlus.Contracts.IMessage
+    public class Toaster : IToastService
     {
         const double LONG_DELAY = 4.0;
         const double SHORT_DELAY = 2.0;
@@ -14,16 +14,16 @@ namespace iSalesDeskPlus.iOS.Helpers
         NSTimer alertDelay;
         UIAlertController alert;
 
-        public void LongAlert(string message)
+        public void LongToast(string message)
         {
-            ShowAlert(message, LONG_DELAY);
+            ShowToast(message, LONG_DELAY);
         }
-        public void ShortAlert(string message)
+        public void ShortToast(string message)
         {
-            ShowAlert(message, SHORT_DELAY);
+            ShowToast(message, SHORT_DELAY);
         }
 
-        void ShowAlert(string message, double seconds)
+        void ShowToast(string message, double seconds)
         {
             alertDelay = NSTimer.CreateScheduledTimer(seconds, (obj) =>
             {

@@ -1,4 +1,6 @@
 ﻿using Foundation;
+using iSalesDeskPlus.iOS.Services;
+using iSalesDeskPlus.Services;
 using Prism;
 using Prism.Ioc;
 using UIKit;
@@ -24,7 +26,7 @@ namespace iSalesDeskPlus.iOS
     {
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            // Register any platform specific implementations
+            containerRegistry.Register<IToastService, Toaster>();
         }
     }
 }

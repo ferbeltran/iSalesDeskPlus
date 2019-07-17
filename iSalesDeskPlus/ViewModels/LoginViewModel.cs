@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using iSalesDeskPlus.Contracts;
+using iSalesDeskPlus.Services;
 using iSalesDeskPlus.Data;
 using iSalesDeskPlus.Utils;
 using iSalesDeskPlus.Utils.Behaviors;
@@ -12,7 +12,7 @@ namespace iSalesDeskPlus.ViewModels
 {
     public class LoginViewModel : ViewModelBase
     {
-        public LoginViewModel(INavigationService navigationService) : base(navigationService)
+        public LoginViewModel(INavigationService navigationService, IToastService toastService) : base(navigationService, toastService)
         {
 
         }

@@ -2,6 +2,8 @@
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
+using iSalesDeskPlus.Droid.Services;
+using iSalesDeskPlus.Services;
 using Prism;
 using Prism.Ioc;
 using Xamarin.Forms;
@@ -40,7 +42,7 @@ namespace iSalesDeskPlus.Droid
     {
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            // Register any platform specific implementations
+            containerRegistry.Register<IToastService, Toaster>();
         }
     }
 

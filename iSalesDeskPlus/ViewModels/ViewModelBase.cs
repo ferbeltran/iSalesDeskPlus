@@ -1,4 +1,4 @@
-﻿using iSalesDeskPlus.Contracts;
+﻿using iSalesDeskPlus.Services;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -14,10 +14,13 @@ namespace iSalesDeskPlus.ViewModels
     public class ViewModelBase : BindableBase, INavigationAware, IDestructible
     {
         protected INavigationService NavigationService { get; private set; }
+        protected IToastService ToastService { get; private set; }
 
-        public ViewModelBase(INavigationService navigationService)
+        public ViewModelBase(INavigationService navigationService, IToastService toastService)
         {
             NavigationService = navigationService;
+            ToastService = toastService;
+
             Connectivity.ConnectivityChanged += Connectivity_ConnectivityChanged;
             IsNotConnected = Connectivity.NetworkAccess != NetworkAccess.Internet;
 
@@ -69,7 +72,7 @@ namespace iSalesDeskPlus.ViewModels
 
         public void ShowToast(string message = "You are not connected to the Internet. Please check your network settings.")
         {
-            DependencyService.Get<IMessage>().ShortAlert(message);
+            ToastService.ShortToast(message);
         }
     }
 }

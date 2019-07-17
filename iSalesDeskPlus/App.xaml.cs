@@ -6,6 +6,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using iSalesDeskPlus.Styles;
+using iSalesDeskPlus.Services;
+using System;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace iSalesDeskPlus
@@ -23,8 +25,41 @@ namespace iSalesDeskPlus
         {
             InitializeComponent();
             LoadDeviceStyles();
-           
-            await NavigationService.NavigateAsync("NewLogin");
+
+            var result = await NavigationService.NavigateAsync("NewLogin");
+
+            if (!result.Success)
+            {
+                SetMainPageFromException(result.Exception);
+            }
+        }
+
+        private void SetMainPageFromException(Exception ex)
+        {
+            var layout = new StackLayout
+            {
+                Padding = new Thickness(40)
+            };
+            layout.Children.Add(new Label
+            {
+                Text = ex?.GetType()?.Name ?? "Unknown Error encountered",
+                FontAttributes = FontAttributes.Bold,
+                HorizontalOptions = LayoutOptions.Center
+            });
+
+            layout.Children.Add(new ScrollView
+            {
+                Content = new Label
+                {
+                    Text = $"{ex}",
+                    LineBreakMode = LineBreakMode.WordWrap
+                }
+            });
+
+            MainPage = new ContentPage
+            {
+                Content = layout
+            };
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -34,8 +69,8 @@ namespace iSalesDeskPlus
             containerRegistry.RegisterForNavigation<NewLogin, LoginViewModel>();
             containerRegistry.RegisterForNavigation<Settings, SettingsViewModel>();
             containerRegistry.RegisterForNavigation<Tabs, TabsViewModel>();
-
             containerRegistry.RegisterForNavigation<Inventory, InventoryViewModel>();
+
         }
 
         //Se calcula el tamano del dispositivo y se le asignan el ResourceDictionary acorde al mismo

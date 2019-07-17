@@ -3,7 +3,7 @@ using Refit;
 using System.Threading.Tasks;
 using iSalesDeskPlus.Models;
 
-namespace iSalesDeskPlus.Contracts
+namespace iSalesDeskPlus.Services
 {
     public interface ILoginService
     {

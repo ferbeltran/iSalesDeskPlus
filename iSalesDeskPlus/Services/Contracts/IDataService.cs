@@ -1,5 +1,5 @@
 ﻿using System;
-namespace iSalesDeskPlus.Contracts
+namespace iSalesDeskPlus.Services
 {
     public interface IDataService
     {
