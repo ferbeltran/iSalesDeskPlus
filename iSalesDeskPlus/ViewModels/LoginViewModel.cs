@@ -47,7 +47,7 @@ namespace iSalesDeskPlus.ViewModels
 
         private DelegateCommand loginCommand;
         public DelegateCommand LoginCommand =>
-            loginCommand ?? (loginCommand = new DelegateCommand(async () => await HandleLogin(), () => (!string.IsNullOrEmpty(Email) && !string.IsNullOrEmpty(Password))))
+            loginCommand ?? (loginCommand = new DelegateCommand(() => HandleLogin(), () => (!string.IsNullOrEmpty(Email) && !string.IsNullOrEmpty(Password))))
                                .ObservesProperty(() => Email)
                                .ObservesProperty(() => Password);
 
@@ -73,12 +73,9 @@ namespace iSalesDeskPlus.ViewModels
                 var loggedUser = await loginService.Login(Email, Password, "3.0.0");
                 if (loggedUser != null && loggedUser.PK != 0)
                 {
-                    //ShowToast("A webo ya te loggeaste!");
-
-                    Xamarin.Essentials.MainThread.BeginInvokeOnMainThread(async () =>
-                    {
                         await NavigationService.NavigateAsync("Tabs");
-                    });
+
+                    //Todo: Guardamos settings y wawawa
 
                     
                 }
@@ -88,8 +85,6 @@ namespace iSalesDeskPlus.ViewModels
 
             }
 
-           
-            //await NavigationService.NavigateAsync("app:///Tabs");
 
             IsLoading = false;
         }

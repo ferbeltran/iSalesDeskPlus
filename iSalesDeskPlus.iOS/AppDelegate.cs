@@ -3,6 +3,7 @@ using iSalesDeskPlus.iOS.Services;
 using iSalesDeskPlus.Services;
 using Prism;
 using Prism.Ioc;
+using Syncfusion.SfCalendar.XForms.iOS;
 using UIKit;
 using Xamarin.Forms;
 using Xfx;
@@ -16,6 +17,7 @@ namespace iSalesDeskPlus.iOS
         {
             XfxControls.Init();
             global::Xamarin.Forms.Forms.Init();
+            SfCalendarRenderer.Init();
             FormsMaterial.Init();
             LoadApplication(new App(new iOSInitializer()));
             return base.FinishedLaunching(app, options);

@@ -11,7 +11,7 @@
 
     <NavigationPage
         Title="Inventory"
-        BarBackgroundColor="#303030"
+        BarBackgroundColor="Transparent"
         BarTextColor="White">
        
         <x:Arguments>
