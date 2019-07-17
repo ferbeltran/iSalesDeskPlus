@@ -39,7 +39,7 @@
                     TextColor="White" />
 
 
-                <BoxView HeightRequest="100" Color="Transparent" />
+                <BoxView HeightRequest="50" Color="Transparent" />
 
 
                 <xfx:XfxEntry
@@ -61,7 +61,7 @@
                     Text="{Binding Password}"
                     TextColor="White" />
 
-                <BoxView HeightRequest="50" Color="Transparent" />
+                <BoxView HeightRequest="30" Color="Transparent" />
 
                 <StackLayout Orientation="Horizontal">
                     <Label

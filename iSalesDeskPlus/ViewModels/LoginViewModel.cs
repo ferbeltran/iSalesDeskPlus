@@ -24,7 +24,7 @@ namespace iSalesDeskPlus.ViewModels
             set { SetProperty(ref email, value); }
         }
 
-        private string password = "123";
+        private string password = "mobile2018";
         public string Password
         {
             get { return password; }
@@ -63,17 +63,24 @@ namespace iSalesDeskPlus.ViewModels
                 });
             }
 
+            //Mostramos el Activity Indicator y llamamos al servicio para hacer Login
             IsLoading = true;
 
-            Singleton.Instance.InitHttpClient();
-            var loginService = RestService.For<ILoginService>(Singleton.Instance.HttpClient);
+            var loginService = LoginService.GetLoginService();
 
             try
             {
                 var loggedUser = await loginService.Login(Email, Password, "3.0.0");
                 if (loggedUser != null && loggedUser.PK != 0)
                 {
-                    ShowToast("A webo ya te loggeaste!");
+                    //ShowToast("A webo ya te loggeaste!");
+
+                    Xamarin.Essentials.MainThread.BeginInvokeOnMainThread(async () =>
+                    {
+                        await NavigationService.NavigateAsync("Tabs");
+                    });
+
+                    
                 }
             }
             catch
