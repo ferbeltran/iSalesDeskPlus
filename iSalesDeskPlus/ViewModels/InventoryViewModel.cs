@@ -12,7 +12,7 @@ namespace iSalesDeskPlus.ViewModels
     {
         public InventoryViewModel(INavigationService navigationService, IToastService toastService) : base(navigationService, toastService)
         {
-
+            Title = "Inventory";
         }
     }
 }

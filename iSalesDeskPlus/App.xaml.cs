@@ -8,6 +8,7 @@ using Xamarin.Essentials;
 using iSalesDeskPlus.Styles;
 using iSalesDeskPlus.Services;
 using System;
+using Prism.Navigation;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace iSalesDeskPlus
@@ -26,7 +27,17 @@ namespace iSalesDeskPlus
             InitializeComponent();
             LoadDeviceStyles();
 
-            var result = await NavigationService.NavigateAsync("NewLogin");
+            INavigationResult result;
+
+            if (Preferences.Get("isLogged", false))
+            {
+                result = await NavigationService.NavigateAsync("Tabs");
+            }
+            else
+            {
+                result = await NavigationService.NavigateAsync("NewLogin");
+            }
+       
 
             if (!result.Success)
             {

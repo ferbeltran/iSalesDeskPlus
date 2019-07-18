@@ -1,9 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<ContentPage x:Class="iSalesDeskPlus.Views.Settings"
-             xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-             prism:ViewModelLocator.AutowireViewModel="True">
-      <Label Text="Inventory"></Label>
-</ContentPage>
+    <ContentPage x:Class="iSalesDeskPlus.Views.Settings"
+                 xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+                 BackgroundColor="White"
+                 xmlns:sv="clr-namespace:AiForms.Renderers;assembly=SettingsView"
+                 prism:ViewModelLocator.AutowireViewModel="True">
+        <NavigationPage.TitleView>
+            <StackLayout HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="{Binding Title}"
+                       FontSize="Large"
+                       FontFamily="{StaticResource MontserratSemibold}"
+                       TextColor="{StaticResource PrimaryDarkColor}"/>
+            </StackLayout>
+        </NavigationPage.TitleView>
+
+        <sv:SettingsView HasUnevenRows="true">
+
+            <sv:Section UseDragSort="True">
+                <sv:CommandCell IconSource="abatar.jpg" IconSize="60,60" IconRadius="30" Title="Fernando Beltrán" Height="80"
+                                DescriptionFontSize="{StaticResource BaseFontSize}"
+                                Description="fernando@isolveproduce.com"
+                                DescriptionColor="{StaticResource DarkerLightAccentColor}"
+                                KeepSelectedUntilBack="false"
+                                IgnoreUseDescriptionAsValue="true"/>
+            </sv:Section>
+            
+
+            <sv:Section Title="General" FooterText="Aca van los Settings Generales" UseDragSort="True">
+                <sv:SwitchCell Title="Dark Mode" AccentColor="{StaticResource AccentLightColor}" On="{Binding IsDarkModeEnabled}"/>
+            </sv:Section>
+            
+
+            <sv:Section UseDragSort="True">
+                <sv:ButtonCell Title="Logout" TitleColor="White" BackgroundColor="{StaticResource AccentLightColor}"
+                               TitleAlignment="Center" Command="{Binding LogoutCommand}" />
+            </sv:Section>
+        </sv:SettingsView>
+
+
+    </ContentPage>
 

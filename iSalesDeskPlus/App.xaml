@@ -3,9 +3,54 @@
     x:Class="iSalesDeskPlus.App"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sv="clr-namespace:AiForms.Renderers;assembly=SettingsView"
     xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms">
     <Application.Resources>
         <ResourceDictionary x:Name="mainDictionary">
+
+            <Color x:Key="PrimaryColor">#3b404e</Color>
+            <Color x:Key="PrimaryDarkColor">#21242c</Color>
+            <Color x:Key="SecondaryColor">#666370</Color>
+            <Color x:Key="AccentLightColor">#fd8f95</Color>
+            <Color x:Key="AccentAltColor">#460A04</Color>
+
+            <Color x:Key="LightAccentColor">#f5f6fb</Color>
+            <Color x:Key="DarkerLightAccentColor">#d3d6e1</Color>
+
+            
+            <!--SettingsView Theme-->
+            <Color x:Key="AccentColor">#FFBF00</Color>
+            <Color x:Key="DisabledColor">#E6DAB9</Color>
+            <Color x:Key="TitleTextColor">#CC9900</Color>
+            <Color x:Key="PaleBackColorPrimary">#F2EFE6</Color>
+            <Color x:Key="PaleBackColorSecondary">#F2EDDA</Color>
+            <Color x:Key="DeepTextColor">#555555</Color>
+            <Color x:Key="NormalTextColor">#666666</Color>
+            <Color x:Key="PaleTextColor">#999999</Color>
+            <x:Double x:Key="BaseFontSize">12</x:Double>
+            <x:Double x:Key="BaseFontSize+">14</x:Double>
+            <x:Double x:Key="BaseFontSize++">17</x:Double>
+            <x:Double x:Key="BaseFontSize-">11</x:Double>
+            
+            <!--<Style TargetType="sv:SettingsView">
+                <Setter Property="SeparatorColor" Value="{StaticResource DisabledColor}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource PaleBackColorPrimary}" />
+                <Setter Property="HeaderBackgroundColor" Value="{StaticResource PaleBackColorPrimary}" />
+                <Setter Property="CellBackgroundColor" Value="{StaticResource AppBackground}" />
+                <Setter Property="CellTitleColor" Value="{StaticResource DeepTextColor}" />
+                <Setter Property="CellValueTextColor" Value="{StaticResource NormalTextColor}" />
+                <Setter Property="CellTitleFontSize" Value="{StaticResource BaseFontSize++}" />
+                <Setter Property="CellValueTextFontSize" Value="{StaticResource BaseFontSize}" />
+                <Setter Property="CellDescriptionColor" Value="{StaticResource NormalTextColor}" />
+                <Setter Property="CellDescriptionFontSize" Value="{StaticResource BaseFontSize-}" />
+                <Setter Property="CellAccentColor" Value="{StaticResource AccentColor}" />
+                <Setter Property="SelectedColor" Value="#50FFBF00" />
+                <Setter Property="HeaderTextColor" Value="{StaticResource TitleTextColor}" />
+                <Setter Property="FooterFontSize" Value="{StaticResource BaseFontSize-}" />
+                <Setter Property="FooterTextColor" Value="{StaticResource PaleTextColor}" />
+            </Style>-->
+
+
             <OnPlatform x:Key="MaterialFontFamily" x:TypeArguments="x:String">
                 <On Platform="iOS" Value="Material-Design-Icons" />
                 <On Platform="Android" Value="Material-Design-Icons.ttf#Material Design Icons" />
@@ -35,13 +80,6 @@
                 <On Platform="iOS" Value="Montserrat-Bold" />
                 <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat Bold" />
             </OnPlatform>
-
-
-            <Color x:Key="PrimaryColor">#3b404e</Color>
-            <Color x:Key="PrimaryDarkColor">#21242c</Color>
-            <Color x:Key="SecondaryColor">#666370</Color>
-            <Color x:Key="AccentColor">#D33E43</Color>
-            <Color x:Key="AccentAltColor">#460A04</Color>
 
         </ResourceDictionary>
     </Application.Resources>

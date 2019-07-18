@@ -1,4 +1,5 @@
-﻿using Foundation;
+﻿using AiForms.Renderers.iOS;
+using Foundation;
 using iSalesDeskPlus.iOS.Services;
 using iSalesDeskPlus.Services;
 using Prism;
@@ -17,8 +18,18 @@ namespace iSalesDeskPlus.iOS
         {
             XfxControls.Init();
             global::Xamarin.Forms.Forms.Init();
+
             SfCalendarRenderer.Init();
             FormsMaterial.Init();
+            SettingsViewInit.Init();
+
+            //Le damos estilo al TabBar
+            UITabBar.Appearance.BackgroundImage = new UIImage();
+            UITabBar.Appearance.ShadowImage = new UIImage();
+
+            //UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.LightContent, false);
+            //UIApplication.SharedApplication.SetStatusBarHidden(false, false);
+
             LoadApplication(new App(new iOSInitializer()));
             return base.FinishedLaunching(app, options);
         }

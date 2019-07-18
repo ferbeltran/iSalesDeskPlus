@@ -24,6 +24,8 @@ namespace iSalesDeskPlus.Droid
             XfxControls.Init();
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            AiForms.Renderers.Droid.SettingsViewInit.Init();
             FormsMaterial.Init(this, bundle);
             LoadApplication(new App(new AndroidInitializer()));
 

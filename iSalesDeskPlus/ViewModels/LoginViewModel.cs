@@ -7,6 +7,7 @@ using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
 using Refit;
+using Xamarin.Essentials;
 
 namespace iSalesDeskPlus.ViewModels
 {
@@ -73,11 +74,12 @@ namespace iSalesDeskPlus.ViewModels
                 var loggedUser = await loginService.Login(Email, Password, "3.0.0");
                 if (loggedUser != null && loggedUser.PK != 0)
                 {
-                        await NavigationService.NavigateAsync("Tabs");
+                    //Guardamos el Setting para que la app sepa que ya se loggeo
+                    Preferences.Set("isLogged", true);
 
-                    //Todo: Guardamos settings y wawawa
-
+                    await NavigationService.NavigateAsync("Tabs");
                     
+       
                 }
             }
             catch

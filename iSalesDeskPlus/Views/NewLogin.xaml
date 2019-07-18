@@ -43,7 +43,7 @@
 
 
                 <xfx:XfxEntry
-                    ActivePlaceholderColor="#f8ad1c"
+                    ActivePlaceholderColor="DimGray"
                     FontFamily="{StaticResource MontserratSemibold}"
                     Placeholder="Email"
                     PlaceholderColor="WhiteSmoke"
@@ -51,7 +51,7 @@
                     Text="{Binding Email}"
                     TextColor="White" />
                 <xfx:XfxEntry
-                    ActivePlaceholderColor="#f8ad1c"
+                    ActivePlaceholderColor="DimGray"
                     ErrorText="{Binding PasswordErrorText}"
                     FontFamily="{StaticResource MontserratSemibold}"
                     IsPassword="True"
