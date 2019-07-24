@@ -6,6 +6,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,15 +20,19 @@
                     <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="gradient.png" translatesAutoresizingMaskIntoConstraints="NO" id="23">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="771"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="465" translatesAutoresizingMaskIntoConstraints="NO" image="isolve.png" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite">
+                                <rect key="frame" x="68" y="354" width="240" height="104"/>
+                                <constraints>
+                                    <constraint id="2100" firstAttribute="height" constant="104"/>
+                                    <constraint id="2101" firstAttribute="width" secondItem="465" secondAttribute="height" multiplier="30:13"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="23" firstAttribute="centerY" secondItem="yd7-JS-zBw" secondAttribute="centerY" priority="1" id="39"/>
-                            <constraint firstItem="23" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX" priority="1" id="41"/>
+                            <constraint id="2098" firstItem="465" firstAttribute="centerY" secondItem="yd7-JS-zBw" secondAttribute="centerY"/>
+                            <constraint id="2099" firstItem="465" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gradient.png" width="375" height="812"/>
+        <image name="isolve.png" width="1800" height="762"/>
     </resources>
 </document>

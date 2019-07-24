@@ -26,14 +26,14 @@
 
                 <Label
                     Margin="-5,100,0,0"
-                    FontFamily="{StaticResource MontserratRegular}"
+                    FontFamily="{StaticResource OpenSansRegular}"
                     FontSize="36"
                     Text="Welcome to"
                     TextColor="White" />
 
                 <Label
                     Margin="0,-15,0,0"
-                    FontFamily="{StaticResource MontserratBold}"
+                    FontFamily="{StaticResource OpenSansBold}"
                     FontSize="27"
                     Text="iSalesDesk"
                     TextColor="White" />
@@ -44,7 +44,7 @@
 
                 <xfx:XfxEntry
                     ActivePlaceholderColor="DimGray"
-                    FontFamily="{StaticResource MontserratSemibold}"
+                    FontFamily="{StaticResource OpenSansSemibold}"
                     Placeholder="Email"
                     PlaceholderColor="WhiteSmoke"
                     Style="{StaticResource LoginEntryStyle}"
@@ -53,7 +53,7 @@
                 <xfx:XfxEntry
                     ActivePlaceholderColor="DimGray"
                     ErrorText="{Binding PasswordErrorText}"
-                    FontFamily="{StaticResource MontserratSemibold}"
+                    FontFamily="{StaticResource OpenSansSemibold}"
                     IsPassword="True"
                     Placeholder="Password"
                     PlaceholderColor="WhiteSmoke"
@@ -65,17 +65,17 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label
-                        FontFamily="{StaticResource MontserratBold}"
+                        FontFamily="{StaticResource OpenSansBold}"
                         FontSize="Title"
                         HorizontalOptions="StartAndExpand"
                         Text="Log in"
                         TextColor="White"
                         VerticalOptions="CenterAndExpand" />
                     <Button
-                        BackgroundColor="{StaticResource PrimaryColor}"
+                        BackgroundColor="{DynamicResource PrimaryColor}"
                         Command="{Binding LoginCommand}"
                         CornerRadius="35"
-                        FontFamily="{StaticResource MaterialFontFamily}"
+                        FontFamily="{StaticResource MaterialIcons}"
                         FontSize="27"
                         HeightRequest="70"
                         Text="{Binding Source={x:Static icons:MaterialIcons.ArrowRight}}"

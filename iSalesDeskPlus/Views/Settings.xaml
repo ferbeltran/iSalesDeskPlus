@@ -3,38 +3,72 @@
                  xmlns="http://xamarin.com/schemas/2014/forms"
                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                  xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-                 BackgroundColor="White"
+                 BackgroundColor="{DynamicResource BackgroundColor}"
                  xmlns:sv="clr-namespace:AiForms.Renderers;assembly=SettingsView"
                  prism:ViewModelLocator.AutowireViewModel="True">
         <NavigationPage.TitleView>
-            <StackLayout HorizontalOptions="CenterAndExpand"
-                         VerticalOptions="CenterAndExpand">
+            <StackLayout HorizontalOptions="StartAndExpand"
+                         VerticalOptions="CenterAndExpand"
+                         Padding="10">
                 <Label Text="{Binding Title}"
                        FontSize="Large"
-                       FontFamily="{StaticResource MontserratSemibold}"
-                       TextColor="{StaticResource PrimaryDarkColor}"/>
+                       FontFamily="{StaticResource OpenSansBold}"
+                       TextColor="{DynamicResource TitleColor}"/>
             </StackLayout>
         </NavigationPage.TitleView>
 
-        <sv:SettingsView HasUnevenRows="true">
+        <sv:SettingsView HasUnevenRows="true"
+                         FooterBackgroundColor="Transparent"
+                         HeaderBackgroundColor="Transparent"
+                         BackgroundColor="{DynamicResource SettingsViewBackgroundColor}">
 
             <sv:Section UseDragSort="True">
-                <sv:CommandCell IconSource="abatar.jpg" IconSize="60,60" IconRadius="30" Title="Fernando Beltrán" Height="80"
-                                DescriptionFontSize="{StaticResource BaseFontSize}"
+                <sv:CommandCell IconSource="abatar.png" IconSize="60,60" IconRadius="30" Title="Fernando Beltrán" Height="80"
+                                TitleColor="{DynamicResource SettingsViewTextColor}"
+                                BackgroundColor="{DynamicResource SettingsViewCellBackgroundColor}"
                                 Description="fernando@isolveproduce.com"
-                                DescriptionColor="{StaticResource DarkerLightAccentColor}"
+                                DescriptionColor="{DynamicResource DetailTextColor}"
+                                DescriptionFontSize="{StaticResource BaseFontSize}"
                                 KeepSelectedUntilBack="false"
                                 IgnoreUseDescriptionAsValue="true"/>
-            </sv:Section>
+
+            <sv:LabelCell Title="Version" TitleColor="{DynamicResource SettingsViewTextColor}"
+                              ValueText="1.0.0"
+                              ValueTextColor="{DynamicResource DetailTextColor}"
+                              ValueTextFontSize="13"
+                              BackgroundColor="{DynamicResource SettingsViewCellBackgroundColor}"/>
+        </sv:Section>
             
 
             <sv:Section Title="General" FooterText="Aca van los Settings Generales" UseDragSort="True">
-                <sv:SwitchCell Title="Dark Mode" AccentColor="{StaticResource AccentLightColor}" On="{Binding IsDarkModeEnabled}"/>
+                <sv:TextPickerCell Title="Current 'View'" TitleColor="{DynamicResource SettingsViewTextColor}" BackgroundColor="{DynamicResource SettingsViewCellBackgroundColor}"/>
+
+                <sv:TextPickerCell Title="Current 'Order Command'" TitleColor="{DynamicResource SettingsViewTextColor}" BackgroundColor="{DynamicResource SettingsViewCellBackgroundColor}"/>
+
+                <sv:TextPickerCell Title="Current 'Quantity'" TitleColor="{DynamicResource SettingsViewTextColor}" BackgroundColor="{DynamicResource SettingsViewCellBackgroundColor}"/>
+
+                <sv:SwitchCell Title="Show Price in 'Inventory'"
+                               AccentColor="{DynamicResource AccentColor}"
+                               TitleColor="{DynamicResource SettingsViewTextColor}"
+                               BackgroundColor="{DynamicResource SettingsViewCellBackgroundColor}"
+                               />
+
+                <sv:SwitchCell Title="Dark Mode"
+                               Description="Still in beta"
+                               DescriptionFontSize="12"
+                               DescriptionColor="{DynamicResource DetailTextColor}"
+                               AccentColor="{DynamicResource AccentColor}"
+                               TitleColor="{DynamicResource SettingsViewTextColor}"
+                               BackgroundColor="{DynamicResource SettingsViewCellBackgroundColor}"
+                               On="{Binding IsDarkModeEnabled}"/>
             </sv:Section>
             
 
             <sv:Section UseDragSort="True">
-                <sv:ButtonCell Title="Logout" TitleColor="White" BackgroundColor="{StaticResource AccentLightColor}"
+              
+                <sv:ButtonCell Title="Logout"
+                               TitleColor="White"
+                               BackgroundColor="{DynamicResource AccentColor}"
                                TitleAlignment="Center" Command="{Binding LogoutCommand}" />
             </sv:Section>
         </sv:SettingsView>

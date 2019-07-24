@@ -26,6 +26,5087 @@ namespace iSalesDeskPlus.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::AiForms.Effects.Droid.Resource.Animation.abc_fade_in = global::iSalesDeskPlus.Droid.Resource.Animation.abc_fade_in;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_fade_out = global::iSalesDeskPlus.Droid.Resource.Animation.abc_fade_out;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_popup_enter = global::iSalesDeskPlus.Droid.Resource.Animation.abc_popup_enter;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_popup_exit = global::iSalesDeskPlus.Droid.Resource.Animation.abc_popup_exit;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_slide_in_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_slide_in_top = global::iSalesDeskPlus.Droid.Resource.Animation.abc_slide_in_top;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_slide_out_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_slide_out_top = global::iSalesDeskPlus.Droid.Resource.Animation.abc_slide_out_top;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_tooltip_enter = global::iSalesDeskPlus.Droid.Resource.Animation.abc_tooltip_enter;
+			global::AiForms.Effects.Droid.Resource.Animation.abc_tooltip_exit = global::iSalesDeskPlus.Droid.Resource.Animation.abc_tooltip_exit;
+			global::AiForms.Effects.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::iSalesDeskPlus.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::AiForms.Effects.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::iSalesDeskPlus.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::AiForms.Effects.Droid.Resource.Animation.design_snackbar_in = global::iSalesDeskPlus.Droid.Resource.Animation.design_snackbar_in;
+			global::AiForms.Effects.Droid.Resource.Animation.design_snackbar_out = global::iSalesDeskPlus.Droid.Resource.Animation.design_snackbar_out;
+			global::AiForms.Effects.Droid.Resource.Animation.EnterFromLeft = global::iSalesDeskPlus.Droid.Resource.Animation.EnterFromLeft;
+			global::AiForms.Effects.Droid.Resource.Animation.EnterFromRight = global::iSalesDeskPlus.Droid.Resource.Animation.EnterFromRight;
+			global::AiForms.Effects.Droid.Resource.Animation.ExitToLeft = global::iSalesDeskPlus.Droid.Resource.Animation.ExitToLeft;
+			global::AiForms.Effects.Droid.Resource.Animation.ExitToRight = global::iSalesDeskPlus.Droid.Resource.Animation.ExitToRight;
+			global::AiForms.Effects.Droid.Resource.Animator.design_appbar_state_list_animator = global::iSalesDeskPlus.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::AiForms.Effects.Droid.Resource.Animator.design_fab_hide_motion_spec = global::iSalesDeskPlus.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::AiForms.Effects.Droid.Resource.Animator.design_fab_show_motion_spec = global::iSalesDeskPlus.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::AiForms.Effects.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::iSalesDeskPlus.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::AiForms.Effects.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::iSalesDeskPlus.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::AiForms.Effects.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::iSalesDeskPlus.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::AiForms.Effects.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::iSalesDeskPlus.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::AiForms.Effects.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::iSalesDeskPlus.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::AiForms.Effects.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::iSalesDeskPlus.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::AiForms.Effects.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::iSalesDeskPlus.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarDivider = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarDivider;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarItemBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarItemBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarPopupTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarSize = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarSplitStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarTabBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarTabStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarTabStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarTabTextStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionBarWidgetTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionDropDownStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionDropDownStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.actionLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionMenuTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionMenuTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.actionMenuTextColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeCloseDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeCopyDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeCutDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeFindDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModePasteDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModePopupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeShareDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeSplitBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionOverflowButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionOverflowMenuStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionProviderClass = global::iSalesDeskPlus.Droid.Resource.Attribute.actionProviderClass;
+			global::AiForms.Effects.Droid.Resource.Attribute.actionViewClass = global::iSalesDeskPlus.Droid.Resource.Attribute.actionViewClass;
+			global::AiForms.Effects.Droid.Resource.Attribute.activityChooserViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.alertDialogCenterButtons = global::iSalesDeskPlus.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::AiForms.Effects.Droid.Resource.Attribute.alertDialogStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.alertDialogStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.alertDialogTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.alertDialogTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.allowStacking = global::iSalesDeskPlus.Droid.Resource.Attribute.allowStacking;
+			global::AiForms.Effects.Droid.Resource.Attribute.alpha = global::iSalesDeskPlus.Droid.Resource.Attribute.alpha;
+			global::AiForms.Effects.Droid.Resource.Attribute.alphabeticModifiers = global::iSalesDeskPlus.Droid.Resource.Attribute.alphabeticModifiers;
+			global::AiForms.Effects.Droid.Resource.Attribute.arrowHeadLength = global::iSalesDeskPlus.Droid.Resource.Attribute.arrowHeadLength;
+			global::AiForms.Effects.Droid.Resource.Attribute.arrowShaftLength = global::iSalesDeskPlus.Droid.Resource.Attribute.arrowShaftLength;
+			global::AiForms.Effects.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.autoSizeMaxTextSize = global::iSalesDeskPlus.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.autoSizeMinTextSize = global::iSalesDeskPlus.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.autoSizePresetSizes = global::iSalesDeskPlus.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::AiForms.Effects.Droid.Resource.Attribute.autoSizeStepGranularity = global::iSalesDeskPlus.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::AiForms.Effects.Droid.Resource.Attribute.autoSizeTextType = global::iSalesDeskPlus.Droid.Resource.Attribute.autoSizeTextType;
+			global::AiForms.Effects.Droid.Resource.Attribute.background = global::iSalesDeskPlus.Droid.Resource.Attribute.background;
+			global::AiForms.Effects.Droid.Resource.Attribute.backgroundSplit = global::iSalesDeskPlus.Droid.Resource.Attribute.backgroundSplit;
+			global::AiForms.Effects.Droid.Resource.Attribute.backgroundStacked = global::iSalesDeskPlus.Droid.Resource.Attribute.backgroundStacked;
+			global::AiForms.Effects.Droid.Resource.Attribute.backgroundTint = global::iSalesDeskPlus.Droid.Resource.Attribute.backgroundTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.backgroundTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.backgroundTintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.barLength = global::iSalesDeskPlus.Droid.Resource.Attribute.barLength;
+			global::AiForms.Effects.Droid.Resource.Attribute.behavior_autoHide = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_autoHide;
+			global::AiForms.Effects.Droid.Resource.Attribute.behavior_fitToContents = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_fitToContents;
+			global::AiForms.Effects.Droid.Resource.Attribute.behavior_hideable = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_hideable;
+			global::AiForms.Effects.Droid.Resource.Attribute.behavior_overlapTop = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_overlapTop;
+			global::AiForms.Effects.Droid.Resource.Attribute.behavior_peekHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_peekHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.behavior_skipCollapsed = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::AiForms.Effects.Droid.Resource.Attribute.borderWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.borderWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.borderlessButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.bottomAppBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.bottomNavigationStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.bottomSheetDialogTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.bottomSheetStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.bottomSheetStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxBackgroundColor = global::iSalesDeskPlus.Droid.Resource.Attribute.boxBackgroundColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxBackgroundMode = global::iSalesDeskPlus.Droid.Resource.Attribute.boxBackgroundMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::iSalesDeskPlus.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::iSalesDeskPlus.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::iSalesDeskPlus.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxStrokeColor = global::iSalesDeskPlus.Droid.Resource.Attribute.boxStrokeColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.boxStrokeWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.boxStrokeWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonBarButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonGravity;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonIconDimen = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonIconDimen;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonPanelSideLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonStyleSmall = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonStyleSmall;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonTint = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.buttonTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonTintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.cardBackgroundColor = global::iSalesDeskPlus.Droid.Resource.Attribute.cardBackgroundColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.cardCornerRadius = global::iSalesDeskPlus.Droid.Resource.Attribute.cardCornerRadius;
+			global::AiForms.Effects.Droid.Resource.Attribute.cardElevation = global::iSalesDeskPlus.Droid.Resource.Attribute.cardElevation;
+			global::AiForms.Effects.Droid.Resource.Attribute.cardMaxElevation = global::iSalesDeskPlus.Droid.Resource.Attribute.cardMaxElevation;
+			global::AiForms.Effects.Droid.Resource.Attribute.cardPreventCornerOverlap = global::iSalesDeskPlus.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::AiForms.Effects.Droid.Resource.Attribute.cardUseCompatPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.cardViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.cardViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.checkboxStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.checkboxStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.checkedChip = global::iSalesDeskPlus.Droid.Resource.Attribute.checkedChip;
+			global::AiForms.Effects.Droid.Resource.Attribute.checkedIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.checkedIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.checkedIconEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.checkedIconEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.checkedIconVisible = global::iSalesDeskPlus.Droid.Resource.Attribute.checkedIconVisible;
+			global::AiForms.Effects.Droid.Resource.Attribute.checkedTextViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipBackgroundColor = global::iSalesDeskPlus.Droid.Resource.Attribute.chipBackgroundColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipCornerRadius = global::iSalesDeskPlus.Droid.Resource.Attribute.chipCornerRadius;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipEndPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.chipEndPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipGroupStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.chipGroupStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.chipIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipIconEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.chipIconEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipIconSize = global::iSalesDeskPlus.Droid.Resource.Attribute.chipIconSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipIconTint = global::iSalesDeskPlus.Droid.Resource.Attribute.chipIconTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipIconVisible = global::iSalesDeskPlus.Droid.Resource.Attribute.chipIconVisible;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipMinHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.chipMinHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipSpacing = global::iSalesDeskPlus.Droid.Resource.Attribute.chipSpacing;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipSpacingHorizontal = global::iSalesDeskPlus.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipSpacingVertical = global::iSalesDeskPlus.Droid.Resource.Attribute.chipSpacingVertical;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipStandaloneStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipStartPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.chipStartPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipStrokeColor = global::iSalesDeskPlus.Droid.Resource.Attribute.chipStrokeColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipStrokeWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.chipStrokeWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.chipStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.chipStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.closeIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.closeIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.closeIconEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.closeIconEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.closeIconEndPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.closeIconEndPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.closeIconSize = global::iSalesDeskPlus.Droid.Resource.Attribute.closeIconSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.closeIconStartPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.closeIconStartPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.closeIconTint = global::iSalesDeskPlus.Droid.Resource.Attribute.closeIconTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.closeIconVisible = global::iSalesDeskPlus.Droid.Resource.Attribute.closeIconVisible;
+			global::AiForms.Effects.Droid.Resource.Attribute.closeItemLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.closeItemLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.collapseContentDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.collapseContentDescription;
+			global::AiForms.Effects.Droid.Resource.Attribute.collapseIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.collapseIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.collapsedTitleGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::AiForms.Effects.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.color = global::iSalesDeskPlus.Droid.Resource.Attribute.color;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorAccent = global::iSalesDeskPlus.Droid.Resource.Attribute.colorAccent;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorBackgroundFloating = global::iSalesDeskPlus.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorButtonNormal = global::iSalesDeskPlus.Droid.Resource.Attribute.colorButtonNormal;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorControlActivated = global::iSalesDeskPlus.Droid.Resource.Attribute.colorControlActivated;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorControlHighlight = global::iSalesDeskPlus.Droid.Resource.Attribute.colorControlHighlight;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorControlNormal = global::iSalesDeskPlus.Droid.Resource.Attribute.colorControlNormal;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorError = global::iSalesDeskPlus.Droid.Resource.Attribute.colorError;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorPrimary = global::iSalesDeskPlus.Droid.Resource.Attribute.colorPrimary;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorPrimaryDark = global::iSalesDeskPlus.Droid.Resource.Attribute.colorPrimaryDark;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorSecondary = global::iSalesDeskPlus.Droid.Resource.Attribute.colorSecondary;
+			global::AiForms.Effects.Droid.Resource.Attribute.colorSwitchThumbNormal = global::iSalesDeskPlus.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::AiForms.Effects.Droid.Resource.Attribute.commitIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.commitIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.contentDescription;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentInsetEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetEnd;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentInsetEndWithActions = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentInsetLeft = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetLeft;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentInsetRight = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetRight;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentInsetStart = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetStart;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentPaddingBottom = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPaddingBottom;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentPaddingLeft = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPaddingLeft;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentPaddingRight = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPaddingRight;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentPaddingTop = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPaddingTop;
+			global::AiForms.Effects.Droid.Resource.Attribute.contentScrim = global::iSalesDeskPlus.Droid.Resource.Attribute.contentScrim;
+			global::AiForms.Effects.Droid.Resource.Attribute.controlBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.controlBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.coordinatorLayoutStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.cornerRadius = global::iSalesDeskPlus.Droid.Resource.Attribute.cornerRadius;
+			global::AiForms.Effects.Droid.Resource.Attribute.counterEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.counterEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.counterMaxLength = global::iSalesDeskPlus.Droid.Resource.Attribute.counterMaxLength;
+			global::AiForms.Effects.Droid.Resource.Attribute.counterOverflowTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.counterTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.counterTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.customNavigationLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.customNavigationLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.defaultQueryHint = global::iSalesDeskPlus.Droid.Resource.Attribute.defaultQueryHint;
+			global::AiForms.Effects.Droid.Resource.Attribute.dialogCornerRadius = global::iSalesDeskPlus.Droid.Resource.Attribute.dialogCornerRadius;
+			global::AiForms.Effects.Droid.Resource.Attribute.dialogPreferredPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.dialogTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.dialogTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.displayOptions = global::iSalesDeskPlus.Droid.Resource.Attribute.displayOptions;
+			global::AiForms.Effects.Droid.Resource.Attribute.divider = global::iSalesDeskPlus.Droid.Resource.Attribute.divider;
+			global::AiForms.Effects.Droid.Resource.Attribute.dividerHorizontal = global::iSalesDeskPlus.Droid.Resource.Attribute.dividerHorizontal;
+			global::AiForms.Effects.Droid.Resource.Attribute.dividerPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.dividerPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.dividerVertical = global::iSalesDeskPlus.Droid.Resource.Attribute.dividerVertical;
+			global::AiForms.Effects.Droid.Resource.Attribute.drawableSize = global::iSalesDeskPlus.Droid.Resource.Attribute.drawableSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.drawerArrowStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.drawerArrowStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.dropDownListViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.editTextBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.editTextBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.editTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.editTextColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.editTextStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.editTextStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.elevation = global::iSalesDeskPlus.Droid.Resource.Attribute.elevation;
+			global::AiForms.Effects.Droid.Resource.Attribute.enforceMaterialTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.enforceTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.enforceTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.errorEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.errorEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.errorTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.errorTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.expanded = global::iSalesDeskPlus.Droid.Resource.Attribute.expanded;
+			global::AiForms.Effects.Droid.Resource.Attribute.expandedTitleGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleGravity;
+			global::AiForms.Effects.Droid.Resource.Attribute.expandedTitleMargin = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMargin;
+			global::AiForms.Effects.Droid.Resource.Attribute.expandedTitleMarginBottom = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::AiForms.Effects.Droid.Resource.Attribute.expandedTitleMarginEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::AiForms.Effects.Droid.Resource.Attribute.expandedTitleMarginStart = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::AiForms.Effects.Droid.Resource.Attribute.expandedTitleMarginTop = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::AiForms.Effects.Droid.Resource.Attribute.expandedTitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.fabAlignmentMode = global::iSalesDeskPlus.Droid.Resource.Attribute.fabAlignmentMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.fabCradleMargin = global::iSalesDeskPlus.Droid.Resource.Attribute.fabCradleMargin;
+			global::AiForms.Effects.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::iSalesDeskPlus.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::AiForms.Effects.Droid.Resource.Attribute.fabCradleVerticalOffset = global::iSalesDeskPlus.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::AiForms.Effects.Droid.Resource.Attribute.fabCustomSize = global::iSalesDeskPlus.Droid.Resource.Attribute.fabCustomSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.fabSize = global::iSalesDeskPlus.Droid.Resource.Attribute.fabSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.fastScrollEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.fastScrollEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.firstBaselineToTopHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.floatingActionButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.font = global::iSalesDeskPlus.Droid.Resource.Attribute.font;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontFamily = global::iSalesDeskPlus.Droid.Resource.Attribute.fontFamily;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontProviderAuthority = global::iSalesDeskPlus.Droid.Resource.Attribute.fontProviderAuthority;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontProviderCerts = global::iSalesDeskPlus.Droid.Resource.Attribute.fontProviderCerts;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontProviderFetchStrategy = global::iSalesDeskPlus.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontProviderFetchTimeout = global::iSalesDeskPlus.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontProviderPackage = global::iSalesDeskPlus.Droid.Resource.Attribute.fontProviderPackage;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontProviderQuery = global::iSalesDeskPlus.Droid.Resource.Attribute.fontProviderQuery;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.fontStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontVariationSettings = global::iSalesDeskPlus.Droid.Resource.Attribute.fontVariationSettings;
+			global::AiForms.Effects.Droid.Resource.Attribute.fontWeight = global::iSalesDeskPlus.Droid.Resource.Attribute.fontWeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.foregroundInsidePadding = global::iSalesDeskPlus.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.gapBetweenBars = global::iSalesDeskPlus.Droid.Resource.Attribute.gapBetweenBars;
+			global::AiForms.Effects.Droid.Resource.Attribute.goIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.goIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.headerLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.headerLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.height = global::iSalesDeskPlus.Droid.Resource.Attribute.height;
+			global::AiForms.Effects.Droid.Resource.Attribute.helperText = global::iSalesDeskPlus.Droid.Resource.Attribute.helperText;
+			global::AiForms.Effects.Droid.Resource.Attribute.helperTextEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.helperTextEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.helperTextTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.hideMotionSpec = global::iSalesDeskPlus.Droid.Resource.Attribute.hideMotionSpec;
+			global::AiForms.Effects.Droid.Resource.Attribute.hideOnContentScroll = global::iSalesDeskPlus.Droid.Resource.Attribute.hideOnContentScroll;
+			global::AiForms.Effects.Droid.Resource.Attribute.hideOnScroll = global::iSalesDeskPlus.Droid.Resource.Attribute.hideOnScroll;
+			global::AiForms.Effects.Droid.Resource.Attribute.hintAnimationEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.hintEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.hintEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.hintTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.hintTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.homeAsUpIndicator = global::iSalesDeskPlus.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::AiForms.Effects.Droid.Resource.Attribute.homeLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.homeLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::iSalesDeskPlus.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::AiForms.Effects.Droid.Resource.Attribute.icon = global::iSalesDeskPlus.Droid.Resource.Attribute.icon;
+			global::AiForms.Effects.Droid.Resource.Attribute.iconEndPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.iconEndPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.iconGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.iconGravity;
+			global::AiForms.Effects.Droid.Resource.Attribute.iconPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.iconPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.iconSize = global::iSalesDeskPlus.Droid.Resource.Attribute.iconSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.iconStartPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.iconStartPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.iconTint = global::iSalesDeskPlus.Droid.Resource.Attribute.iconTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.iconTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.iconTintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.iconifiedByDefault = global::iSalesDeskPlus.Droid.Resource.Attribute.iconifiedByDefault;
+			global::AiForms.Effects.Droid.Resource.Attribute.imageButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.imageButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.indeterminateProgressStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.initialActivityCount = global::iSalesDeskPlus.Droid.Resource.Attribute.initialActivityCount;
+			global::AiForms.Effects.Droid.Resource.Attribute.insetForeground = global::iSalesDeskPlus.Droid.Resource.Attribute.insetForeground;
+			global::AiForms.Effects.Droid.Resource.Attribute.isLightTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.isLightTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.itemBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemHorizontalPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemIconPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.itemIconPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemIconSize = global::iSalesDeskPlus.Droid.Resource.Attribute.itemIconSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemIconTint = global::iSalesDeskPlus.Droid.Resource.Attribute.itemIconTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.itemPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemSpacing = global::iSalesDeskPlus.Droid.Resource.Attribute.itemSpacing;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.itemTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemTextAppearanceActive = global::iSalesDeskPlus.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemTextAppearanceInactive = global::iSalesDeskPlus.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::AiForms.Effects.Droid.Resource.Attribute.itemTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.itemTextColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.keylines = global::iSalesDeskPlus.Droid.Resource.Attribute.keylines;
+			global::AiForms.Effects.Droid.Resource.Attribute.labelVisibilityMode = global::iSalesDeskPlus.Droid.Resource.Attribute.labelVisibilityMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout = global::iSalesDeskPlus.Droid.Resource.Attribute.layout;
+			global::AiForms.Effects.Droid.Resource.Attribute.layoutManager = global::iSalesDeskPlus.Droid.Resource.Attribute.layoutManager;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_anchor = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_anchor;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_anchorGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_anchorGravity;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_behavior = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_behavior;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_collapseMode = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_collapseMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_insetEdge = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_insetEdge;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_keyline = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_keyline;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_scrollFlags = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_scrollFlags;
+			global::AiForms.Effects.Droid.Resource.Attribute.layout_scrollInterpolator = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::AiForms.Effects.Droid.Resource.Attribute.liftOnScroll = global::iSalesDeskPlus.Droid.Resource.Attribute.liftOnScroll;
+			global::AiForms.Effects.Droid.Resource.Attribute.lineHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.lineHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.lineSpacing = global::iSalesDeskPlus.Droid.Resource.Attribute.lineSpacing;
+			global::AiForms.Effects.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::iSalesDeskPlus.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::AiForms.Effects.Droid.Resource.Attribute.listDividerAlertDialog = global::iSalesDeskPlus.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::AiForms.Effects.Droid.Resource.Attribute.listItemLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.listItemLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.listLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.listLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.listMenuViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.listMenuViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.listPopupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.listPreferredItemHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::AiForms.Effects.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::AiForms.Effects.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::AiForms.Effects.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::AiForms.Effects.Droid.Resource.Attribute.logo = global::iSalesDeskPlus.Droid.Resource.Attribute.logo;
+			global::AiForms.Effects.Droid.Resource.Attribute.logoDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.logoDescription;
+			global::AiForms.Effects.Droid.Resource.Attribute.materialButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.materialButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.materialCardViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.materialCardViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.maxActionInlineWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.maxButtonHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.maxButtonHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.maxImageSize = global::iSalesDeskPlus.Droid.Resource.Attribute.maxImageSize;
+			global::AiForms.Effects.Droid.Resource.Attribute.measureWithLargestChild = global::iSalesDeskPlus.Droid.Resource.Attribute.measureWithLargestChild;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteButtonTint = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteStopDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.menu = global::iSalesDeskPlus.Droid.Resource.Attribute.menu;
+			global::AiForms.Effects.Droid.Resource.Attribute.multiChoiceItemLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.navigationContentDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationContentDescription;
+			global::AiForms.Effects.Droid.Resource.Attribute.navigationIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.navigationMode = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.navigationViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.numericModifiers = global::iSalesDeskPlus.Droid.Resource.Attribute.numericModifiers;
+			global::AiForms.Effects.Droid.Resource.Attribute.overlapAnchor = global::iSalesDeskPlus.Droid.Resource.Attribute.overlapAnchor;
+			global::AiForms.Effects.Droid.Resource.Attribute.paddingBottomNoButtons = global::iSalesDeskPlus.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::AiForms.Effects.Droid.Resource.Attribute.paddingEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.paddingEnd;
+			global::AiForms.Effects.Droid.Resource.Attribute.paddingStart = global::iSalesDeskPlus.Droid.Resource.Attribute.paddingStart;
+			global::AiForms.Effects.Droid.Resource.Attribute.paddingTopNoTitle = global::iSalesDeskPlus.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::AiForms.Effects.Droid.Resource.Attribute.panelBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.panelBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.panelMenuListTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.panelMenuListTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.panelMenuListWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.panelMenuListWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.passwordToggleContentDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::AiForms.Effects.Droid.Resource.Attribute.passwordToggleDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::AiForms.Effects.Droid.Resource.Attribute.passwordToggleEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.passwordToggleTint = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.passwordToggleTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.popupMenuStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.popupMenuStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.popupTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.popupTheme;
+			global::AiForms.Effects.Droid.Resource.Attribute.popupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.popupWindowStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.preserveIconSpacing = global::iSalesDeskPlus.Droid.Resource.Attribute.preserveIconSpacing;
+			global::AiForms.Effects.Droid.Resource.Attribute.pressedTranslationZ = global::iSalesDeskPlus.Droid.Resource.Attribute.pressedTranslationZ;
+			global::AiForms.Effects.Droid.Resource.Attribute.progressBarPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.progressBarPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.progressBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.progressBarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.queryBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.queryBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.queryHint = global::iSalesDeskPlus.Droid.Resource.Attribute.queryHint;
+			global::AiForms.Effects.Droid.Resource.Attribute.radioButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.radioButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.ratingBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.ratingBarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.ratingBarStyleIndicator = global::iSalesDeskPlus.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::AiForms.Effects.Droid.Resource.Attribute.ratingBarStyleSmall = global::iSalesDeskPlus.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::AiForms.Effects.Droid.Resource.Attribute.reverseLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.reverseLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.rippleColor = global::iSalesDeskPlus.Droid.Resource.Attribute.rippleColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.scrimAnimationDuration = global::iSalesDeskPlus.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::AiForms.Effects.Droid.Resource.Attribute.scrimBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.scrimBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::iSalesDeskPlus.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::AiForms.Effects.Droid.Resource.Attribute.searchHintIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.searchHintIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.searchIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.searchIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.searchViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.searchViewStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.seekBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.seekBarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.selectableItemBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.selectableItemBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::iSalesDeskPlus.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::AiForms.Effects.Droid.Resource.Attribute.showAsAction = global::iSalesDeskPlus.Droid.Resource.Attribute.showAsAction;
+			global::AiForms.Effects.Droid.Resource.Attribute.showDividers = global::iSalesDeskPlus.Droid.Resource.Attribute.showDividers;
+			global::AiForms.Effects.Droid.Resource.Attribute.showMotionSpec = global::iSalesDeskPlus.Droid.Resource.Attribute.showMotionSpec;
+			global::AiForms.Effects.Droid.Resource.Attribute.showText = global::iSalesDeskPlus.Droid.Resource.Attribute.showText;
+			global::AiForms.Effects.Droid.Resource.Attribute.showTitle = global::iSalesDeskPlus.Droid.Resource.Attribute.showTitle;
+			global::AiForms.Effects.Droid.Resource.Attribute.singleChoiceItemLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.singleLine = global::iSalesDeskPlus.Droid.Resource.Attribute.singleLine;
+			global::AiForms.Effects.Droid.Resource.Attribute.singleSelection = global::iSalesDeskPlus.Droid.Resource.Attribute.singleSelection;
+			global::AiForms.Effects.Droid.Resource.Attribute.snackbarButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.snackbarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.snackbarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.spanCount = global::iSalesDeskPlus.Droid.Resource.Attribute.spanCount;
+			global::AiForms.Effects.Droid.Resource.Attribute.spinBars = global::iSalesDeskPlus.Droid.Resource.Attribute.spinBars;
+			global::AiForms.Effects.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.spinnerStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.spinnerStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.splitTrack = global::iSalesDeskPlus.Droid.Resource.Attribute.splitTrack;
+			global::AiForms.Effects.Droid.Resource.Attribute.srcCompat = global::iSalesDeskPlus.Droid.Resource.Attribute.srcCompat;
+			global::AiForms.Effects.Droid.Resource.Attribute.stackFromEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.stackFromEnd;
+			global::AiForms.Effects.Droid.Resource.Attribute.state_above_anchor = global::iSalesDeskPlus.Droid.Resource.Attribute.state_above_anchor;
+			global::AiForms.Effects.Droid.Resource.Attribute.state_collapsed = global::iSalesDeskPlus.Droid.Resource.Attribute.state_collapsed;
+			global::AiForms.Effects.Droid.Resource.Attribute.state_collapsible = global::iSalesDeskPlus.Droid.Resource.Attribute.state_collapsible;
+			global::AiForms.Effects.Droid.Resource.Attribute.state_liftable = global::iSalesDeskPlus.Droid.Resource.Attribute.state_liftable;
+			global::AiForms.Effects.Droid.Resource.Attribute.state_lifted = global::iSalesDeskPlus.Droid.Resource.Attribute.state_lifted;
+			global::AiForms.Effects.Droid.Resource.Attribute.statusBarBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.statusBarBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.statusBarScrim = global::iSalesDeskPlus.Droid.Resource.Attribute.statusBarScrim;
+			global::AiForms.Effects.Droid.Resource.Attribute.strokeColor = global::iSalesDeskPlus.Droid.Resource.Attribute.strokeColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.strokeWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.strokeWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.subMenuArrow = global::iSalesDeskPlus.Droid.Resource.Attribute.subMenuArrow;
+			global::AiForms.Effects.Droid.Resource.Attribute.submitBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.submitBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.subtitle = global::iSalesDeskPlus.Droid.Resource.Attribute.subtitle;
+			global::AiForms.Effects.Droid.Resource.Attribute.subtitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.subtitleTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.subtitleTextColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.subtitleTextStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.subtitleTextStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.suggestionRowLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.suggestionRowLayout;
+			global::AiForms.Effects.Droid.Resource.Attribute.switchMinWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.switchMinWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.switchPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.switchPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.switchStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.switchStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.switchTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.switchTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.tabBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabContentStart = global::iSalesDeskPlus.Droid.Resource.Attribute.tabContentStart;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.tabGravity;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabIconTint = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIconTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabIconTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIconTintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabIndicator = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIndicator;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabIndicatorColor = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIndicatorColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabIndicatorFullWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabIndicatorGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabIndicatorHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabInlineLabel = global::iSalesDeskPlus.Droid.Resource.Attribute.tabInlineLabel;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabMaxWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.tabMaxWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabMinWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.tabMinWidth;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabMode = global::iSalesDeskPlus.Droid.Resource.Attribute.tabMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabPaddingBottom = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPaddingBottom;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabPaddingEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPaddingEnd;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabPaddingStart = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPaddingStart;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabPaddingTop = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPaddingTop;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabRippleColor = global::iSalesDeskPlus.Droid.Resource.Attribute.tabRippleColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabSelectedTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.tabStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.tabTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.tabTextColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.tabUnboundedRipple = global::iSalesDeskPlus.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAllCaps = global::iSalesDeskPlus.Droid.Resource.Attribute.textAllCaps;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceBody1 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceBody1;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceBody2 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceBody2;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceButton = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceButton;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceCaption = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceCaption;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceHeadline1 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceHeadline2 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceHeadline3 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceHeadline4 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceHeadline5 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceHeadline6 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceListItem = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceListItem;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceListItemSmall = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceOverline = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceOverline;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::AiForms.Effects.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::AiForms.Effects.Droid.Resource.Attribute.textColorAlertDialogListItem = global::iSalesDeskPlus.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::AiForms.Effects.Droid.Resource.Attribute.textColorSearchUrl = global::iSalesDeskPlus.Droid.Resource.Attribute.textColorSearchUrl;
+			global::AiForms.Effects.Droid.Resource.Attribute.textEndPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.textEndPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.textInputStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.textInputStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.textStartPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.textStartPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.theme = global::iSalesDeskPlus.Droid.Resource.Attribute.theme;
+			global::AiForms.Effects.Droid.Resource.Attribute.thickness = global::iSalesDeskPlus.Droid.Resource.Attribute.thickness;
+			global::AiForms.Effects.Droid.Resource.Attribute.thumbTextPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.thumbTextPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.thumbTint = global::iSalesDeskPlus.Droid.Resource.Attribute.thumbTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.thumbTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.thumbTintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.tickMark = global::iSalesDeskPlus.Droid.Resource.Attribute.tickMark;
+			global::AiForms.Effects.Droid.Resource.Attribute.tickMarkTint = global::iSalesDeskPlus.Droid.Resource.Attribute.tickMarkTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.tickMarkTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.tickMarkTintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.tint = global::iSalesDeskPlus.Droid.Resource.Attribute.tint;
+			global::AiForms.Effects.Droid.Resource.Attribute.tintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.tintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.title = global::iSalesDeskPlus.Droid.Resource.Attribute.title;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.titleEnabled;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleMargin = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMargin;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleMarginBottom = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMarginBottom;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleMarginEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMarginEnd;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleMarginStart = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMarginStart;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleMarginTop = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMarginTop;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleMargins = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMargins;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.titleTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.titleTextColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.titleTextStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.titleTextStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.toolbarId = global::iSalesDeskPlus.Droid.Resource.Attribute.toolbarId;
+			global::AiForms.Effects.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.toolbarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.toolbarStyle;
+			global::AiForms.Effects.Droid.Resource.Attribute.tooltipForegroundColor = global::iSalesDeskPlus.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::AiForms.Effects.Droid.Resource.Attribute.tooltipFrameBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::AiForms.Effects.Droid.Resource.Attribute.tooltipText = global::iSalesDeskPlus.Droid.Resource.Attribute.tooltipText;
+			global::AiForms.Effects.Droid.Resource.Attribute.track = global::iSalesDeskPlus.Droid.Resource.Attribute.track;
+			global::AiForms.Effects.Droid.Resource.Attribute.trackTint = global::iSalesDeskPlus.Droid.Resource.Attribute.trackTint;
+			global::AiForms.Effects.Droid.Resource.Attribute.trackTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.trackTintMode;
+			global::AiForms.Effects.Droid.Resource.Attribute.ttcIndex = global::iSalesDeskPlus.Droid.Resource.Attribute.ttcIndex;
+			global::AiForms.Effects.Droid.Resource.Attribute.useCompatPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.useCompatPadding;
+			global::AiForms.Effects.Droid.Resource.Attribute.viewInflaterClass = global::iSalesDeskPlus.Droid.Resource.Attribute.viewInflaterClass;
+			global::AiForms.Effects.Droid.Resource.Attribute.voiceIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.voiceIcon;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowActionBar = global::iSalesDeskPlus.Droid.Resource.Attribute.windowActionBar;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowActionBarOverlay = global::iSalesDeskPlus.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowActionModeOverlay = global::iSalesDeskPlus.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowFixedHeightMajor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowFixedHeightMinor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowFixedWidthMajor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowFixedWidthMinor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowMinWidthMajor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowMinWidthMinor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::AiForms.Effects.Droid.Resource.Attribute.windowNoTitle = global::iSalesDeskPlus.Droid.Resource.Attribute.windowNoTitle;
+			global::AiForms.Effects.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::iSalesDeskPlus.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::AiForms.Effects.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::iSalesDeskPlus.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::AiForms.Effects.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::iSalesDeskPlus.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::AiForms.Effects.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::iSalesDeskPlus.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::AiForms.Effects.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::iSalesDeskPlus.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::AiForms.Effects.Droid.Resource.Color.abc_btn_colored_text_material = global::iSalesDeskPlus.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::AiForms.Effects.Droid.Resource.Color.abc_color_highlight_material = global::iSalesDeskPlus.Droid.Resource.Color.abc_color_highlight_material;
+			global::AiForms.Effects.Droid.Resource.Color.abc_hint_foreground_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.abc_hint_foreground_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.abc_input_method_navigation_guard = global::iSalesDeskPlus.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::AiForms.Effects.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.abc_primary_text_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.abc_primary_text_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_primary_text_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.abc_search_url_text = global::iSalesDeskPlus.Droid.Resource.Color.abc_search_url_text;
+			global::AiForms.Effects.Droid.Resource.Color.abc_search_url_text_normal = global::iSalesDeskPlus.Droid.Resource.Color.abc_search_url_text_normal;
+			global::AiForms.Effects.Droid.Resource.Color.abc_search_url_text_pressed = global::iSalesDeskPlus.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::AiForms.Effects.Droid.Resource.Color.abc_search_url_text_selected = global::iSalesDeskPlus.Droid.Resource.Color.abc_search_url_text_selected;
+			global::AiForms.Effects.Droid.Resource.Color.abc_secondary_text_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.abc_secondary_text_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.abc_tint_btn_checkable = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::AiForms.Effects.Droid.Resource.Color.abc_tint_default = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_default;
+			global::AiForms.Effects.Droid.Resource.Color.abc_tint_edittext = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_edittext;
+			global::AiForms.Effects.Droid.Resource.Color.abc_tint_seek_thumb = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::AiForms.Effects.Droid.Resource.Color.abc_tint_spinner = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_spinner;
+			global::AiForms.Effects.Droid.Resource.Color.abc_tint_switch_track = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_switch_track;
+			global::AiForms.Effects.Droid.Resource.Color.accent_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.accent_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.accent_material_light = global::iSalesDeskPlus.Droid.Resource.Color.accent_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.background_floating_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.background_floating_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.background_floating_material_light = global::iSalesDeskPlus.Droid.Resource.Color.background_floating_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.background_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.background_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.background_material_light = global::iSalesDeskPlus.Droid.Resource.Color.background_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.bright_foreground_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.bright_foreground_inverse_material_light = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.bright_foreground_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.bright_foreground_material_light = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.browser_actions_bg_grey = global::iSalesDeskPlus.Droid.Resource.Color.browser_actions_bg_grey;
+			global::AiForms.Effects.Droid.Resource.Color.browser_actions_divider_color = global::iSalesDeskPlus.Droid.Resource.Color.browser_actions_divider_color;
+			global::AiForms.Effects.Droid.Resource.Color.browser_actions_text_color = global::iSalesDeskPlus.Droid.Resource.Color.browser_actions_text_color;
+			global::AiForms.Effects.Droid.Resource.Color.browser_actions_title_color = global::iSalesDeskPlus.Droid.Resource.Color.browser_actions_title_color;
+			global::AiForms.Effects.Droid.Resource.Color.button_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.button_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.button_material_light = global::iSalesDeskPlus.Droid.Resource.Color.button_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.cardview_dark_background = global::iSalesDeskPlus.Droid.Resource.Color.cardview_dark_background;
+			global::AiForms.Effects.Droid.Resource.Color.cardview_light_background = global::iSalesDeskPlus.Droid.Resource.Color.cardview_light_background;
+			global::AiForms.Effects.Droid.Resource.Color.cardview_shadow_end_color = global::iSalesDeskPlus.Droid.Resource.Color.cardview_shadow_end_color;
+			global::AiForms.Effects.Droid.Resource.Color.cardview_shadow_start_color = global::iSalesDeskPlus.Droid.Resource.Color.cardview_shadow_start_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::iSalesDeskPlus.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_default_color_primary = global::iSalesDeskPlus.Droid.Resource.Color.design_default_color_primary;
+			global::AiForms.Effects.Droid.Resource.Color.design_default_color_primary_dark = global::iSalesDeskPlus.Droid.Resource.Color.design_default_color_primary_dark;
+			global::AiForms.Effects.Droid.Resource.Color.design_error = global::iSalesDeskPlus.Droid.Resource.Color.design_error;
+			global::AiForms.Effects.Droid.Resource.Color.design_fab_shadow_end_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_fab_shadow_mid_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_fab_shadow_start_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_snackbar_background_color = global::iSalesDeskPlus.Droid.Resource.Color.design_snackbar_background_color;
+			global::AiForms.Effects.Droid.Resource.Color.design_tint_password_toggle = global::iSalesDeskPlus.Droid.Resource.Color.design_tint_password_toggle;
+			global::AiForms.Effects.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.dim_foreground_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.dim_foreground_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.dim_foreground_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.dim_foreground_material_light = global::iSalesDeskPlus.Droid.Resource.Color.dim_foreground_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.error_color_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.error_color_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.error_color_material_light = global::iSalesDeskPlus.Droid.Resource.Color.error_color_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.foreground_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.foreground_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.foreground_material_light = global::iSalesDeskPlus.Droid.Resource.Color.foreground_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.highlighted_text_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.highlighted_text_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.highlighted_text_material_light = global::iSalesDeskPlus.Droid.Resource.Color.highlighted_text_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.material_blue_grey_800 = global::iSalesDeskPlus.Droid.Resource.Color.material_blue_grey_800;
+			global::AiForms.Effects.Droid.Resource.Color.material_blue_grey_900 = global::iSalesDeskPlus.Droid.Resource.Color.material_blue_grey_900;
+			global::AiForms.Effects.Droid.Resource.Color.material_blue_grey_950 = global::iSalesDeskPlus.Droid.Resource.Color.material_blue_grey_950;
+			global::AiForms.Effects.Droid.Resource.Color.material_deep_teal_200 = global::iSalesDeskPlus.Droid.Resource.Color.material_deep_teal_200;
+			global::AiForms.Effects.Droid.Resource.Color.material_deep_teal_500 = global::iSalesDeskPlus.Droid.Resource.Color.material_deep_teal_500;
+			global::AiForms.Effects.Droid.Resource.Color.material_grey_100 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_100;
+			global::AiForms.Effects.Droid.Resource.Color.material_grey_300 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_300;
+			global::AiForms.Effects.Droid.Resource.Color.material_grey_50 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_50;
+			global::AiForms.Effects.Droid.Resource.Color.material_grey_600 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_600;
+			global::AiForms.Effects.Droid.Resource.Color.material_grey_800 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_800;
+			global::AiForms.Effects.Droid.Resource.Color.material_grey_850 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_850;
+			global::AiForms.Effects.Droid.Resource.Color.material_grey_900 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_900;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_btn_ripple_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_btn_text_color_selector = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_chip_background_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_chip_background_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_chip_ripple_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_chip_text_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_chip_text_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_fab_ripple_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_scrim_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_scrim_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_tabs_ripple_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_textinput_disabled_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::AiForms.Effects.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::iSalesDeskPlus.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::AiForms.Effects.Droid.Resource.Color.notification_action_color_filter = global::iSalesDeskPlus.Droid.Resource.Color.notification_action_color_filter;
+			global::AiForms.Effects.Droid.Resource.Color.notification_icon_bg_color = global::iSalesDeskPlus.Droid.Resource.Color.notification_icon_bg_color;
+			global::AiForms.Effects.Droid.Resource.Color.notification_material_background_media_default_color = global::iSalesDeskPlus.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::AiForms.Effects.Droid.Resource.Color.primary_dark_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.primary_dark_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.primary_dark_material_light = global::iSalesDeskPlus.Droid.Resource.Color.primary_dark_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.primary_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.primary_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.primary_material_light = global::iSalesDeskPlus.Droid.Resource.Color.primary_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.primary_text_default_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.primary_text_default_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.primary_text_default_material_light = global::iSalesDeskPlus.Droid.Resource.Color.primary_text_default_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.primary_text_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.primary_text_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.ripple_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.ripple_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.ripple_material_light = global::iSalesDeskPlus.Droid.Resource.Color.ripple_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.secondary_text_default_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.secondary_text_default_material_light = global::iSalesDeskPlus.Droid.Resource.Color.secondary_text_default_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.secondary_text_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.secondary_text_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.switch_thumb_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.switch_thumb_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.switch_thumb_material_light = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.switch_thumb_normal_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::AiForms.Effects.Droid.Resource.Color.switch_thumb_normal_material_light = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::AiForms.Effects.Droid.Resource.Color.tooltip_background_dark = global::iSalesDeskPlus.Droid.Resource.Color.tooltip_background_dark;
+			global::AiForms.Effects.Droid.Resource.Color.tooltip_background_light = global::iSalesDeskPlus.Droid.Resource.Color.tooltip_background_light;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_button_min_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_button_min_width_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_control_corner_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_control_corner_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_control_inset_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_control_inset_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_control_padding_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_control_padding_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_min_width_major = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_padding_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_floating_window_z = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_floating_window_z;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_panel_menu_list_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_progress_bar_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_search_view_preferred_height = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_search_view_preferred_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_switch_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_switch_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_body_1_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_body_2_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_button_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_caption_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_display_1_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_display_2_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_display_3_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_display_4_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_headline_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_large_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_medium_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_menu_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_small_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_subhead_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_title_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::AiForms.Effects.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::iSalesDeskPlus.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::AiForms.Effects.Droid.Resource.Dimension.cardview_default_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.cardview_default_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.cardview_default_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.cardview_default_radius;
+			global::AiForms.Effects.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::iSalesDeskPlus.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::iSalesDeskPlus.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.compat_control_corner_material = global::iSalesDeskPlus.Droid.Resource.Dimension.compat_control_corner_material;
+			global::AiForms.Effects.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::iSalesDeskPlus.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_appbar_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_appbar_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_height = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_fab_border_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_border_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_fab_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_fab_image_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_image_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_fab_size_mini = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_size_mini;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_fab_size_normal = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_size_normal;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_navigation_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_navigation_icon_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_navigation_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_navigation_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_navigation_padding_bottom = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_min_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_snackbar_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_tab_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_tab_max_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_tab_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_tab_text_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_tab_text_size_2line = global::iSalesDeskPlus.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::AiForms.Effects.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::iSalesDeskPlus.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::AiForms.Effects.Droid.Resource.Dimension.disabled_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::AiForms.Effects.Droid.Resource.Dimension.disabled_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::AiForms.Effects.Droid.Resource.Dimension.fastscroll_default_thickness = global::iSalesDeskPlus.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::AiForms.Effects.Droid.Resource.Dimension.fastscroll_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.fastscroll_margin;
+			global::AiForms.Effects.Droid.Resource.Dimension.fastscroll_minimum_range = global::iSalesDeskPlus.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::AiForms.Effects.Droid.Resource.Dimension.highlight_alpha_material_colored = global::iSalesDeskPlus.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::AiForms.Effects.Droid.Resource.Dimension.highlight_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::AiForms.Effects.Droid.Resource.Dimension.highlight_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::AiForms.Effects.Droid.Resource.Dimension.hint_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::AiForms.Effects.Droid.Resource.Dimension.hint_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::AiForms.Effects.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::AiForms.Effects.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::AiForms.Effects.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::iSalesDeskPlus.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::AiForms.Effects.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::iSalesDeskPlus.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::AiForms.Effects.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::iSalesDeskPlus.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::AiForms.Effects.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::AiForms.Effects.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::AiForms.Effects.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_focused_z = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_inset = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_padding_left = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_padding_right = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_padding_top = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_btn_z = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_btn_z;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_card_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_card_spacing = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_chip_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_fab_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_navigation_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_snackbar_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::iSalesDeskPlus.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_action_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_action_icon_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_action_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_action_text_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_big_circle_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_content_margin_start = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_content_margin_start;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_large_icon_height = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_large_icon_height;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_large_icon_width = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_large_icon_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_main_column_padding_top = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_media_narrow_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_right_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_right_icon_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_right_side_padding_top = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_small_icon_background_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_subtext_size = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_subtext_size;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_top_pad = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_top_pad;
+			global::AiForms.Effects.Droid.Resource.Dimension.notification_top_pad_large_text = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::AiForms.Effects.Droid.Resource.Dimension.subtitle_corner_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::AiForms.Effects.Droid.Resource.Dimension.subtitle_outline_width = global::iSalesDeskPlus.Droid.Resource.Dimension.subtitle_outline_width;
+			global::AiForms.Effects.Droid.Resource.Dimension.subtitle_shadow_offset = global::iSalesDeskPlus.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::AiForms.Effects.Droid.Resource.Dimension.subtitle_shadow_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::AiForms.Effects.Droid.Resource.Dimension.tooltip_corner_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::AiForms.Effects.Droid.Resource.Dimension.tooltip_horizontal_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.tooltip_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.tooltip_margin;
+			global::AiForms.Effects.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::iSalesDeskPlus.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::AiForms.Effects.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::iSalesDeskPlus.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::AiForms.Effects.Droid.Resource.Dimension.tooltip_vertical_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::AiForms.Effects.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::iSalesDeskPlus.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::AiForms.Effects.Droid.Resource.Dimension.tooltip_y_offset_touch = global::iSalesDeskPlus.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_borderless_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_check_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_check_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_colored_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_radio_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_cab_background_top_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_control_background_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_control_background_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_dialog_material_background = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_edit_text_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_edit_text_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_ab_back_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_clear_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_search_api_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_item_background_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_item_background_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_divider_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_divider_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_focused_holo = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_longpressed_holo = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_list_selector_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ratingbar_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_ratingbar_small_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_seekbar_track_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_switch_thumb_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_tab_indicator_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_text_cursor_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_textfield_search_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::AiForms.Effects.Droid.Resource.Drawable.abc_vector_test = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_vector_test;
+			global::AiForms.Effects.Droid.Resource.Drawable.avd_hide_password = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_hide_password;
+			global::AiForms.Effects.Droid.Resource.Drawable.avd_hide_password_1 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_hide_password_1;
+			global::AiForms.Effects.Droid.Resource.Drawable.avd_hide_password_2 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_hide_password_2;
+			global::AiForms.Effects.Droid.Resource.Drawable.avd_hide_password_3 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_hide_password_3;
+			global::AiForms.Effects.Droid.Resource.Drawable.avd_show_password = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_show_password;
+			global::AiForms.Effects.Droid.Resource.Drawable.avd_show_password_1 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_show_password_1;
+			global::AiForms.Effects.Droid.Resource.Drawable.avd_show_password_2 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_show_password_2;
+			global::AiForms.Effects.Droid.Resource.Drawable.avd_show_password_3 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_show_password_3;
+			global::AiForms.Effects.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::iSalesDeskPlus.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::AiForms.Effects.Droid.Resource.Drawable.design_fab_background = global::iSalesDeskPlus.Droid.Resource.Drawable.design_fab_background;
+			global::AiForms.Effects.Droid.Resource.Drawable.design_ic_visibility = global::iSalesDeskPlus.Droid.Resource.Drawable.design_ic_visibility;
+			global::AiForms.Effects.Droid.Resource.Drawable.design_ic_visibility_off = global::iSalesDeskPlus.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::AiForms.Effects.Droid.Resource.Drawable.design_password_eye = global::iSalesDeskPlus.Droid.Resource.Drawable.design_password_eye;
+			global::AiForms.Effects.Droid.Resource.Drawable.design_snackbar_background = global::iSalesDeskPlus.Droid.Resource.Drawable.design_snackbar_background;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_audiotrack_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_audiotrack_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_dialog_close_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_dialog_close_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_00 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_01 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_02 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_03 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_04 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_05 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_06 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_07 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_08 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_09 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_10 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_11 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_12 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_13 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_14 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_collapse_15 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_00 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_00;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_01 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_01;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_02 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_02;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_03 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_03;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_04 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_04;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_05 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_05;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_06 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_06;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_07 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_07;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_08 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_08;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_09 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_09;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_10 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_10;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_11 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_11;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_12 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_12;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_13 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_13;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_14 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_14;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_group_expand_15 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_15;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_media_pause_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_media_pause_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_pause_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_media_play_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_play_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_media_play_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_play_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_media_stop_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_media_stop_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_stop_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mr_button_grey = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.ic_vol_type_tv_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_button_connected_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_button_connected_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_connected_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_button_connecting_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_button_connecting_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_button_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_button_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_dialog_close_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_dialog_close_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_dialog_material_background_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_group_collapse = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_group_collapse;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_group_expand = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_group_expand;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_media_pause_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_media_pause_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_pause_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_media_play_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_play_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_media_play_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_play_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_media_stop_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_media_stop_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_stop_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::AiForms.Effects.Droid.Resource.Drawable.mtrl_snackbar_background = global::iSalesDeskPlus.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::AiForms.Effects.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::iSalesDeskPlus.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::AiForms.Effects.Droid.Resource.Drawable.navigation_empty_icon = global::iSalesDeskPlus.Droid.Resource.Drawable.navigation_empty_icon;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_action_background = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_action_background;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_bg_low = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_low;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_bg_low_normal = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_bg_low_pressed = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_bg_normal = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_normal;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_bg_normal_pressed = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_icon_background = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_icon_background;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_template_icon_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_template_icon_low_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::AiForms.Effects.Droid.Resource.Drawable.notification_tile_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_tile_bg;
+			global::AiForms.Effects.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::AiForms.Effects.Droid.Resource.Drawable.tooltip_frame_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::AiForms.Effects.Droid.Resource.Drawable.tooltip_frame_light = global::iSalesDeskPlus.Droid.Resource.Drawable.tooltip_frame_light;
+			global::AiForms.Effects.Droid.Resource.Id.ALT = global::iSalesDeskPlus.Droid.Resource.Id.ALT;
+			global::AiForms.Effects.Droid.Resource.Id.CTRL = global::iSalesDeskPlus.Droid.Resource.Id.CTRL;
+			global::AiForms.Effects.Droid.Resource.Id.FUNCTION = global::iSalesDeskPlus.Droid.Resource.Id.FUNCTION;
+			global::AiForms.Effects.Droid.Resource.Id.META = global::iSalesDeskPlus.Droid.Resource.Id.META;
+			global::AiForms.Effects.Droid.Resource.Id.SHIFT = global::iSalesDeskPlus.Droid.Resource.Id.SHIFT;
+			global::AiForms.Effects.Droid.Resource.Id.SYM = global::iSalesDeskPlus.Droid.Resource.Id.SYM;
+			global::AiForms.Effects.Droid.Resource.Id.action0 = global::iSalesDeskPlus.Droid.Resource.Id.action0;
+			global::AiForms.Effects.Droid.Resource.Id.action_bar = global::iSalesDeskPlus.Droid.Resource.Id.action_bar;
+			global::AiForms.Effects.Droid.Resource.Id.action_bar_activity_content = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_activity_content;
+			global::AiForms.Effects.Droid.Resource.Id.action_bar_container = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_container;
+			global::AiForms.Effects.Droid.Resource.Id.action_bar_root = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_root;
+			global::AiForms.Effects.Droid.Resource.Id.action_bar_spinner = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_spinner;
+			global::AiForms.Effects.Droid.Resource.Id.action_bar_subtitle = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_subtitle;
+			global::AiForms.Effects.Droid.Resource.Id.action_bar_title = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_title;
+			global::AiForms.Effects.Droid.Resource.Id.action_container = global::iSalesDeskPlus.Droid.Resource.Id.action_container;
+			global::AiForms.Effects.Droid.Resource.Id.action_context_bar = global::iSalesDeskPlus.Droid.Resource.Id.action_context_bar;
+			global::AiForms.Effects.Droid.Resource.Id.action_divider = global::iSalesDeskPlus.Droid.Resource.Id.action_divider;
+			global::AiForms.Effects.Droid.Resource.Id.action_image = global::iSalesDeskPlus.Droid.Resource.Id.action_image;
+			global::AiForms.Effects.Droid.Resource.Id.action_menu_divider = global::iSalesDeskPlus.Droid.Resource.Id.action_menu_divider;
+			global::AiForms.Effects.Droid.Resource.Id.action_menu_presenter = global::iSalesDeskPlus.Droid.Resource.Id.action_menu_presenter;
+			global::AiForms.Effects.Droid.Resource.Id.action_mode_bar = global::iSalesDeskPlus.Droid.Resource.Id.action_mode_bar;
+			global::AiForms.Effects.Droid.Resource.Id.action_mode_bar_stub = global::iSalesDeskPlus.Droid.Resource.Id.action_mode_bar_stub;
+			global::AiForms.Effects.Droid.Resource.Id.action_mode_close_button = global::iSalesDeskPlus.Droid.Resource.Id.action_mode_close_button;
+			global::AiForms.Effects.Droid.Resource.Id.action_text = global::iSalesDeskPlus.Droid.Resource.Id.action_text;
+			global::AiForms.Effects.Droid.Resource.Id.actions = global::iSalesDeskPlus.Droid.Resource.Id.actions;
+			global::AiForms.Effects.Droid.Resource.Id.activity_chooser_view_content = global::iSalesDeskPlus.Droid.Resource.Id.activity_chooser_view_content;
+			global::AiForms.Effects.Droid.Resource.Id.add = global::iSalesDeskPlus.Droid.Resource.Id.add;
+			global::AiForms.Effects.Droid.Resource.Id.alertTitle = global::iSalesDeskPlus.Droid.Resource.Id.alertTitle;
+			global::AiForms.Effects.Droid.Resource.Id.all = global::iSalesDeskPlus.Droid.Resource.Id.all;
+			global::AiForms.Effects.Droid.Resource.Id.always = global::iSalesDeskPlus.Droid.Resource.Id.always;
+			global::AiForms.Effects.Droid.Resource.Id.async = global::iSalesDeskPlus.Droid.Resource.Id.async;
+			global::AiForms.Effects.Droid.Resource.Id.auto = global::iSalesDeskPlus.Droid.Resource.Id.auto;
+			global::AiForms.Effects.Droid.Resource.Id.beginning = global::iSalesDeskPlus.Droid.Resource.Id.beginning;
+			global::AiForms.Effects.Droid.Resource.Id.blocking = global::iSalesDeskPlus.Droid.Resource.Id.blocking;
+			global::AiForms.Effects.Droid.Resource.Id.bottom = global::iSalesDeskPlus.Droid.Resource.Id.bottom;
+			global::AiForms.Effects.Droid.Resource.Id.bottomtab_navarea = global::iSalesDeskPlus.Droid.Resource.Id.bottomtab_navarea;
+			global::AiForms.Effects.Droid.Resource.Id.bottomtab_tabbar = global::iSalesDeskPlus.Droid.Resource.Id.bottomtab_tabbar;
+			global::AiForms.Effects.Droid.Resource.Id.browser_actions_header_text = global::iSalesDeskPlus.Droid.Resource.Id.browser_actions_header_text;
+			global::AiForms.Effects.Droid.Resource.Id.browser_actions_menu_item_icon = global::iSalesDeskPlus.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::AiForms.Effects.Droid.Resource.Id.browser_actions_menu_item_text = global::iSalesDeskPlus.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::AiForms.Effects.Droid.Resource.Id.browser_actions_menu_items = global::iSalesDeskPlus.Droid.Resource.Id.browser_actions_menu_items;
+			global::AiForms.Effects.Droid.Resource.Id.browser_actions_menu_view = global::iSalesDeskPlus.Droid.Resource.Id.browser_actions_menu_view;
+			global::AiForms.Effects.Droid.Resource.Id.buttonPanel = global::iSalesDeskPlus.Droid.Resource.Id.buttonPanel;
+			global::AiForms.Effects.Droid.Resource.Id.cancel_action = global::iSalesDeskPlus.Droid.Resource.Id.cancel_action;
+			global::AiForms.Effects.Droid.Resource.Id.center = global::iSalesDeskPlus.Droid.Resource.Id.center;
+			global::AiForms.Effects.Droid.Resource.Id.center_horizontal = global::iSalesDeskPlus.Droid.Resource.Id.center_horizontal;
+			global::AiForms.Effects.Droid.Resource.Id.center_vertical = global::iSalesDeskPlus.Droid.Resource.Id.center_vertical;
+			global::AiForms.Effects.Droid.Resource.Id.checkbox = global::iSalesDeskPlus.Droid.Resource.Id.checkbox;
+			global::AiForms.Effects.Droid.Resource.Id.chronometer = global::iSalesDeskPlus.Droid.Resource.Id.chronometer;
+			global::AiForms.Effects.Droid.Resource.Id.clip_horizontal = global::iSalesDeskPlus.Droid.Resource.Id.clip_horizontal;
+			global::AiForms.Effects.Droid.Resource.Id.clip_vertical = global::iSalesDeskPlus.Droid.Resource.Id.clip_vertical;
+			global::AiForms.Effects.Droid.Resource.Id.collapseActionView = global::iSalesDeskPlus.Droid.Resource.Id.collapseActionView;
+			global::AiForms.Effects.Droid.Resource.Id.container = global::iSalesDeskPlus.Droid.Resource.Id.container;
+			global::AiForms.Effects.Droid.Resource.Id.content = global::iSalesDeskPlus.Droid.Resource.Id.content;
+			global::AiForms.Effects.Droid.Resource.Id.contentPanel = global::iSalesDeskPlus.Droid.Resource.Id.contentPanel;
+			global::AiForms.Effects.Droid.Resource.Id.coordinator = global::iSalesDeskPlus.Droid.Resource.Id.coordinator;
+			global::AiForms.Effects.Droid.Resource.Id.custom = global::iSalesDeskPlus.Droid.Resource.Id.custom;
+			global::AiForms.Effects.Droid.Resource.Id.customPanel = global::iSalesDeskPlus.Droid.Resource.Id.customPanel;
+			global::AiForms.Effects.Droid.Resource.Id.decor_content_parent = global::iSalesDeskPlus.Droid.Resource.Id.decor_content_parent;
+			global::AiForms.Effects.Droid.Resource.Id.default_activity_button = global::iSalesDeskPlus.Droid.Resource.Id.default_activity_button;
+			global::AiForms.Effects.Droid.Resource.Id.design_bottom_sheet = global::iSalesDeskPlus.Droid.Resource.Id.design_bottom_sheet;
+			global::AiForms.Effects.Droid.Resource.Id.design_menu_item_action_area = global::iSalesDeskPlus.Droid.Resource.Id.design_menu_item_action_area;
+			global::AiForms.Effects.Droid.Resource.Id.design_menu_item_action_area_stub = global::iSalesDeskPlus.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::AiForms.Effects.Droid.Resource.Id.design_menu_item_text = global::iSalesDeskPlus.Droid.Resource.Id.design_menu_item_text;
+			global::AiForms.Effects.Droid.Resource.Id.design_navigation_view = global::iSalesDeskPlus.Droid.Resource.Id.design_navigation_view;
+			global::AiForms.Effects.Droid.Resource.Id.disableHome = global::iSalesDeskPlus.Droid.Resource.Id.disableHome;
+			global::AiForms.Effects.Droid.Resource.Id.edit_query = global::iSalesDeskPlus.Droid.Resource.Id.edit_query;
+			global::AiForms.Effects.Droid.Resource.Id.end = global::iSalesDeskPlus.Droid.Resource.Id.end;
+			global::AiForms.Effects.Droid.Resource.Id.end_padder = global::iSalesDeskPlus.Droid.Resource.Id.end_padder;
+			global::AiForms.Effects.Droid.Resource.Id.enterAlways = global::iSalesDeskPlus.Droid.Resource.Id.enterAlways;
+			global::AiForms.Effects.Droid.Resource.Id.enterAlwaysCollapsed = global::iSalesDeskPlus.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::AiForms.Effects.Droid.Resource.Id.exitUntilCollapsed = global::iSalesDeskPlus.Droid.Resource.Id.exitUntilCollapsed;
+			global::AiForms.Effects.Droid.Resource.Id.expand_activities_button = global::iSalesDeskPlus.Droid.Resource.Id.expand_activities_button;
+			global::AiForms.Effects.Droid.Resource.Id.expanded_menu = global::iSalesDeskPlus.Droid.Resource.Id.expanded_menu;
+			global::AiForms.Effects.Droid.Resource.Id.fill = global::iSalesDeskPlus.Droid.Resource.Id.fill;
+			global::AiForms.Effects.Droid.Resource.Id.fill_horizontal = global::iSalesDeskPlus.Droid.Resource.Id.fill_horizontal;
+			global::AiForms.Effects.Droid.Resource.Id.fill_vertical = global::iSalesDeskPlus.Droid.Resource.Id.fill_vertical;
+			global::AiForms.Effects.Droid.Resource.Id.filled = global::iSalesDeskPlus.Droid.Resource.Id.filled;
+			global::AiForms.Effects.Droid.Resource.Id.@fixed = global::iSalesDeskPlus.Droid.Resource.Id.@fixed;
+			global::AiForms.Effects.Droid.Resource.Id.flyoutcontent_appbar = global::iSalesDeskPlus.Droid.Resource.Id.flyoutcontent_appbar;
+			global::AiForms.Effects.Droid.Resource.Id.flyoutcontent_recycler = global::iSalesDeskPlus.Droid.Resource.Id.flyoutcontent_recycler;
+			global::AiForms.Effects.Droid.Resource.Id.forever = global::iSalesDeskPlus.Droid.Resource.Id.forever;
+			global::AiForms.Effects.Droid.Resource.Id.ghost_view = global::iSalesDeskPlus.Droid.Resource.Id.ghost_view;
+			global::AiForms.Effects.Droid.Resource.Id.group_divider = global::iSalesDeskPlus.Droid.Resource.Id.group_divider;
+			global::AiForms.Effects.Droid.Resource.Id.home = global::iSalesDeskPlus.Droid.Resource.Id.home;
+			global::AiForms.Effects.Droid.Resource.Id.homeAsUp = global::iSalesDeskPlus.Droid.Resource.Id.homeAsUp;
+			global::AiForms.Effects.Droid.Resource.Id.icon = global::iSalesDeskPlus.Droid.Resource.Id.icon;
+			global::AiForms.Effects.Droid.Resource.Id.icon_group = global::iSalesDeskPlus.Droid.Resource.Id.icon_group;
+			global::AiForms.Effects.Droid.Resource.Id.ifRoom = global::iSalesDeskPlus.Droid.Resource.Id.ifRoom;
+			global::AiForms.Effects.Droid.Resource.Id.image = global::iSalesDeskPlus.Droid.Resource.Id.image;
+			global::AiForms.Effects.Droid.Resource.Id.info = global::iSalesDeskPlus.Droid.Resource.Id.info;
+			global::AiForms.Effects.Droid.Resource.Id.italic = global::iSalesDeskPlus.Droid.Resource.Id.italic;
+			global::AiForms.Effects.Droid.Resource.Id.item_touch_helper_previous_elevation = global::iSalesDeskPlus.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::AiForms.Effects.Droid.Resource.Id.labeled = global::iSalesDeskPlus.Droid.Resource.Id.labeled;
+			global::AiForms.Effects.Droid.Resource.Id.largeLabel = global::iSalesDeskPlus.Droid.Resource.Id.largeLabel;
+			global::AiForms.Effects.Droid.Resource.Id.left = global::iSalesDeskPlus.Droid.Resource.Id.left;
+			global::AiForms.Effects.Droid.Resource.Id.line1 = global::iSalesDeskPlus.Droid.Resource.Id.line1;
+			global::AiForms.Effects.Droid.Resource.Id.line3 = global::iSalesDeskPlus.Droid.Resource.Id.line3;
+			global::AiForms.Effects.Droid.Resource.Id.listMode = global::iSalesDeskPlus.Droid.Resource.Id.listMode;
+			global::AiForms.Effects.Droid.Resource.Id.list_item = global::iSalesDeskPlus.Droid.Resource.Id.list_item;
+			global::AiForms.Effects.Droid.Resource.Id.main_appbar = global::iSalesDeskPlus.Droid.Resource.Id.main_appbar;
+			global::AiForms.Effects.Droid.Resource.Id.main_scrollview = global::iSalesDeskPlus.Droid.Resource.Id.main_scrollview;
+			global::AiForms.Effects.Droid.Resource.Id.main_tablayout = global::iSalesDeskPlus.Droid.Resource.Id.main_tablayout;
+			global::AiForms.Effects.Droid.Resource.Id.main_toolbar = global::iSalesDeskPlus.Droid.Resource.Id.main_toolbar;
+			global::AiForms.Effects.Droid.Resource.Id.masked = global::iSalesDeskPlus.Droid.Resource.Id.masked;
+			global::AiForms.Effects.Droid.Resource.Id.media_actions = global::iSalesDeskPlus.Droid.Resource.Id.media_actions;
+			global::AiForms.Effects.Droid.Resource.Id.message = global::iSalesDeskPlus.Droid.Resource.Id.message;
+			global::AiForms.Effects.Droid.Resource.Id.middle = global::iSalesDeskPlus.Droid.Resource.Id.middle;
+			global::AiForms.Effects.Droid.Resource.Id.mini = global::iSalesDeskPlus.Droid.Resource.Id.mini;
+			global::AiForms.Effects.Droid.Resource.Id.mr_art = global::iSalesDeskPlus.Droid.Resource.Id.mr_art;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_checkbox = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_checkbox;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_close_button = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_close_button;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_group_icon = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_group_icon;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_group_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_group_name;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_list = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_list;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_meta = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_meta;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_meta_art = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_meta_art;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_meta_subtitle = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_meta_subtitle;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_meta_title = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_meta_title;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_route_icon = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_route_icon;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_route_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_route_name;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_stop_button = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_stop_button;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_volume_layout = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_volume_layout;
+			global::AiForms.Effects.Droid.Resource.Id.mr_cast_volume_slider = global::iSalesDeskPlus.Droid.Resource.Id.mr_cast_volume_slider;
+			global::AiForms.Effects.Droid.Resource.Id.mr_chooser_list = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_list;
+			global::AiForms.Effects.Droid.Resource.Id.mr_chooser_route_desc = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_route_desc;
+			global::AiForms.Effects.Droid.Resource.Id.mr_chooser_route_icon = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_route_icon;
+			global::AiForms.Effects.Droid.Resource.Id.mr_chooser_route_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_route_name;
+			global::AiForms.Effects.Droid.Resource.Id.mr_chooser_title = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_title;
+			global::AiForms.Effects.Droid.Resource.Id.mr_close = global::iSalesDeskPlus.Droid.Resource.Id.mr_close;
+			global::AiForms.Effects.Droid.Resource.Id.mr_control_divider = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_divider;
+			global::AiForms.Effects.Droid.Resource.Id.mr_control_playback_ctrl = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::AiForms.Effects.Droid.Resource.Id.mr_control_subtitle = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_subtitle;
+			global::AiForms.Effects.Droid.Resource.Id.mr_control_title = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_title;
+			global::AiForms.Effects.Droid.Resource.Id.mr_control_title_container = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_title_container;
+			global::AiForms.Effects.Droid.Resource.Id.mr_custom_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_custom_control;
+			global::AiForms.Effects.Droid.Resource.Id.mr_default_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_default_control;
+			global::AiForms.Effects.Droid.Resource.Id.mr_dialog_area = global::iSalesDeskPlus.Droid.Resource.Id.mr_dialog_area;
+			global::AiForms.Effects.Droid.Resource.Id.mr_dialog_header_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_dialog_header_name;
+			global::AiForms.Effects.Droid.Resource.Id.mr_expandable_area = global::iSalesDeskPlus.Droid.Resource.Id.mr_expandable_area;
+			global::AiForms.Effects.Droid.Resource.Id.mr_group_expand_collapse = global::iSalesDeskPlus.Droid.Resource.Id.mr_group_expand_collapse;
+			global::AiForms.Effects.Droid.Resource.Id.mr_group_volume_route_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_group_volume_route_name;
+			global::AiForms.Effects.Droid.Resource.Id.mr_group_volume_slider = global::iSalesDeskPlus.Droid.Resource.Id.mr_group_volume_slider;
+			global::AiForms.Effects.Droid.Resource.Id.mr_media_main_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_media_main_control;
+			global::AiForms.Effects.Droid.Resource.Id.mr_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_name;
+			global::AiForms.Effects.Droid.Resource.Id.mr_picker_close_button = global::iSalesDeskPlus.Droid.Resource.Id.mr_picker_close_button;
+			global::AiForms.Effects.Droid.Resource.Id.mr_picker_list = global::iSalesDeskPlus.Droid.Resource.Id.mr_picker_list;
+			global::AiForms.Effects.Droid.Resource.Id.mr_picker_route_icon = global::iSalesDeskPlus.Droid.Resource.Id.mr_picker_route_icon;
+			global::AiForms.Effects.Droid.Resource.Id.mr_picker_route_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_picker_route_name;
+			global::AiForms.Effects.Droid.Resource.Id.mr_playback_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_playback_control;
+			global::AiForms.Effects.Droid.Resource.Id.mr_title_bar = global::iSalesDeskPlus.Droid.Resource.Id.mr_title_bar;
+			global::AiForms.Effects.Droid.Resource.Id.mr_volume_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_volume_control;
+			global::AiForms.Effects.Droid.Resource.Id.mr_volume_group_list = global::iSalesDeskPlus.Droid.Resource.Id.mr_volume_group_list;
+			global::AiForms.Effects.Droid.Resource.Id.mr_volume_item_icon = global::iSalesDeskPlus.Droid.Resource.Id.mr_volume_item_icon;
+			global::AiForms.Effects.Droid.Resource.Id.mr_volume_slider = global::iSalesDeskPlus.Droid.Resource.Id.mr_volume_slider;
+			global::AiForms.Effects.Droid.Resource.Id.mtrl_child_content_container = global::iSalesDeskPlus.Droid.Resource.Id.mtrl_child_content_container;
+			global::AiForms.Effects.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::iSalesDeskPlus.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::AiForms.Effects.Droid.Resource.Id.multiply = global::iSalesDeskPlus.Droid.Resource.Id.multiply;
+			global::AiForms.Effects.Droid.Resource.Id.navigation_header_container = global::iSalesDeskPlus.Droid.Resource.Id.navigation_header_container;
+			global::AiForms.Effects.Droid.Resource.Id.never = global::iSalesDeskPlus.Droid.Resource.Id.never;
+			global::AiForms.Effects.Droid.Resource.Id.none = global::iSalesDeskPlus.Droid.Resource.Id.none;
+			global::AiForms.Effects.Droid.Resource.Id.normal = global::iSalesDeskPlus.Droid.Resource.Id.normal;
+			global::AiForms.Effects.Droid.Resource.Id.notification_background = global::iSalesDeskPlus.Droid.Resource.Id.notification_background;
+			global::AiForms.Effects.Droid.Resource.Id.notification_main_column = global::iSalesDeskPlus.Droid.Resource.Id.notification_main_column;
+			global::AiForms.Effects.Droid.Resource.Id.notification_main_column_container = global::iSalesDeskPlus.Droid.Resource.Id.notification_main_column_container;
+			global::AiForms.Effects.Droid.Resource.Id.outline = global::iSalesDeskPlus.Droid.Resource.Id.outline;
+			global::AiForms.Effects.Droid.Resource.Id.parallax = global::iSalesDeskPlus.Droid.Resource.Id.parallax;
+			global::AiForms.Effects.Droid.Resource.Id.parentPanel = global::iSalesDeskPlus.Droid.Resource.Id.parentPanel;
+			global::AiForms.Effects.Droid.Resource.Id.parent_matrix = global::iSalesDeskPlus.Droid.Resource.Id.parent_matrix;
+			global::AiForms.Effects.Droid.Resource.Id.pin = global::iSalesDeskPlus.Droid.Resource.Id.pin;
+			global::AiForms.Effects.Droid.Resource.Id.progress_circular = global::iSalesDeskPlus.Droid.Resource.Id.progress_circular;
+			global::AiForms.Effects.Droid.Resource.Id.progress_horizontal = global::iSalesDeskPlus.Droid.Resource.Id.progress_horizontal;
+			global::AiForms.Effects.Droid.Resource.Id.radio = global::iSalesDeskPlus.Droid.Resource.Id.radio;
+			global::AiForms.Effects.Droid.Resource.Id.right = global::iSalesDeskPlus.Droid.Resource.Id.right;
+			global::AiForms.Effects.Droid.Resource.Id.right_icon = global::iSalesDeskPlus.Droid.Resource.Id.right_icon;
+			global::AiForms.Effects.Droid.Resource.Id.right_side = global::iSalesDeskPlus.Droid.Resource.Id.right_side;
+			global::AiForms.Effects.Droid.Resource.Id.save_image_matrix = global::iSalesDeskPlus.Droid.Resource.Id.save_image_matrix;
+			global::AiForms.Effects.Droid.Resource.Id.save_non_transition_alpha = global::iSalesDeskPlus.Droid.Resource.Id.save_non_transition_alpha;
+			global::AiForms.Effects.Droid.Resource.Id.save_scale_type = global::iSalesDeskPlus.Droid.Resource.Id.save_scale_type;
+			global::AiForms.Effects.Droid.Resource.Id.screen = global::iSalesDeskPlus.Droid.Resource.Id.screen;
+			global::AiForms.Effects.Droid.Resource.Id.scroll = global::iSalesDeskPlus.Droid.Resource.Id.scroll;
+			global::AiForms.Effects.Droid.Resource.Id.scrollIndicatorDown = global::iSalesDeskPlus.Droid.Resource.Id.scrollIndicatorDown;
+			global::AiForms.Effects.Droid.Resource.Id.scrollIndicatorUp = global::iSalesDeskPlus.Droid.Resource.Id.scrollIndicatorUp;
+			global::AiForms.Effects.Droid.Resource.Id.scrollView = global::iSalesDeskPlus.Droid.Resource.Id.scrollView;
+			global::AiForms.Effects.Droid.Resource.Id.scrollable = global::iSalesDeskPlus.Droid.Resource.Id.scrollable;
+			global::AiForms.Effects.Droid.Resource.Id.search_badge = global::iSalesDeskPlus.Droid.Resource.Id.search_badge;
+			global::AiForms.Effects.Droid.Resource.Id.search_bar = global::iSalesDeskPlus.Droid.Resource.Id.search_bar;
+			global::AiForms.Effects.Droid.Resource.Id.search_button = global::iSalesDeskPlus.Droid.Resource.Id.search_button;
+			global::AiForms.Effects.Droid.Resource.Id.search_close_btn = global::iSalesDeskPlus.Droid.Resource.Id.search_close_btn;
+			global::AiForms.Effects.Droid.Resource.Id.search_edit_frame = global::iSalesDeskPlus.Droid.Resource.Id.search_edit_frame;
+			global::AiForms.Effects.Droid.Resource.Id.search_go_btn = global::iSalesDeskPlus.Droid.Resource.Id.search_go_btn;
+			global::AiForms.Effects.Droid.Resource.Id.search_mag_icon = global::iSalesDeskPlus.Droid.Resource.Id.search_mag_icon;
+			global::AiForms.Effects.Droid.Resource.Id.search_plate = global::iSalesDeskPlus.Droid.Resource.Id.search_plate;
+			global::AiForms.Effects.Droid.Resource.Id.search_src_text = global::iSalesDeskPlus.Droid.Resource.Id.search_src_text;
+			global::AiForms.Effects.Droid.Resource.Id.search_voice_btn = global::iSalesDeskPlus.Droid.Resource.Id.search_voice_btn;
+			global::AiForms.Effects.Droid.Resource.Id.select_dialog_listview = global::iSalesDeskPlus.Droid.Resource.Id.select_dialog_listview;
+			global::AiForms.Effects.Droid.Resource.Id.selected = global::iSalesDeskPlus.Droid.Resource.Id.selected;
+			global::AiForms.Effects.Droid.Resource.Id.shellcontent_appbar = global::iSalesDeskPlus.Droid.Resource.Id.shellcontent_appbar;
+			global::AiForms.Effects.Droid.Resource.Id.shellcontent_scrollview = global::iSalesDeskPlus.Droid.Resource.Id.shellcontent_scrollview;
+			global::AiForms.Effects.Droid.Resource.Id.shellcontent_toolbar = global::iSalesDeskPlus.Droid.Resource.Id.shellcontent_toolbar;
+			global::AiForms.Effects.Droid.Resource.Id.shortcut = global::iSalesDeskPlus.Droid.Resource.Id.shortcut;
+			global::AiForms.Effects.Droid.Resource.Id.showCustom = global::iSalesDeskPlus.Droid.Resource.Id.showCustom;
+			global::AiForms.Effects.Droid.Resource.Id.showHome = global::iSalesDeskPlus.Droid.Resource.Id.showHome;
+			global::AiForms.Effects.Droid.Resource.Id.showTitle = global::iSalesDeskPlus.Droid.Resource.Id.showTitle;
+			global::AiForms.Effects.Droid.Resource.Id.smallLabel = global::iSalesDeskPlus.Droid.Resource.Id.smallLabel;
+			global::AiForms.Effects.Droid.Resource.Id.snackbar_action = global::iSalesDeskPlus.Droid.Resource.Id.snackbar_action;
+			global::AiForms.Effects.Droid.Resource.Id.snackbar_text = global::iSalesDeskPlus.Droid.Resource.Id.snackbar_text;
+			global::AiForms.Effects.Droid.Resource.Id.snap = global::iSalesDeskPlus.Droid.Resource.Id.snap;
+			global::AiForms.Effects.Droid.Resource.Id.snapMargins = global::iSalesDeskPlus.Droid.Resource.Id.snapMargins;
+			global::AiForms.Effects.Droid.Resource.Id.spacer = global::iSalesDeskPlus.Droid.Resource.Id.spacer;
+			global::AiForms.Effects.Droid.Resource.Id.split_action_bar = global::iSalesDeskPlus.Droid.Resource.Id.split_action_bar;
+			global::AiForms.Effects.Droid.Resource.Id.src_atop = global::iSalesDeskPlus.Droid.Resource.Id.src_atop;
+			global::AiForms.Effects.Droid.Resource.Id.src_in = global::iSalesDeskPlus.Droid.Resource.Id.src_in;
+			global::AiForms.Effects.Droid.Resource.Id.src_over = global::iSalesDeskPlus.Droid.Resource.Id.src_over;
+			global::AiForms.Effects.Droid.Resource.Id.start = global::iSalesDeskPlus.Droid.Resource.Id.start;
+			global::AiForms.Effects.Droid.Resource.Id.status_bar_latest_event_content = global::iSalesDeskPlus.Droid.Resource.Id.status_bar_latest_event_content;
+			global::AiForms.Effects.Droid.Resource.Id.stretch = global::iSalesDeskPlus.Droid.Resource.Id.stretch;
+			global::AiForms.Effects.Droid.Resource.Id.submenuarrow = global::iSalesDeskPlus.Droid.Resource.Id.submenuarrow;
+			global::AiForms.Effects.Droid.Resource.Id.submit_area = global::iSalesDeskPlus.Droid.Resource.Id.submit_area;
+			global::AiForms.Effects.Droid.Resource.Id.tabMode = global::iSalesDeskPlus.Droid.Resource.Id.tabMode;
+			global::AiForms.Effects.Droid.Resource.Id.tag_transition_group = global::iSalesDeskPlus.Droid.Resource.Id.tag_transition_group;
+			global::AiForms.Effects.Droid.Resource.Id.tag_unhandled_key_event_manager = global::iSalesDeskPlus.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::AiForms.Effects.Droid.Resource.Id.tag_unhandled_key_listeners = global::iSalesDeskPlus.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::AiForms.Effects.Droid.Resource.Id.text = global::iSalesDeskPlus.Droid.Resource.Id.text;
+			global::AiForms.Effects.Droid.Resource.Id.text2 = global::iSalesDeskPlus.Droid.Resource.Id.text2;
+			global::AiForms.Effects.Droid.Resource.Id.textSpacerNoButtons = global::iSalesDeskPlus.Droid.Resource.Id.textSpacerNoButtons;
+			global::AiForms.Effects.Droid.Resource.Id.textSpacerNoTitle = global::iSalesDeskPlus.Droid.Resource.Id.textSpacerNoTitle;
+			global::AiForms.Effects.Droid.Resource.Id.textStart = global::iSalesDeskPlus.Droid.Resource.Id.textStart;
+			global::AiForms.Effects.Droid.Resource.Id.text_input_password_toggle = global::iSalesDeskPlus.Droid.Resource.Id.text_input_password_toggle;
+			global::AiForms.Effects.Droid.Resource.Id.textinput_counter = global::iSalesDeskPlus.Droid.Resource.Id.textinput_counter;
+			global::AiForms.Effects.Droid.Resource.Id.textinput_error = global::iSalesDeskPlus.Droid.Resource.Id.textinput_error;
+			global::AiForms.Effects.Droid.Resource.Id.textinput_helper_text = global::iSalesDeskPlus.Droid.Resource.Id.textinput_helper_text;
+			global::AiForms.Effects.Droid.Resource.Id.time = global::iSalesDeskPlus.Droid.Resource.Id.time;
+			global::AiForms.Effects.Droid.Resource.Id.title = global::iSalesDeskPlus.Droid.Resource.Id.title;
+			global::AiForms.Effects.Droid.Resource.Id.titleDividerNoCustom = global::iSalesDeskPlus.Droid.Resource.Id.titleDividerNoCustom;
+			global::AiForms.Effects.Droid.Resource.Id.title_template = global::iSalesDeskPlus.Droid.Resource.Id.title_template;
+			global::AiForms.Effects.Droid.Resource.Id.top = global::iSalesDeskPlus.Droid.Resource.Id.top;
+			global::AiForms.Effects.Droid.Resource.Id.topPanel = global::iSalesDeskPlus.Droid.Resource.Id.topPanel;
+			global::AiForms.Effects.Droid.Resource.Id.touch_outside = global::iSalesDeskPlus.Droid.Resource.Id.touch_outside;
+			global::AiForms.Effects.Droid.Resource.Id.transition_current_scene = global::iSalesDeskPlus.Droid.Resource.Id.transition_current_scene;
+			global::AiForms.Effects.Droid.Resource.Id.transition_layout_save = global::iSalesDeskPlus.Droid.Resource.Id.transition_layout_save;
+			global::AiForms.Effects.Droid.Resource.Id.transition_position = global::iSalesDeskPlus.Droid.Resource.Id.transition_position;
+			global::AiForms.Effects.Droid.Resource.Id.transition_scene_layoutid_cache = global::iSalesDeskPlus.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::AiForms.Effects.Droid.Resource.Id.transition_transform = global::iSalesDeskPlus.Droid.Resource.Id.transition_transform;
+			global::AiForms.Effects.Droid.Resource.Id.uniform = global::iSalesDeskPlus.Droid.Resource.Id.uniform;
+			global::AiForms.Effects.Droid.Resource.Id.unlabeled = global::iSalesDeskPlus.Droid.Resource.Id.unlabeled;
+			global::AiForms.Effects.Droid.Resource.Id.up = global::iSalesDeskPlus.Droid.Resource.Id.up;
+			global::AiForms.Effects.Droid.Resource.Id.useLogo = global::iSalesDeskPlus.Droid.Resource.Id.useLogo;
+			global::AiForms.Effects.Droid.Resource.Id.view_offset_helper = global::iSalesDeskPlus.Droid.Resource.Id.view_offset_helper;
+			global::AiForms.Effects.Droid.Resource.Id.visible = global::iSalesDeskPlus.Droid.Resource.Id.visible;
+			global::AiForms.Effects.Droid.Resource.Id.volume_item_container = global::iSalesDeskPlus.Droid.Resource.Id.volume_item_container;
+			global::AiForms.Effects.Droid.Resource.Id.withText = global::iSalesDeskPlus.Droid.Resource.Id.withText;
+			global::AiForms.Effects.Droid.Resource.Id.wrap_content = global::iSalesDeskPlus.Droid.Resource.Id.wrap_content;
+			global::AiForms.Effects.Droid.Resource.Integer.abc_config_activityDefaultDur = global::iSalesDeskPlus.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::AiForms.Effects.Droid.Resource.Integer.abc_config_activityShortDur = global::iSalesDeskPlus.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::AiForms.Effects.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::iSalesDeskPlus.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::AiForms.Effects.Droid.Resource.Integer.bottom_sheet_slide_duration = global::iSalesDeskPlus.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::AiForms.Effects.Droid.Resource.Integer.cancel_button_image_alpha = global::iSalesDeskPlus.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::AiForms.Effects.Droid.Resource.Integer.config_tooltipAnimTime = global::iSalesDeskPlus.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::AiForms.Effects.Droid.Resource.Integer.design_snackbar_text_max_lines = global::iSalesDeskPlus.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::AiForms.Effects.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::AiForms.Effects.Droid.Resource.Integer.hide_password_duration = global::iSalesDeskPlus.Droid.Resource.Integer.hide_password_duration;
+			global::AiForms.Effects.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::AiForms.Effects.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::AiForms.Effects.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::AiForms.Effects.Droid.Resource.Integer.mr_update_routes_delay_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mr_update_routes_delay_ms;
+			global::AiForms.Effects.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::AiForms.Effects.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::AiForms.Effects.Droid.Resource.Integer.mtrl_chip_anim_duration = global::iSalesDeskPlus.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::AiForms.Effects.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::AiForms.Effects.Droid.Resource.Integer.show_password_duration = global::iSalesDeskPlus.Droid.Resource.Integer.show_password_duration;
+			global::AiForms.Effects.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::iSalesDeskPlus.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::AiForms.Effects.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::iSalesDeskPlus.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::AiForms.Effects.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::iSalesDeskPlus.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::AiForms.Effects.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::iSalesDeskPlus.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::AiForms.Effects.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::iSalesDeskPlus.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::AiForms.Effects.Droid.Resource.Interpolator.mtrl_linear = global::iSalesDeskPlus.Droid.Resource.Interpolator.mtrl_linear;
+			global::AiForms.Effects.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::iSalesDeskPlus.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_action_bar_title_item = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_action_bar_up_container = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_action_menu_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_action_menu_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_menu_layout;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_action_mode_bar = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_mode_bar;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_action_mode_close_item_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_activity_chooser_view = global::iSalesDeskPlus.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::iSalesDeskPlus.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_alert_dialog_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_alert_dialog_title_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_dialog_title_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_dialog_title_material;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_expanded_menu_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::iSalesDeskPlus.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_list_menu_item_icon = global::iSalesDeskPlus.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_list_menu_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_list_menu_item_radio = global::iSalesDeskPlus.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_popup_menu_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_screen_content_include = global::iSalesDeskPlus.Droid.Resource.Layout.abc_screen_content_include;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_screen_simple = global::iSalesDeskPlus.Droid.Resource.Layout.abc_screen_simple;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::iSalesDeskPlus.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_screen_toolbar = global::iSalesDeskPlus.Droid.Resource.Layout.abc_screen_toolbar;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::iSalesDeskPlus.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_search_view = global::iSalesDeskPlus.Droid.Resource.Layout.abc_search_view;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_select_dialog_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_select_dialog_material;
+			global::AiForms.Effects.Droid.Resource.Layout.abc_tooltip = global::iSalesDeskPlus.Droid.Resource.Layout.abc_tooltip;
+			global::AiForms.Effects.Droid.Resource.Layout.BottomTabLayout = global::iSalesDeskPlus.Droid.Resource.Layout.BottomTabLayout;
+			global::AiForms.Effects.Droid.Resource.Layout.browser_actions_context_menu_page = global::iSalesDeskPlus.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::AiForms.Effects.Droid.Resource.Layout.browser_actions_context_menu_row = global::iSalesDeskPlus.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::AiForms.Effects.Droid.Resource.Layout.design_bottom_navigation_item = global::iSalesDeskPlus.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::AiForms.Effects.Droid.Resource.Layout.design_bottom_sheet_dialog = global::iSalesDeskPlus.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::AiForms.Effects.Droid.Resource.Layout.design_layout_snackbar = global::iSalesDeskPlus.Droid.Resource.Layout.design_layout_snackbar;
+			global::AiForms.Effects.Droid.Resource.Layout.design_layout_snackbar_include = global::iSalesDeskPlus.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::AiForms.Effects.Droid.Resource.Layout.design_layout_tab_icon = global::iSalesDeskPlus.Droid.Resource.Layout.design_layout_tab_icon;
+			global::AiForms.Effects.Droid.Resource.Layout.design_layout_tab_text = global::iSalesDeskPlus.Droid.Resource.Layout.design_layout_tab_text;
+			global::AiForms.Effects.Droid.Resource.Layout.design_menu_item_action_area = global::iSalesDeskPlus.Droid.Resource.Layout.design_menu_item_action_area;
+			global::AiForms.Effects.Droid.Resource.Layout.design_navigation_item = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_item;
+			global::AiForms.Effects.Droid.Resource.Layout.design_navigation_item_header = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_item_header;
+			global::AiForms.Effects.Droid.Resource.Layout.design_navigation_item_separator = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_item_separator;
+			global::AiForms.Effects.Droid.Resource.Layout.design_navigation_item_subheader = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::AiForms.Effects.Droid.Resource.Layout.design_navigation_menu = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_menu;
+			global::AiForms.Effects.Droid.Resource.Layout.design_navigation_menu_item = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_menu_item;
+			global::AiForms.Effects.Droid.Resource.Layout.design_text_input_password_icon = global::iSalesDeskPlus.Droid.Resource.Layout.design_text_input_password_icon;
+			global::AiForms.Effects.Droid.Resource.Layout.FlyoutContent = global::iSalesDeskPlus.Droid.Resource.Layout.FlyoutContent;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_cast_dialog = global::iSalesDeskPlus.Droid.Resource.Layout.mr_cast_dialog;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_cast_group_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_cast_group_item;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_cast_group_volume_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_cast_group_volume_item;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_cast_media_metadata = global::iSalesDeskPlus.Droid.Resource.Layout.mr_cast_media_metadata;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_cast_route_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_cast_route_item;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_chooser_dialog = global::iSalesDeskPlus.Droid.Resource.Layout.mr_chooser_dialog;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_chooser_list_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_chooser_list_item;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_controller_material_dialog_b = global::iSalesDeskPlus.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_controller_volume_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_controller_volume_item;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_dialog_header_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_dialog_header_item;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_picker_dialog = global::iSalesDeskPlus.Droid.Resource.Layout.mr_picker_dialog;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_picker_route_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_picker_route_item;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_playback_control = global::iSalesDeskPlus.Droid.Resource.Layout.mr_playback_control;
+			global::AiForms.Effects.Droid.Resource.Layout.mr_volume_control = global::iSalesDeskPlus.Droid.Resource.Layout.mr_volume_control;
+			global::AiForms.Effects.Droid.Resource.Layout.mtrl_layout_snackbar = global::iSalesDeskPlus.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::AiForms.Effects.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::iSalesDeskPlus.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_action = global::iSalesDeskPlus.Droid.Resource.Layout.notification_action;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_action_tombstone = global::iSalesDeskPlus.Droid.Resource.Layout.notification_action_tombstone;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_media_action = global::iSalesDeskPlus.Droid.Resource.Layout.notification_media_action;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_media_cancel_action = global::iSalesDeskPlus.Droid.Resource.Layout.notification_media_cancel_action;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_big_media = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_big_media;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_big_media_custom = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_big_media_narrow = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_custom_big = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_custom_big;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_icon_group = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_icon_group;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_lines_media = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_lines_media;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_media = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_media;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_media_custom = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_media_custom;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_part_chronometer = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::AiForms.Effects.Droid.Resource.Layout.notification_template_part_time = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_part_time;
+			global::AiForms.Effects.Droid.Resource.Layout.RootLayout = global::iSalesDeskPlus.Droid.Resource.Layout.RootLayout;
+			global::AiForms.Effects.Droid.Resource.Layout.select_dialog_item_material = global::iSalesDeskPlus.Droid.Resource.Layout.select_dialog_item_material;
+			global::AiForms.Effects.Droid.Resource.Layout.select_dialog_multichoice_material = global::iSalesDeskPlus.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::AiForms.Effects.Droid.Resource.Layout.select_dialog_singlechoice_material = global::iSalesDeskPlus.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::AiForms.Effects.Droid.Resource.Layout.ShellContent = global::iSalesDeskPlus.Droid.Resource.Layout.ShellContent;
+			global::AiForms.Effects.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::iSalesDeskPlus.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::AiForms.Effects.Droid.Resource.String.abc_action_bar_home_description = global::iSalesDeskPlus.Droid.Resource.String.abc_action_bar_home_description;
+			global::AiForms.Effects.Droid.Resource.String.abc_action_bar_up_description = global::iSalesDeskPlus.Droid.Resource.String.abc_action_bar_up_description;
+			global::AiForms.Effects.Droid.Resource.String.abc_action_menu_overflow_description = global::iSalesDeskPlus.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::AiForms.Effects.Droid.Resource.String.abc_action_mode_done = global::iSalesDeskPlus.Droid.Resource.String.abc_action_mode_done;
+			global::AiForms.Effects.Droid.Resource.String.abc_activity_chooser_view_see_all = global::iSalesDeskPlus.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::AiForms.Effects.Droid.Resource.String.abc_activitychooserview_choose_application = global::iSalesDeskPlus.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::AiForms.Effects.Droid.Resource.String.abc_capital_off = global::iSalesDeskPlus.Droid.Resource.String.abc_capital_off;
+			global::AiForms.Effects.Droid.Resource.String.abc_capital_on = global::iSalesDeskPlus.Droid.Resource.String.abc_capital_on;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_body_1_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_body_1_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_body_2_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_body_2_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_button_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_button_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_caption_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_caption_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_display_1_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_display_1_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_display_2_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_display_2_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_display_3_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_display_3_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_display_4_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_display_4_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_headline_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_headline_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_menu_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_menu_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_subhead_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_subhead_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_font_family_title_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_title_material;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_alt_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_delete_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_enter_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_function_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_meta_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_shift_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_space_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_menu_sym_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_prepend_shortcut_label = global::iSalesDeskPlus.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::AiForms.Effects.Droid.Resource.String.abc_search_hint = global::iSalesDeskPlus.Droid.Resource.String.abc_search_hint;
+			global::AiForms.Effects.Droid.Resource.String.abc_searchview_description_clear = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_clear;
+			global::AiForms.Effects.Droid.Resource.String.abc_searchview_description_query = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_query;
+			global::AiForms.Effects.Droid.Resource.String.abc_searchview_description_search = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_search;
+			global::AiForms.Effects.Droid.Resource.String.abc_searchview_description_submit = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_submit;
+			global::AiForms.Effects.Droid.Resource.String.abc_searchview_description_voice = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_voice;
+			global::AiForms.Effects.Droid.Resource.String.abc_shareactionprovider_share_with = global::iSalesDeskPlus.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::AiForms.Effects.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::iSalesDeskPlus.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::AiForms.Effects.Droid.Resource.String.abc_toolbar_collapse_description = global::iSalesDeskPlus.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::AiForms.Effects.Droid.Resource.String.appbar_scrolling_view_behavior = global::iSalesDeskPlus.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::AiForms.Effects.Droid.Resource.String.bottom_sheet_behavior = global::iSalesDeskPlus.Droid.Resource.String.bottom_sheet_behavior;
+			global::AiForms.Effects.Droid.Resource.String.character_counter_content_description = global::iSalesDeskPlus.Droid.Resource.String.character_counter_content_description;
+			global::AiForms.Effects.Droid.Resource.String.character_counter_pattern = global::iSalesDeskPlus.Droid.Resource.String.character_counter_pattern;
+			global::AiForms.Effects.Droid.Resource.String.fab_transformation_scrim_behavior = global::iSalesDeskPlus.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::AiForms.Effects.Droid.Resource.String.fab_transformation_sheet_behavior = global::iSalesDeskPlus.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::AiForms.Effects.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::iSalesDeskPlus.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::AiForms.Effects.Droid.Resource.String.library_name = global::iSalesDeskPlus.Droid.Resource.String.library_name;
+			global::AiForms.Effects.Droid.Resource.String.mr_button_content_description = global::iSalesDeskPlus.Droid.Resource.String.mr_button_content_description;
+			global::AiForms.Effects.Droid.Resource.String.mr_cast_button_connected = global::iSalesDeskPlus.Droid.Resource.String.mr_cast_button_connected;
+			global::AiForms.Effects.Droid.Resource.String.mr_cast_button_connecting = global::iSalesDeskPlus.Droid.Resource.String.mr_cast_button_connecting;
+			global::AiForms.Effects.Droid.Resource.String.mr_cast_button_disconnected = global::iSalesDeskPlus.Droid.Resource.String.mr_cast_button_disconnected;
+			global::AiForms.Effects.Droid.Resource.String.mr_cast_dialog_title_view_placeholder = global::iSalesDeskPlus.Droid.Resource.String.mr_cast_dialog_title_view_placeholder;
+			global::AiForms.Effects.Droid.Resource.String.mr_chooser_searching = global::iSalesDeskPlus.Droid.Resource.String.mr_chooser_searching;
+			global::AiForms.Effects.Droid.Resource.String.mr_chooser_title = global::iSalesDeskPlus.Droid.Resource.String.mr_chooser_title;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_album_art = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_album_art;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_casting_screen = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_casting_screen;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_close_description = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_close_description;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_collapse_group = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_collapse_group;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_disconnect = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_disconnect;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_expand_group = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_expand_group;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_no_info_available = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_no_info_available;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_no_media_selected = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_no_media_selected;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_pause = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_pause;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_play = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_play;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_stop = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_stop;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_stop_casting = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_stop_casting;
+			global::AiForms.Effects.Droid.Resource.String.mr_controller_volume_slider = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_volume_slider;
+			global::AiForms.Effects.Droid.Resource.String.mr_dialog_device_header = global::iSalesDeskPlus.Droid.Resource.String.mr_dialog_device_header;
+			global::AiForms.Effects.Droid.Resource.String.mr_dialog_route_header = global::iSalesDeskPlus.Droid.Resource.String.mr_dialog_route_header;
+			global::AiForms.Effects.Droid.Resource.String.mr_system_route_name = global::iSalesDeskPlus.Droid.Resource.String.mr_system_route_name;
+			global::AiForms.Effects.Droid.Resource.String.mr_user_route_category_name = global::iSalesDeskPlus.Droid.Resource.String.mr_user_route_category_name;
+			global::AiForms.Effects.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::iSalesDeskPlus.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::AiForms.Effects.Droid.Resource.String.password_toggle_content_description = global::iSalesDeskPlus.Droid.Resource.String.password_toggle_content_description;
+			global::AiForms.Effects.Droid.Resource.String.path_password_eye = global::iSalesDeskPlus.Droid.Resource.String.path_password_eye;
+			global::AiForms.Effects.Droid.Resource.String.path_password_eye_mask_strike_through = global::iSalesDeskPlus.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::AiForms.Effects.Droid.Resource.String.path_password_eye_mask_visible = global::iSalesDeskPlus.Droid.Resource.String.path_password_eye_mask_visible;
+			global::AiForms.Effects.Droid.Resource.String.path_password_strike_through = global::iSalesDeskPlus.Droid.Resource.String.path_password_strike_through;
+			global::AiForms.Effects.Droid.Resource.String.search_menu_title = global::iSalesDeskPlus.Droid.Resource.String.search_menu_title;
+			global::AiForms.Effects.Droid.Resource.String.status_bar_notification_info_overflow = global::iSalesDeskPlus.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::AiForms.Effects.Droid.Resource.Style.AlertDialog_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Animation_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::iSalesDeskPlus.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::AiForms.Effects.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::iSalesDeskPlus.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::AiForms.Effects.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::iSalesDeskPlus.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::iSalesDeskPlus.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::iSalesDeskPlus.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::AiForms.Effects.Droid.Resource.Style.Base_CardView = global::iSalesDeskPlus.Droid.Resource.Style.Base_CardView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::iSalesDeskPlus.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::AiForms.Effects.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::AiForms.Effects.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::AiForms.Effects.Droid.Resource.Style.CardView = global::iSalesDeskPlus.Droid.Resource.Style.CardView;
+			global::AiForms.Effects.Droid.Resource.Style.CardView_Dark = global::iSalesDeskPlus.Droid.Resource.Style.CardView_Dark;
+			global::AiForms.Effects.Droid.Resource.Style.CardView_Light = global::iSalesDeskPlus.Droid.Resource.Style.CardView_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Platform_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_MaterialComponents = global::iSalesDeskPlus.Droid.Resource.Style.Platform_MaterialComponents;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_MaterialComponents_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::iSalesDeskPlus.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_V21_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_V25_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::AiForms.Effects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::AiForms.Effects.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::iSalesDeskPlus.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::AiForms.Effects.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Design_Counter = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Design_Error = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Design_HelperText = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Design_Hint = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Design_Tab = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::AiForms.Effects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_DayNight = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_Design = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_Design_Light = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_Design_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MediaRouter = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MediaRouter;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MediaRouter_Light = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::AiForms.Effects.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::AiForms.Effects.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Button = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_EditText = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ListView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_SearchView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_AppBarLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_NavigationView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_Snackbar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_TabLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Design_TextInputLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::AiForms.Effects.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_background = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_background;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_displayOptions = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_divider = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_divider;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_elevation;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_height = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_height;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_homeLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_icon = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_icon;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_itemPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_logo = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_logo;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_navigationMode = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_popupTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_subtitle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_title = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_title;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBarLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMenuItemView = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMenuItemView;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMenuView = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMenuView;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMode = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMode_background = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_background;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMode_height = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_height;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActivityChooserView = global::iSalesDeskPlus.Droid.Resource.Styleable.ActivityChooserView;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::iSalesDeskPlus.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog_android_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog_listLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog_showTitle = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::AiForms.Effects.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::iSalesDeskPlus.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_android_background = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_expanded = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayoutStates = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatImageView = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatImageView_android_src = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatImageView_tint = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatSeekBar = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextHelper = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorError = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::AiForms.Effects.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomAppBar = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomAppBar;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomNavigationView_menu = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::AiForms.Effects.Droid.Resource.Styleable.ButtonBarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ButtonBarLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::iSalesDeskPlus.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_android_minHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_android_minWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_cardCornerRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_cardElevation = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardElevation;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_cardMaxElevation = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_contentPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_contentPaddingRight = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::AiForms.Effects.Droid.Resource.Styleable.CardView_contentPaddingTop = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_android_checkable = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_android_checkable;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_android_ellipsize = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_android_maxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_android_text = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_android_text;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_android_textAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_checkedIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_checkedIconVisible = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipCornerRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipEndPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipIconEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipIconSize = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipIconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipIconVisible = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipMinHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipStartPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipStrokeColor = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_closeIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_closeIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_closeIconEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_closeIconSize = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_closeIconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_closeIconVisible = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_hideMotionSpec = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_iconEndPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_iconStartPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_rippleColor = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_rippleColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_showMotionSpec = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_textEndPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.Chip_textStartPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.ChipGroup = global::iSalesDeskPlus.Droid.Resource.Styleable.ChipGroup;
+			global::AiForms.Effects.Droid.Resource.Styleable.ChipGroup_checkedChip = global::iSalesDeskPlus.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::AiForms.Effects.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::iSalesDeskPlus.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::AiForms.Effects.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::iSalesDeskPlus.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::AiForms.Effects.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::iSalesDeskPlus.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::AiForms.Effects.Droid.Resource.Styleable.ChipGroup_singleLine = global::iSalesDeskPlus.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::AiForms.Effects.Droid.Resource.Styleable.ChipGroup_singleSelection = global::iSalesDeskPlus.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::AiForms.Effects.Droid.Resource.Styleable.ColorStateListItem = global::iSalesDeskPlus.Droid.Resource.Styleable.ColorStateListItem;
+			global::AiForms.Effects.Droid.Resource.Styleable.ColorStateListItem_alpha = global::iSalesDeskPlus.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::AiForms.Effects.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::iSalesDeskPlus.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::AiForms.Effects.Droid.Resource.Styleable.ColorStateListItem_android_color = global::iSalesDeskPlus.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::AiForms.Effects.Droid.Resource.Styleable.CompoundButton = global::iSalesDeskPlus.Droid.Resource.Styleable.CompoundButton;
+			global::AiForms.Effects.Droid.Resource.Styleable.CompoundButton_android_button = global::iSalesDeskPlus.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::AiForms.Effects.Droid.Resource.Styleable.CompoundButton_buttonTint = global::iSalesDeskPlus.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::AiForms.Effects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::AiForms.Effects.Droid.Resource.Styleable.DesignTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.DesignTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle_color = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::AiForms.Effects.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::AiForms.Effects.Droid.Resource.Styleable.FlowLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.FlowLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::iSalesDeskPlus.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::AiForms.Effects.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::iSalesDeskPlus.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamily = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamily;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_android_font = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_font = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::iSalesDeskPlus.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::AiForms.Effects.Droid.Resource.Styleable.ForegroundLinearLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::iSalesDeskPlus.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::AiForms.Effects.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::iSalesDeskPlus.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_centerColor = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_centerX = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_centerY = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_endColor = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_endX = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_endY = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_startColor = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_startX = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_startY = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_tileMode = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColor_android_type = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColor_android_type;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColorItem = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColorItem;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColorItem_android_color = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::AiForms.Effects.Droid.Resource.Styleable.GradientColorItem_android_offset = global::iSalesDeskPlus.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::AiForms.Effects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::AiForms.Effects.Droid.Resource.Styleable.ListPopupWindow = global::iSalesDeskPlus.Droid.Resource.Styleable.ListPopupWindow;
+			global::AiForms.Effects.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::iSalesDeskPlus.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::AiForms.Effects.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::iSalesDeskPlus.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_icon = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_icon;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_iconGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_iconPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_iconSize = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_iconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_rippleColor = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_strokeColor = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialCardView = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialCardView;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::AiForms.Effects.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MediaRouteButton = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton;
+			global::AiForms.Effects.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuGroup = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuGroup_android_enabled = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuGroup_android_id = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuGroup_android_visible = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_actionLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_actionViewClass = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_checkable = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_checked = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_enabled = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_icon = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_id = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_id;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_onClick = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_title = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_title;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_android_visible = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_contentDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_iconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_iconTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_numericModifiers = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_showAsAction = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuItem_tooltipText = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_android_headerBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_android_itemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::AiForms.Effects.Droid.Resource.Styleable.MenuView_subMenuArrow = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_android_background = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_android_background;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_elevation;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_headerLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_itemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_itemIconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_itemTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.NavigationView_menu = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_menu;
+			global::AiForms.Effects.Droid.Resource.Styleable.PopupWindow = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindow;
+			global::AiForms.Effects.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::AiForms.Effects.Droid.Resource.Styleable.PopupWindowBackgroundState = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::AiForms.Effects.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecycleListView = global::iSalesDeskPlus.Droid.Resource.Styleable.RecycleListView;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::iSalesDeskPlus.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::iSalesDeskPlus.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_android_orientation = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_layoutManager = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_spanCount = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::AiForms.Effects.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::iSalesDeskPlus.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::AiForms.Effects.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::iSalesDeskPlus.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_android_focusable = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_android_imeOptions = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_android_inputType = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_android_maxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_closeIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_commitIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_goIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_goIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_queryBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_queryHint = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_queryHint;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_searchHintIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_searchIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_submitBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.SearchView_voiceIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.Snackbar = global::iSalesDeskPlus.Droid.Resource.Styleable.Snackbar;
+			global::AiForms.Effects.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.SnackbarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.SnackbarLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.SnackbarLayout_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::AiForms.Effects.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.Spinner = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner;
+			global::AiForms.Effects.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.Spinner_android_entries = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_android_entries;
+			global::AiForms.Effects.Droid.Resource.Styleable.Spinner_android_popupBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.Spinner_android_prompt = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::AiForms.Effects.Droid.Resource.Styleable.Spinner_popupTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawable_android_dither = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawable_android_visible = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawableItem = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawableItem;
+			global::AiForms.Effects.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::iSalesDeskPlus.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_showText = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_track = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_track;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_trackTint = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabItem = global::iSalesDeskPlus.Droid.Resource.Styleable.TabItem;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabItem_android_icon = global::iSalesDeskPlus.Droid.Resource.Styleable.TabItem_android_icon;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabItem_android_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.TabItem_android_layout;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabItem_android_text = global::iSalesDeskPlus.Droid.Resource.Styleable.TabItem_android_text;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabContentStart = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabIconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabMode = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_textColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_textSize = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_android_typeface = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_fontFamily = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_android_hint = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_helperText = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.ThemeEnforcement = global::iSalesDeskPlus.Droid.Resource.Styleable.ThemeEnforcement;
+			global::AiForms.Effects.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_android_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_android_minHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_buttonGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_collapseIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_logo = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_logo;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_logoDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_navigationIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_popupTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_subtitle = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_title = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_title;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_titleMargin = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_titleMargins = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::AiForms.Effects.Droid.Resource.Styleable.Toolbar_titleTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::AiForms.Effects.Droid.Resource.Styleable.View = global::iSalesDeskPlus.Droid.Resource.Styleable.View;
+			global::AiForms.Effects.Droid.Resource.Styleable.View_android_focusable = global::iSalesDeskPlus.Droid.Resource.Styleable.View_android_focusable;
+			global::AiForms.Effects.Droid.Resource.Styleable.View_android_theme = global::iSalesDeskPlus.Droid.Resource.Styleable.View_android_theme;
+			global::AiForms.Effects.Droid.Resource.Styleable.View_paddingEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.View_paddingEnd;
+			global::AiForms.Effects.Droid.Resource.Styleable.View_paddingStart = global::iSalesDeskPlus.Droid.Resource.Styleable.View_paddingStart;
+			global::AiForms.Effects.Droid.Resource.Styleable.View_theme = global::iSalesDeskPlus.Droid.Resource.Styleable.View_theme;
+			global::AiForms.Effects.Droid.Resource.Styleable.ViewBackgroundHelper = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::AiForms.Effects.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::AiForms.Effects.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::AiForms.Effects.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::AiForms.Effects.Droid.Resource.Styleable.ViewStubCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat;
+			global::AiForms.Effects.Droid.Resource.Styleable.ViewStubCompat_android_id = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::AiForms.Effects.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::AiForms.Effects.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_in = global::iSalesDeskPlus.Droid.Resource.Animation.abc_fade_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_out = global::iSalesDeskPlus.Droid.Resource.Animation.abc_fade_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_popup_enter = global::iSalesDeskPlus.Droid.Resource.Animation.abc_popup_enter;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_popup_exit = global::iSalesDeskPlus.Droid.Resource.Animation.abc_popup_exit;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_in_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_in_top = global::iSalesDeskPlus.Droid.Resource.Animation.abc_slide_in_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_out_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_out_top = global::iSalesDeskPlus.Droid.Resource.Animation.abc_slide_out_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::iSalesDeskPlus.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::iSalesDeskPlus.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_snackbar_in = global::iSalesDeskPlus.Droid.Resource.Animation.design_snackbar_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_snackbar_out = global::iSalesDeskPlus.Droid.Resource.Animation.design_snackbar_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animator.design_appbar_state_list_animator = global::iSalesDeskPlus.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarDivider = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarItemBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarPopupTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarSize = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarSplitStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabTextStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarWidgetTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionDropDownStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.actionLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionMenuTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionMenuTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCloseDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCopyDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCutDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeFindDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModePasteDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModePopupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeShareDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeSplitBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionOverflowButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionOverflowMenuStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionProviderClass = global::iSalesDeskPlus.Droid.Resource.Attribute.actionProviderClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionViewClass = global::iSalesDeskPlus.Droid.Resource.Attribute.actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.activityChooserViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogCenterButtons = global::iSalesDeskPlus.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.alertDialogStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.alertDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.allowStacking = global::iSalesDeskPlus.Droid.Resource.Attribute.allowStacking;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alpha = global::iSalesDeskPlus.Droid.Resource.Attribute.alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowHeadLength = global::iSalesDeskPlus.Droid.Resource.Attribute.arrowHeadLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowShaftLength = global::iSalesDeskPlus.Droid.Resource.Attribute.arrowShaftLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.background = global::iSalesDeskPlus.Droid.Resource.Attribute.background;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundSplit = global::iSalesDeskPlus.Droid.Resource.Attribute.backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundStacked = global::iSalesDeskPlus.Droid.Resource.Attribute.backgroundStacked;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundTint = global::iSalesDeskPlus.Droid.Resource.Attribute.backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.barLength = global::iSalesDeskPlus.Droid.Resource.Attribute.barLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_autoHide = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_hideable = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_hideable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_overlapTop = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_peekHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_skipCollapsed = global::iSalesDeskPlus.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.borderWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.borderWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.borderlessButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.bottomSheetDialogTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.bottomSheetStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonPanelSideLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonStyleSmall = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonTint = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.buttonTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardBackgroundColor = global::iSalesDeskPlus.Droid.Resource.Attribute.cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardCornerRadius = global::iSalesDeskPlus.Droid.Resource.Attribute.cardCornerRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardElevation = global::iSalesDeskPlus.Droid.Resource.Attribute.cardElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardMaxElevation = global::iSalesDeskPlus.Droid.Resource.Attribute.cardMaxElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardPreventCornerOverlap = global::iSalesDeskPlus.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardUseCompatPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.checkboxStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.checkboxStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.checkedTextViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.closeIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.closeIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.closeItemLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.closeItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapseContentDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.collapseContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapseIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.collapseIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapsedTitleGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.color = global::iSalesDeskPlus.Droid.Resource.Attribute.color;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorAccent = global::iSalesDeskPlus.Droid.Resource.Attribute.colorAccent;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorBackgroundFloating = global::iSalesDeskPlus.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorButtonNormal = global::iSalesDeskPlus.Droid.Resource.Attribute.colorButtonNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlActivated = global::iSalesDeskPlus.Droid.Resource.Attribute.colorControlActivated;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlHighlight = global::iSalesDeskPlus.Droid.Resource.Attribute.colorControlHighlight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlNormal = global::iSalesDeskPlus.Droid.Resource.Attribute.colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimary = global::iSalesDeskPlus.Droid.Resource.Attribute.colorPrimary;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimaryDark = global::iSalesDeskPlus.Droid.Resource.Attribute.colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::iSalesDeskPlus.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.commitIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEndWithActions = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetLeft = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetRight = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetStart = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::iSalesDeskPlus.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingBottom = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingLeft = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingRight = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingTop = global::iSalesDeskPlus.Droid.Resource.Attribute.contentPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentScrim = global::iSalesDeskPlus.Droid.Resource.Attribute.contentScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.controlBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.controlBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.counterEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterMaxLength = global::iSalesDeskPlus.Droid.Resource.Attribute.counterMaxLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterOverflowTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.counterTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.customNavigationLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.customNavigationLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.defaultQueryHint = global::iSalesDeskPlus.Droid.Resource.Attribute.defaultQueryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dialogPreferredPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dialogTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.dialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.displayOptions = global::iSalesDeskPlus.Droid.Resource.Attribute.displayOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.divider = global::iSalesDeskPlus.Droid.Resource.Attribute.divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerHorizontal = global::iSalesDeskPlus.Droid.Resource.Attribute.dividerHorizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.dividerPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerVertical = global::iSalesDeskPlus.Droid.Resource.Attribute.dividerVertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.drawableSize = global::iSalesDeskPlus.Droid.Resource.Attribute.drawableSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.drawerArrowStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.drawerArrowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dropDownListViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.editTextBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.editTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.editTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.elevation = global::iSalesDeskPlus.Droid.Resource.Attribute.elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.errorEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.errorEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.errorTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.errorTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expanded = global::iSalesDeskPlus.Droid.Resource.Attribute.expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMargin = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginBottom = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginStart = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginTop = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.externalRouteEnabledDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fabSize = global::iSalesDeskPlus.Droid.Resource.Attribute.fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.foregroundInsidePadding = global::iSalesDeskPlus.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.gapBetweenBars = global::iSalesDeskPlus.Droid.Resource.Attribute.gapBetweenBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.goIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.goIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.headerLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.headerLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.height = global::iSalesDeskPlus.Droid.Resource.Attribute.height;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hideOnContentScroll = global::iSalesDeskPlus.Droid.Resource.Attribute.hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintAnimationEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.hintEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.hintTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeAsUpIndicator = global::iSalesDeskPlus.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.homeLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.icon = global::iSalesDeskPlus.Droid.Resource.Attribute.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.iconifiedByDefault = global::iSalesDeskPlus.Droid.Resource.Attribute.iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.imageButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.imageButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.indeterminateProgressStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.initialActivityCount = global::iSalesDeskPlus.Droid.Resource.Attribute.initialActivityCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.insetForeground = global::iSalesDeskPlus.Droid.Resource.Attribute.insetForeground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.isLightTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.isLightTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemIconTint = global::iSalesDeskPlus.Droid.Resource.Attribute.itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.itemPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.keylines = global::iSalesDeskPlus.Droid.Resource.Attribute.keylines;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout = global::iSalesDeskPlus.Droid.Resource.Attribute.layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layoutManager = global::iSalesDeskPlus.Droid.Resource.Attribute.layoutManager;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_anchor = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_anchorGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_behavior = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_collapseMode = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_collapseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_insetEdge = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_insetEdge;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_keyline = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_keyline;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_scrollFlags = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_scrollInterpolator = global::iSalesDeskPlus.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::iSalesDeskPlus.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listDividerAlertDialog = global::iSalesDeskPlus.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listItemLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.listItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.listLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listMenuViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPopupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::iSalesDeskPlus.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.logo = global::iSalesDeskPlus.Droid.Resource.Attribute.logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.logoDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.logoDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.maxActionInlineWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.maxButtonHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.maxButtonHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.measureWithLargestChild = global::iSalesDeskPlus.Droid.Resource.Attribute.measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteCloseDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRoutePauseDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRoutePlayDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteStopDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.menu = global::iSalesDeskPlus.Droid.Resource.Attribute.menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.multiChoiceItemLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationContentDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationMode = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.overlapAnchor = global::iSalesDeskPlus.Droid.Resource.Attribute.overlapAnchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingBottomNoButtons = global::iSalesDeskPlus.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.paddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingStart = global::iSalesDeskPlus.Droid.Resource.Attribute.paddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingTopNoTitle = global::iSalesDeskPlus.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.panelBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelMenuListTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelMenuListWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleContentDescription = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleDrawable = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleTint = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupMenuStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.popupMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupTheme = global::iSalesDeskPlus.Droid.Resource.Attribute.popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.popupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.preserveIconSpacing = global::iSalesDeskPlus.Droid.Resource.Attribute.preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.pressedTranslationZ = global::iSalesDeskPlus.Droid.Resource.Attribute.pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.progressBarPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.progressBarPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.progressBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.progressBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.queryBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.queryBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.queryHint = global::iSalesDeskPlus.Droid.Resource.Attribute.queryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.radioButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.radioButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.ratingBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyleIndicator = global::iSalesDeskPlus.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyleSmall = global::iSalesDeskPlus.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.reverseLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.reverseLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.rippleColor = global::iSalesDeskPlus.Droid.Resource.Attribute.rippleColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.scrimAnimationDuration = global::iSalesDeskPlus.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::iSalesDeskPlus.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchHintIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.searchHintIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.searchIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchViewStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.searchViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.seekBarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.seekBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.selectableItemBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.selectableItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::iSalesDeskPlus.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showAsAction = global::iSalesDeskPlus.Droid.Resource.Attribute.showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showDividers = global::iSalesDeskPlus.Droid.Resource.Attribute.showDividers;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showText = global::iSalesDeskPlus.Droid.Resource.Attribute.showText;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showTitle = global::iSalesDeskPlus.Droid.Resource.Attribute.showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.singleChoiceItemLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spanCount = global::iSalesDeskPlus.Droid.Resource.Attribute.spanCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinBars = global::iSalesDeskPlus.Droid.Resource.Attribute.spinBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinnerStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.spinnerStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.splitTrack = global::iSalesDeskPlus.Droid.Resource.Attribute.splitTrack;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.srcCompat = global::iSalesDeskPlus.Droid.Resource.Attribute.srcCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.stackFromEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.stackFromEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_above_anchor = global::iSalesDeskPlus.Droid.Resource.Attribute.state_above_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_collapsed = global::iSalesDeskPlus.Droid.Resource.Attribute.state_collapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_collapsible = global::iSalesDeskPlus.Droid.Resource.Attribute.state_collapsible;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.statusBarBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.statusBarBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.statusBarScrim = global::iSalesDeskPlus.Droid.Resource.Attribute.statusBarScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subMenuArrow = global::iSalesDeskPlus.Droid.Resource.Attribute.subMenuArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.submitBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.submitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitle = global::iSalesDeskPlus.Droid.Resource.Attribute.subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.subtitleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.suggestionRowLayout = global::iSalesDeskPlus.Droid.Resource.Attribute.suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchMinWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.switchMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.switchPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.switchStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.switchTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabBackground = global::iSalesDeskPlus.Droid.Resource.Attribute.tabBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabContentStart = global::iSalesDeskPlus.Droid.Resource.Attribute.tabContentStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabGravity = global::iSalesDeskPlus.Droid.Resource.Attribute.tabGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabIndicatorColor = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabIndicatorHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMaxWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.tabMaxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMinWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.tabMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMode = global::iSalesDeskPlus.Droid.Resource.Attribute.tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingBottom = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingStart = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPaddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingTop = global::iSalesDeskPlus.Droid.Resource.Attribute.tabPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabSelectedTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.tabTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.tabTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAllCaps = global::iSalesDeskPlus.Droid.Resource.Attribute.textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItem = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSmall = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::iSalesDeskPlus.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorAlertDialogListItem = global::iSalesDeskPlus.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorSearchUrl = global::iSalesDeskPlus.Droid.Resource.Attribute.textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.theme = global::iSalesDeskPlus.Droid.Resource.Attribute.theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thickness = global::iSalesDeskPlus.Droid.Resource.Attribute.thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTextPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.thumbTextPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTint = global::iSalesDeskPlus.Droid.Resource.Attribute.thumbTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.thumbTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMark = global::iSalesDeskPlus.Droid.Resource.Attribute.tickMark;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMarkTint = global::iSalesDeskPlus.Droid.Resource.Attribute.tickMarkTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMarkTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tint = global::iSalesDeskPlus.Droid.Resource.Attribute.tint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.tintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.title = global::iSalesDeskPlus.Droid.Resource.Attribute.title;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleEnabled = global::iSalesDeskPlus.Droid.Resource.Attribute.titleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMargin = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginBottom = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginEnd = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginStart = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginTop = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMargins = global::iSalesDeskPlus.Droid.Resource.Attribute.titleMargins;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Attribute.titleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextColor = global::iSalesDeskPlus.Droid.Resource.Attribute.titleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarId = global::iSalesDeskPlus.Droid.Resource.Attribute.toolbarId;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.track = global::iSalesDeskPlus.Droid.Resource.Attribute.track;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTint = global::iSalesDeskPlus.Droid.Resource.Attribute.trackTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTintMode = global::iSalesDeskPlus.Droid.Resource.Attribute.trackTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.useCompatPadding = global::iSalesDeskPlus.Droid.Resource.Attribute.useCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.voiceIcon = global::iSalesDeskPlus.Droid.Resource.Attribute.voiceIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiCentered = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiCentered;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiCirclePageIndicatorStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiFillColor = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiFillColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiOrientation = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiOrientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiPageColor = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiPageColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiRadius = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiSnap = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiSnap;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiStrokeColor = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiStrokeColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiStrokeWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiStrokeWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionBar = global::iSalesDeskPlus.Droid.Resource.Attribute.windowActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionBarOverlay = global::iSalesDeskPlus.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionModeOverlay = global::iSalesDeskPlus.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMajor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMinor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMajor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMinor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowMinWidthMajor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowMinWidthMinor = global::iSalesDeskPlus.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowNoTitle = global::iSalesDeskPlus.Droid.Resource.Attribute.windowNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::iSalesDeskPlus.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::iSalesDeskPlus.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::iSalesDeskPlus.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.default_circle_indicator_centered = global::iSalesDeskPlus.Droid.Resource.Boolean.default_circle_indicator_centered;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.default_circle_indicator_snap = global::iSalesDeskPlus.Droid.Resource.Boolean.default_circle_indicator_snap;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::iSalesDeskPlus.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_btn_colored_text_material = global::iSalesDeskPlus.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_color_highlight_material = global::iSalesDeskPlus.Droid.Resource.Color.abc_color_highlight_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_input_method_navigation_guard = global::iSalesDeskPlus.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_primary_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text = global::iSalesDeskPlus.Droid.Resource.Color.abc_search_url_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_normal = global::iSalesDeskPlus.Droid.Resource.Color.abc_search_url_text_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_pressed = global::iSalesDeskPlus.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_selected = global::iSalesDeskPlus.Droid.Resource.Color.abc_search_url_text_selected;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_light = global::iSalesDeskPlus.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_btn_checkable = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_default = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_default;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_edittext = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_edittext;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_seek_thumb = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_spinner = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_switch_track = global::iSalesDeskPlus.Droid.Resource.Color.abc_tint_switch_track;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.accent_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.accent_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.accent_material_light = global::iSalesDeskPlus.Droid.Resource.Color.accent_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_floating_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.background_floating_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_floating_material_light = global::iSalesDeskPlus.Droid.Resource.Color.background_floating_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.background_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_material_light = global::iSalesDeskPlus.Droid.Resource.Color.background_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_light = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_material_light = global::iSalesDeskPlus.Droid.Resource.Color.bright_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.button_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.button_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.button_material_light = global::iSalesDeskPlus.Droid.Resource.Color.button_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_dark_background = global::iSalesDeskPlus.Droid.Resource.Color.cardview_dark_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_light_background = global::iSalesDeskPlus.Droid.Resource.Color.cardview_light_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_shadow_end_color = global::iSalesDeskPlus.Droid.Resource.Color.cardview_shadow_end_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_shadow_start_color = global::iSalesDeskPlus.Droid.Resource.Color.cardview_shadow_start_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_fill_color = global::iSalesDeskPlus.Droid.Resource.Color.default_circle_indicator_fill_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_page_color = global::iSalesDeskPlus.Droid.Resource.Color.default_circle_indicator_page_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_stroke_color = global::iSalesDeskPlus.Droid.Resource.Color.default_circle_indicator_stroke_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::iSalesDeskPlus.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_error = global::iSalesDeskPlus.Droid.Resource.Color.design_error;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_end_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_mid_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_start_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::iSalesDeskPlus.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_snackbar_background_color = global::iSalesDeskPlus.Droid.Resource.Color.design_snackbar_background_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_tint_password_toggle = global::iSalesDeskPlus.Droid.Resource.Color.design_tint_password_toggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.dim_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_material_light = global::iSalesDeskPlus.Droid.Resource.Color.dim_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.foreground_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.foreground_material_light = global::iSalesDeskPlus.Droid.Resource.Color.foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.highlighted_text_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.highlighted_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.highlighted_text_material_light = global::iSalesDeskPlus.Droid.Resource.Color.highlighted_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_800 = global::iSalesDeskPlus.Droid.Resource.Color.material_blue_grey_800;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_900 = global::iSalesDeskPlus.Droid.Resource.Color.material_blue_grey_900;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_950 = global::iSalesDeskPlus.Droid.Resource.Color.material_blue_grey_950;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_deep_teal_200 = global::iSalesDeskPlus.Droid.Resource.Color.material_deep_teal_200;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_deep_teal_500 = global::iSalesDeskPlus.Droid.Resource.Color.material_deep_teal_500;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_100 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_100;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_300 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_300;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_50 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_50;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_600 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_600;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_800 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_800;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_850 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_850;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_900 = global::iSalesDeskPlus.Droid.Resource.Color.material_grey_900;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_action_color_filter = global::iSalesDeskPlus.Droid.Resource.Color.notification_action_color_filter;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_icon_bg_color = global::iSalesDeskPlus.Droid.Resource.Color.notification_icon_bg_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_material_background_media_default_color = global::iSalesDeskPlus.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_dark_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.primary_dark_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_dark_material_light = global::iSalesDeskPlus.Droid.Resource.Color.primary_dark_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.primary_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_material_light = global::iSalesDeskPlus.Droid.Resource.Color.primary_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_default_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.primary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_default_material_light = global::iSalesDeskPlus.Droid.Resource.Color.primary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.ripple_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.ripple_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.ripple_material_light = global::iSalesDeskPlus.Droid.Resource.Color.ripple_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_default_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_default_material_light = global::iSalesDeskPlus.Droid.Resource.Color.secondary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_light = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_light = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_light = global::iSalesDeskPlus.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__background_holo_dark = global::iSalesDeskPlus.Droid.Resource.Color.vpi__background_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__background_holo_light = global::iSalesDeskPlus.Droid.Resource.Color.vpi__background_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_holo_dark = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_holo_light = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_corner_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_control_corner_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_inset_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_control_inset_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_padding_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_control_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_major = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_floating_window_z = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_floating_window_z;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_panel_menu_list_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_progress_bar_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_height = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_width = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_switch_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_switch_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_1_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_2_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_button_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_caption_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_1_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_2_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_3_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_4_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_headline_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_large_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_medium_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_small_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_subhead_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::iSalesDeskPlus.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::iSalesDeskPlus.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.cardview_default_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.cardview_default_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.default_circle_indicator_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.default_circle_indicator_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.default_circle_indicator_stroke_width = global::iSalesDeskPlus.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_appbar_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_appbar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_height = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::iSalesDeskPlus.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_border_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_border_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_image_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_image_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_size_mini = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_size_mini;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_size_normal = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_size_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::iSalesDeskPlus.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_padding_bottom = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_elevation = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_min_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_max_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_tab_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::iSalesDeskPlus.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.design_tab_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size_2line = global::iSalesDeskPlus.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::iSalesDeskPlus.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::iSalesDeskPlus.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::iSalesDeskPlus.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::iSalesDeskPlus.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::iSalesDeskPlus.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::iSalesDeskPlus.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::iSalesDeskPlus.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_action_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_action_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_action_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_action_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_big_circle_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_content_margin_start = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_content_margin_start;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_large_icon_height = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_large_icon_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_large_icon_width = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_large_icon_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_main_column_padding_top = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_media_narrow_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_right_icon_size = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_right_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_right_side_padding_top = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_small_icon_background_padding = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_subtext_size = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_subtext_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_top_pad;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad_large_text = global::iSalesDeskPlus.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_borderless_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_check_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_colored_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_control_background_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_control_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_dialog_material_background = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_edit_text_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_edit_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_ab_back_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_clear_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_search_api_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_16dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_36dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_48dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_focused_holo = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_longpressed_holo = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_small_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_track_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_switch_thumb_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_cursor_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_material = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_vector_test = global::iSalesDeskPlus.Droid.Resource.Drawable.abc_vector_test;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_hide_password;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password_1 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_hide_password_1;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password_2 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_hide_password_2;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password_3 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_hide_password_3;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_show_password;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password_1 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_show_password_1;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password_2 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_show_password_2;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password_3 = global::iSalesDeskPlus.Droid.Resource.Drawable.avd_show_password_3;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_bottom_navigation_item_background = global::iSalesDeskPlus.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_fab_background = global::iSalesDeskPlus.Droid.Resource.Drawable.design_fab_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility = global::iSalesDeskPlus.Droid.Resource.Drawable.design_ic_visibility;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility_off = global::iSalesDeskPlus.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_password_eye = global::iSalesDeskPlus.Droid.Resource.Drawable.design_password_eye;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_snackbar_background = global::iSalesDeskPlus.Droid.Resource.Drawable.design_snackbar_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Down = global::iSalesDeskPlus.Droid.Resource.Drawable.Down;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_00 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_01 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_02 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_03 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_04 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_05 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_06 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_07 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_08 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_09 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_10 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_11 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_12 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_13 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_14 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_15 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_00 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_00;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_01 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_01;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_02 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_02;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_03 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_03;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_04 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_04;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_05 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_05;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_06 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_06;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_07 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_07;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_08 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_08;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_09 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_09;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_10 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_10;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_11 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_11;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_12 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_12;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_13 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_13;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_14 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_14;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_15 = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_group_expand_15;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_pause_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_pause_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_pause_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_play_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_play_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_play_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_play_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_stop_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_stop_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_media_stop_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_grey = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_light = global::iSalesDeskPlus.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connected_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connected_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_connected_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_button_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_group_collapse = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_group_collapse;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_group_expand = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_group_expand;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_pause_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_pause_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_pause_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_play_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_play_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_play_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_play_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_stop_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_stop_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_media_stop_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::iSalesDeskPlus.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.navigation_empty_icon = global::iSalesDeskPlus.Droid.Resource.Drawable.navigation_empty_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Next = global::iSalesDeskPlus.Droid.Resource.Drawable.Next;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_action_background = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_action_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_low;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low_normal = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low_pressed = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_normal = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_normal_pressed = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_icon_background = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_icon_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_template_icon_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_template_icon_low_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_tile_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notification_tile_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::iSalesDeskPlus.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Prev = global::iSalesDeskPlus.Droid.Resource.Drawable.Prev;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Up = global::iSalesDeskPlus.Droid.Resource.Drawable.Up;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action0 = global::iSalesDeskPlus.Droid.Resource.Id.action0;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar = global::iSalesDeskPlus.Droid.Resource.Id.action_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_activity_content = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_activity_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_container = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_root = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_root;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_spinner = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_subtitle = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_title = global::iSalesDeskPlus.Droid.Resource.Id.action_bar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_container = global::iSalesDeskPlus.Droid.Resource.Id.action_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_context_bar = global::iSalesDeskPlus.Droid.Resource.Id.action_context_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_divider = global::iSalesDeskPlus.Droid.Resource.Id.action_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_image = global::iSalesDeskPlus.Droid.Resource.Id.action_image;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_menu_divider = global::iSalesDeskPlus.Droid.Resource.Id.action_menu_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_menu_presenter = global::iSalesDeskPlus.Droid.Resource.Id.action_menu_presenter;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_bar = global::iSalesDeskPlus.Droid.Resource.Id.action_mode_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_bar_stub = global::iSalesDeskPlus.Droid.Resource.Id.action_mode_bar_stub;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_close_button = global::iSalesDeskPlus.Droid.Resource.Id.action_mode_close_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_text = global::iSalesDeskPlus.Droid.Resource.Id.action_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.actions = global::iSalesDeskPlus.Droid.Resource.Id.actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.activity_chooser_view_content = global::iSalesDeskPlus.Droid.Resource.Id.activity_chooser_view_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.add = global::iSalesDeskPlus.Droid.Resource.Id.add;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.alertTitle = global::iSalesDeskPlus.Droid.Resource.Id.alertTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.all = global::iSalesDeskPlus.Droid.Resource.Id.all;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.always = global::iSalesDeskPlus.Droid.Resource.Id.always;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.auto = global::iSalesDeskPlus.Droid.Resource.Id.auto;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.beginning = global::iSalesDeskPlus.Droid.Resource.Id.beginning;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.bottom = global::iSalesDeskPlus.Droid.Resource.Id.bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.buttonPanel = global::iSalesDeskPlus.Droid.Resource.Id.buttonPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.cancel_action = global::iSalesDeskPlus.Droid.Resource.Id.cancel_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center = global::iSalesDeskPlus.Droid.Resource.Id.center;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center_horizontal = global::iSalesDeskPlus.Droid.Resource.Id.center_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center_vertical = global::iSalesDeskPlus.Droid.Resource.Id.center_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.checkbox = global::iSalesDeskPlus.Droid.Resource.Id.checkbox;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.chronometer = global::iSalesDeskPlus.Droid.Resource.Id.chronometer;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.clip_horizontal = global::iSalesDeskPlus.Droid.Resource.Id.clip_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.clip_vertical = global::iSalesDeskPlus.Droid.Resource.Id.clip_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.collapseActionView = global::iSalesDeskPlus.Droid.Resource.Id.collapseActionView;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.container = global::iSalesDeskPlus.Droid.Resource.Id.container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.contentPanel = global::iSalesDeskPlus.Droid.Resource.Id.contentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.coordinator = global::iSalesDeskPlus.Droid.Resource.Id.coordinator;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.custom = global::iSalesDeskPlus.Droid.Resource.Id.custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.customPanel = global::iSalesDeskPlus.Droid.Resource.Id.customPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.decor_content_parent = global::iSalesDeskPlus.Droid.Resource.Id.decor_content_parent;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.default_activity_button = global::iSalesDeskPlus.Droid.Resource.Id.default_activity_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_bottom_sheet = global::iSalesDeskPlus.Droid.Resource.Id.design_bottom_sheet;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_action_area = global::iSalesDeskPlus.Droid.Resource.Id.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_action_area_stub = global::iSalesDeskPlus.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_text = global::iSalesDeskPlus.Droid.Resource.Id.design_menu_item_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_navigation_view = global::iSalesDeskPlus.Droid.Resource.Id.design_navigation_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.disableHome = global::iSalesDeskPlus.Droid.Resource.Id.disableHome;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.edit_query = global::iSalesDeskPlus.Droid.Resource.Id.edit_query;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.end = global::iSalesDeskPlus.Droid.Resource.Id.end;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.end_padder = global::iSalesDeskPlus.Droid.Resource.Id.end_padder;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.enterAlways = global::iSalesDeskPlus.Droid.Resource.Id.enterAlways;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.enterAlwaysCollapsed = global::iSalesDeskPlus.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.exitUntilCollapsed = global::iSalesDeskPlus.Droid.Resource.Id.exitUntilCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.expand_activities_button = global::iSalesDeskPlus.Droid.Resource.Id.expand_activities_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.expanded_menu = global::iSalesDeskPlus.Droid.Resource.Id.expanded_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill = global::iSalesDeskPlus.Droid.Resource.Id.fill;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill_horizontal = global::iSalesDeskPlus.Droid.Resource.Id.fill_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill_vertical = global::iSalesDeskPlus.Droid.Resource.Id.fill_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.@fixed = global::iSalesDeskPlus.Droid.Resource.Id.@fixed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.home = global::iSalesDeskPlus.Droid.Resource.Id.home;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.homeAsUp = global::iSalesDeskPlus.Droid.Resource.Id.homeAsUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.horizontal = global::iSalesDeskPlus.Droid.Resource.Id.horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.icon = global::iSalesDeskPlus.Droid.Resource.Id.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.icon_group = global::iSalesDeskPlus.Droid.Resource.Id.icon_group;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.ifRoom = global::iSalesDeskPlus.Droid.Resource.Id.ifRoom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.image = global::iSalesDeskPlus.Droid.Resource.Id.image;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.indicator = global::iSalesDeskPlus.Droid.Resource.Id.indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.info = global::iSalesDeskPlus.Droid.Resource.Id.info;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::iSalesDeskPlus.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.largeLabel = global::iSalesDeskPlus.Droid.Resource.Id.largeLabel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.left = global::iSalesDeskPlus.Droid.Resource.Id.left;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.line1 = global::iSalesDeskPlus.Droid.Resource.Id.line1;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.line3 = global::iSalesDeskPlus.Droid.Resource.Id.line3;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.listMode = global::iSalesDeskPlus.Droid.Resource.Id.listMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.list_item = global::iSalesDeskPlus.Droid.Resource.Id.list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.masked = global::iSalesDeskPlus.Droid.Resource.Id.masked;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.media_actions = global::iSalesDeskPlus.Droid.Resource.Id.media_actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.middle = global::iSalesDeskPlus.Droid.Resource.Id.middle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mini = global::iSalesDeskPlus.Droid.Resource.Id.mini;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_art = global::iSalesDeskPlus.Droid.Resource.Id.mr_art;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_list = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_list;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_desc = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_route_desc;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_icon = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_route_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_route_name;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_title = global::iSalesDeskPlus.Droid.Resource.Id.mr_chooser_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_close = global::iSalesDeskPlus.Droid.Resource.Id.mr_close;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_divider = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_playback_ctrl = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_subtitle = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_title = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_title_container = global::iSalesDeskPlus.Droid.Resource.Id.mr_control_title_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_custom_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_custom_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_default_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_default_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_dialog_area = global::iSalesDeskPlus.Droid.Resource.Id.mr_dialog_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_expandable_area = global::iSalesDeskPlus.Droid.Resource.Id.mr_expandable_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_group_expand_collapse = global::iSalesDeskPlus.Droid.Resource.Id.mr_group_expand_collapse;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_media_main_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_media_main_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_name = global::iSalesDeskPlus.Droid.Resource.Id.mr_name;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_playback_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_playback_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_title_bar = global::iSalesDeskPlus.Droid.Resource.Id.mr_title_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_control = global::iSalesDeskPlus.Droid.Resource.Id.mr_volume_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_group_list = global::iSalesDeskPlus.Droid.Resource.Id.mr_volume_group_list;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_item_icon = global::iSalesDeskPlus.Droid.Resource.Id.mr_volume_item_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_slider = global::iSalesDeskPlus.Droid.Resource.Id.mr_volume_slider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.multiply = global::iSalesDeskPlus.Droid.Resource.Id.multiply;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.navigation_header_container = global::iSalesDeskPlus.Droid.Resource.Id.navigation_header_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.never = global::iSalesDeskPlus.Droid.Resource.Id.never;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.next = global::iSalesDeskPlus.Droid.Resource.Id.next;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.nextArrow = global::iSalesDeskPlus.Droid.Resource.Id.nextArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.none = global::iSalesDeskPlus.Droid.Resource.Id.none;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.normal = global::iSalesDeskPlus.Droid.Resource.Id.normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_background = global::iSalesDeskPlus.Droid.Resource.Id.notification_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_main_column = global::iSalesDeskPlus.Droid.Resource.Id.notification_main_column;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_main_column_container = global::iSalesDeskPlus.Droid.Resource.Id.notification_main_column_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.pager = global::iSalesDeskPlus.Droid.Resource.Id.pager;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parallax = global::iSalesDeskPlus.Droid.Resource.Id.parallax;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parentPanel = global::iSalesDeskPlus.Droid.Resource.Id.parentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.pin = global::iSalesDeskPlus.Droid.Resource.Id.pin;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.prev = global::iSalesDeskPlus.Droid.Resource.Id.prev;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.prevArrow = global::iSalesDeskPlus.Droid.Resource.Id.prevArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.progress_circular = global::iSalesDeskPlus.Droid.Resource.Id.progress_circular;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.progress_horizontal = global::iSalesDeskPlus.Droid.Resource.Id.progress_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.radio = global::iSalesDeskPlus.Droid.Resource.Id.radio;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right = global::iSalesDeskPlus.Droid.Resource.Id.right;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right_icon = global::iSalesDeskPlus.Droid.Resource.Id.right_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right_side = global::iSalesDeskPlus.Droid.Resource.Id.right_side;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.screen = global::iSalesDeskPlus.Droid.Resource.Id.screen;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scroll = global::iSalesDeskPlus.Droid.Resource.Id.scroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorDown = global::iSalesDeskPlus.Droid.Resource.Id.scrollIndicatorDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorUp = global::iSalesDeskPlus.Droid.Resource.Id.scrollIndicatorUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollView = global::iSalesDeskPlus.Droid.Resource.Id.scrollView;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollable = global::iSalesDeskPlus.Droid.Resource.Id.scrollable;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_badge = global::iSalesDeskPlus.Droid.Resource.Id.search_badge;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_bar = global::iSalesDeskPlus.Droid.Resource.Id.search_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_button = global::iSalesDeskPlus.Droid.Resource.Id.search_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_close_btn = global::iSalesDeskPlus.Droid.Resource.Id.search_close_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_edit_frame = global::iSalesDeskPlus.Droid.Resource.Id.search_edit_frame;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_go_btn = global::iSalesDeskPlus.Droid.Resource.Id.search_go_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_mag_icon = global::iSalesDeskPlus.Droid.Resource.Id.search_mag_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_plate = global::iSalesDeskPlus.Droid.Resource.Id.search_plate;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_src_text = global::iSalesDeskPlus.Droid.Resource.Id.search_src_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_voice_btn = global::iSalesDeskPlus.Droid.Resource.Id.search_voice_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.select_dialog_listview = global::iSalesDeskPlus.Droid.Resource.Id.select_dialog_listview;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.shortcut = global::iSalesDeskPlus.Droid.Resource.Id.shortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showCustom = global::iSalesDeskPlus.Droid.Resource.Id.showCustom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showHome = global::iSalesDeskPlus.Droid.Resource.Id.showHome;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showTitle = global::iSalesDeskPlus.Droid.Resource.Id.showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.smallLabel = global::iSalesDeskPlus.Droid.Resource.Id.smallLabel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snackbar_action = global::iSalesDeskPlus.Droid.Resource.Id.snackbar_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snackbar_text = global::iSalesDeskPlus.Droid.Resource.Id.snackbar_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snap = global::iSalesDeskPlus.Droid.Resource.Id.snap;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.spacer = global::iSalesDeskPlus.Droid.Resource.Id.spacer;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.split_action_bar = global::iSalesDeskPlus.Droid.Resource.Id.split_action_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_atop = global::iSalesDeskPlus.Droid.Resource.Id.src_atop;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_in = global::iSalesDeskPlus.Droid.Resource.Id.src_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_over = global::iSalesDeskPlus.Droid.Resource.Id.src_over;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.start = global::iSalesDeskPlus.Droid.Resource.Id.start;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.status_bar_latest_event_content = global::iSalesDeskPlus.Droid.Resource.Id.status_bar_latest_event_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.submenuarrow = global::iSalesDeskPlus.Droid.Resource.Id.submenuarrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.submit_area = global::iSalesDeskPlus.Droid.Resource.Id.submit_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.tabMode = global::iSalesDeskPlus.Droid.Resource.Id.tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text = global::iSalesDeskPlus.Droid.Resource.Id.text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text2 = global::iSalesDeskPlus.Droid.Resource.Id.text2;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textSpacerNoButtons = global::iSalesDeskPlus.Droid.Resource.Id.textSpacerNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textSpacerNoTitle = global::iSalesDeskPlus.Droid.Resource.Id.textSpacerNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text_input_password_toggle = global::iSalesDeskPlus.Droid.Resource.Id.text_input_password_toggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textinput_counter = global::iSalesDeskPlus.Droid.Resource.Id.textinput_counter;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textinput_error = global::iSalesDeskPlus.Droid.Resource.Id.textinput_error;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.time = global::iSalesDeskPlus.Droid.Resource.Id.time;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.title = global::iSalesDeskPlus.Droid.Resource.Id.title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.titleDividerNoCustom = global::iSalesDeskPlus.Droid.Resource.Id.titleDividerNoCustom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.title_template = global::iSalesDeskPlus.Droid.Resource.Id.title_template;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.top = global::iSalesDeskPlus.Droid.Resource.Id.top;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.topPanel = global::iSalesDeskPlus.Droid.Resource.Id.topPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.touch_outside = global::iSalesDeskPlus.Droid.Resource.Id.touch_outside;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_current_scene = global::iSalesDeskPlus.Droid.Resource.Id.transition_current_scene;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_scene_layoutid_cache = global::iSalesDeskPlus.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.up = global::iSalesDeskPlus.Droid.Resource.Id.up;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.useLogo = global::iSalesDeskPlus.Droid.Resource.Id.useLogo;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.vertical = global::iSalesDeskPlus.Droid.Resource.Id.vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.view_offset_helper = global::iSalesDeskPlus.Droid.Resource.Id.view_offset_helper;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.visible = global::iSalesDeskPlus.Droid.Resource.Id.visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.volume_item_container = global::iSalesDeskPlus.Droid.Resource.Id.volume_item_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.withText = global::iSalesDeskPlus.Droid.Resource.Id.withText;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.wrap_content = global::iSalesDeskPlus.Droid.Resource.Id.wrap_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.abc_config_activityDefaultDur = global::iSalesDeskPlus.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.abc_config_activityShortDur = global::iSalesDeskPlus.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::iSalesDeskPlus.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::iSalesDeskPlus.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.cancel_button_image_alpha = global::iSalesDeskPlus.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.default_circle_indicator_orientation = global::iSalesDeskPlus.Droid.Resource.Integer.default_circle_indicator_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::iSalesDeskPlus.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.hide_password_duration = global::iSalesDeskPlus.Droid.Resource.Integer.hide_password_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::iSalesDeskPlus.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.show_password_duration = global::iSalesDeskPlus.Droid.Resource.Integer.show_password_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::iSalesDeskPlus.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_fast_out_slow_in = global::iSalesDeskPlus.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::iSalesDeskPlus.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_title_item = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_up_container = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_menu_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_bar = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_mode_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_close_item_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view = global::iSalesDeskPlus.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::iSalesDeskPlus.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_title_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_dialog_title_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_dialog_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_expanded_menu_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::iSalesDeskPlus.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_icon = global::iSalesDeskPlus.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_radio = global::iSalesDeskPlus.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_popup_menu_item_layout = global::iSalesDeskPlus.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_content_include = global::iSalesDeskPlus.Droid.Resource.Layout.abc_screen_content_include;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_simple = global::iSalesDeskPlus.Droid.Resource.Layout.abc_screen_simple;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::iSalesDeskPlus.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_toolbar = global::iSalesDeskPlus.Droid.Resource.Layout.abc_screen_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::iSalesDeskPlus.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_search_view = global::iSalesDeskPlus.Droid.Resource.Layout.abc_search_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_select_dialog_material = global::iSalesDeskPlus.Droid.Resource.Layout.abc_select_dialog_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_bottom_navigation_item = global::iSalesDeskPlus.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_bottom_sheet_dialog = global::iSalesDeskPlus.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_snackbar = global::iSalesDeskPlus.Droid.Resource.Layout.design_layout_snackbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_snackbar_include = global::iSalesDeskPlus.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_tab_icon = global::iSalesDeskPlus.Droid.Resource.Layout.design_layout_tab_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_tab_text = global::iSalesDeskPlus.Droid.Resource.Layout.design_layout_tab_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_menu_item_action_area = global::iSalesDeskPlus.Droid.Resource.Layout.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_header = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_item_header;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_separator = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_item_separator;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_subheader = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_menu = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_menu_item = global::iSalesDeskPlus.Droid.Resource.Layout.design_navigation_menu_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_text_input_password_icon = global::iSalesDeskPlus.Droid.Resource.Layout.design_text_input_password_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.horizontal_viewpager = global::iSalesDeskPlus.Droid.Resource.Layout.horizontal_viewpager;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_chooser_dialog = global::iSalesDeskPlus.Droid.Resource.Layout.mr_chooser_dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_chooser_list_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_chooser_list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_controller_material_dialog_b = global::iSalesDeskPlus.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_controller_volume_item = global::iSalesDeskPlus.Droid.Resource.Layout.mr_controller_volume_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_playback_control = global::iSalesDeskPlus.Droid.Resource.Layout.mr_playback_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_volume_control = global::iSalesDeskPlus.Droid.Resource.Layout.mr_volume_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_action = global::iSalesDeskPlus.Droid.Resource.Layout.notification_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_action_tombstone = global::iSalesDeskPlus.Droid.Resource.Layout.notification_action_tombstone;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_media_action = global::iSalesDeskPlus.Droid.Resource.Layout.notification_media_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_media_cancel_action = global::iSalesDeskPlus.Droid.Resource.Layout.notification_media_cancel_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_big_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_custom = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_custom_big = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_custom_big;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_icon_group = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_icon_group;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_lines_media = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_lines_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_media = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_media_custom = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_media_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_part_chronometer = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_part_time = global::iSalesDeskPlus.Droid.Resource.Layout.notification_template_part_time;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_item_material = global::iSalesDeskPlus.Droid.Resource.Layout.select_dialog_item_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_multichoice_material = global::iSalesDeskPlus.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::iSalesDeskPlus.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::iSalesDeskPlus.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.vertical_viewpager = global::iSalesDeskPlus.Droid.Resource.Layout.vertical_viewpager;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_home_description = global::iSalesDeskPlus.Droid.Resource.String.abc_action_bar_home_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_up_description = global::iSalesDeskPlus.Droid.Resource.String.abc_action_bar_up_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_menu_overflow_description = global::iSalesDeskPlus.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_mode_done = global::iSalesDeskPlus.Droid.Resource.String.abc_action_mode_done;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_activity_chooser_view_see_all = global::iSalesDeskPlus.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_activitychooserview_choose_application = global::iSalesDeskPlus.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_capital_off = global::iSalesDeskPlus.Droid.Resource.String.abc_capital_off;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_capital_on = global::iSalesDeskPlus.Droid.Resource.String.abc_capital_on;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_body_1_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_body_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_body_2_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_body_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_button_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_button_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_caption_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_caption_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_1_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_display_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_2_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_display_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_3_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_display_3_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_4_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_display_4_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_headline_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_headline_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_menu_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_menu_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_subhead_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_subhead_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_title_material = global::iSalesDeskPlus.Droid.Resource.String.abc_font_family_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_search_hint = global::iSalesDeskPlus.Droid.Resource.String.abc_search_hint;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_clear = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_clear;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_query = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_query;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_search = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_search;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_submit = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_submit;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_voice = global::iSalesDeskPlus.Droid.Resource.String.abc_searchview_description_voice;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with = global::iSalesDeskPlus.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::iSalesDeskPlus.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_toolbar_collapse_description = global::iSalesDeskPlus.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.appbar_scrolling_view_behavior = global::iSalesDeskPlus.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.String.bottom_sheet_behavior = global::iSalesDeskPlus.Droid.Resource.String.bottom_sheet_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.String.character_counter_pattern = global::iSalesDeskPlus.Droid.Resource.String.character_counter_pattern;
+			global::CarouselView.FormsPlugin.Android.Resource.String.library_name = global::iSalesDeskPlus.Droid.Resource.String.library_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_button_content_description = global::iSalesDeskPlus.Droid.Resource.String.mr_button_content_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_connected = global::iSalesDeskPlus.Droid.Resource.String.mr_cast_button_connected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_connecting = global::iSalesDeskPlus.Droid.Resource.String.mr_cast_button_connecting;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_disconnected = global::iSalesDeskPlus.Droid.Resource.String.mr_cast_button_disconnected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_chooser_searching = global::iSalesDeskPlus.Droid.Resource.String.mr_chooser_searching;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_chooser_title = global::iSalesDeskPlus.Droid.Resource.String.mr_chooser_title;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_album_art = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_album_art;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_casting_screen = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_casting_screen;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_close_description = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_close_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_collapse_group = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_collapse_group;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_disconnect = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_disconnect;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_expand_group = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_expand_group;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_no_info_available = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_no_info_available;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_no_media_selected = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_no_media_selected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_pause = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_pause;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_play = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_play;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_stop = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_stop;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_stop_casting = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_stop_casting;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_volume_slider = global::iSalesDeskPlus.Droid.Resource.String.mr_controller_volume_slider;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_system_route_name = global::iSalesDeskPlus.Droid.Resource.String.mr_system_route_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_user_route_category_name = global::iSalesDeskPlus.Droid.Resource.String.mr_user_route_category_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.password_toggle_content_description = global::iSalesDeskPlus.Droid.Resource.String.password_toggle_content_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye = global::iSalesDeskPlus.Droid.Resource.String.path_password_eye;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_strike_through = global::iSalesDeskPlus.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_visible = global::iSalesDeskPlus.Droid.Resource.String.path_password_eye_mask_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_strike_through = global::iSalesDeskPlus.Droid.Resource.String.path_password_strike_through;
+			global::CarouselView.FormsPlugin.Android.Resource.String.search_menu_title = global::iSalesDeskPlus.Droid.Resource.String.search_menu_title;
+			global::CarouselView.FormsPlugin.Android.Resource.String.status_bar_notification_info_overflow = global::iSalesDeskPlus.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::iSalesDeskPlus.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::iSalesDeskPlus.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::iSalesDeskPlus.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_CardView = global::iSalesDeskPlus.Droid.Resource.Style.Base_CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::iSalesDeskPlus.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::iSalesDeskPlus.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::iSalesDeskPlus.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView = global::iSalesDeskPlus.Droid.Resource.Style.CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView_Dark = global::iSalesDeskPlus.Droid.Resource.Style.CardView_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView_Light = global::iSalesDeskPlus.Droid.Resource.Style.CardView_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Platform_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::iSalesDeskPlus.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::iSalesDeskPlus.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::iSalesDeskPlus.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Error = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Hint = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Tab = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::iSalesDeskPlus.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_NoActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MediaRouter;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::iSalesDeskPlus.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_PageIndicatorDefaults = global::iSalesDeskPlus.Droid.Resource.Style.Theme_PageIndicatorDefaults;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::iSalesDeskPlus.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget = global::iSalesDeskPlus.Droid.Resource.Style.Widget;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_EditText = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::iSalesDeskPlus.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_CirclePageIndicator = global::iSalesDeskPlus.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_NavigationView = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_Snackbar = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_TabLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_TextInputLayout = global::iSalesDeskPlus.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::iSalesDeskPlus.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_background = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_displayOptions = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_divider = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_height = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_homeLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_icon = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_itemPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_logo = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_navigationMode = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_popupTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_title = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMenuItemView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuView = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_background = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_height = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView = global::iSalesDeskPlus.Droid.Resource.Styleable.ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::iSalesDeskPlus.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_android_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_listLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_showTitle = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_android_background = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_expanded = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::iSalesDeskPlus.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_android_src = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tint = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::iSalesDeskPlus.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_menu = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::iSalesDeskPlus.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ButtonBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::iSalesDeskPlus.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_android_minHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_android_minWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardCornerRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardElevation = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardMaxElevation = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingRight = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingTop = global::iSalesDeskPlus.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiCentered = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiSnap = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::iSalesDeskPlus.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem = global::iSalesDeskPlus.Droid.Resource.Styleable.ColorStateListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_alpha = global::iSalesDeskPlus.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::iSalesDeskPlus.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_color = global::iSalesDeskPlus.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton = global::iSalesDeskPlus.Droid.Resource.Styleable.CompoundButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_android_button = global::iSalesDeskPlus.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTint = global::iSalesDeskPlus.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::iSalesDeskPlus.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.DesignTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_color = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::iSalesDeskPlus.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::iSalesDeskPlus.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::iSalesDeskPlus.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::iSalesDeskPlus.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::iSalesDeskPlus.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow = global::iSalesDeskPlus.Droid.Resource.Styleable.ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::iSalesDeskPlus.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::iSalesDeskPlus.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_enabled = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_id = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_visible = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checkable = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checked = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_enabled = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_icon = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_id = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_onClick = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_title = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_visible = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_showAsAction = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_subMenuArrow = global::iSalesDeskPlus.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_background = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_headerLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemIconTint = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_menu = global::iSalesDeskPlus.Droid.Resource.Styleable.NavigationView_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::iSalesDeskPlus.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView = global::iSalesDeskPlus.Droid.Resource.Styleable.RecycleListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::iSalesDeskPlus.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::iSalesDeskPlus.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_spanCount = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::iSalesDeskPlus.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::iSalesDeskPlus.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::iSalesDeskPlus.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_focusable = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_imeOptions = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_inputType = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_maxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_closeIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_commitIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_goIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_goIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_queryBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_queryHint = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_queryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_searchHintIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_searchIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_submitBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_voiceIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.SnackbarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_elevation = global::iSalesDeskPlus.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_entries = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_android_entries;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_popupBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_prompt = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_popupTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_showText = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_track = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_track;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTint = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem = global::iSalesDeskPlus.Droid.Resource.Styleable.TabItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_icon = global::iSalesDeskPlus.Droid.Resource.Styleable.TabItem_android_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.TabItem_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_text = global::iSalesDeskPlus.Droid.Resource.Styleable.TabItem_android_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabBackground = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabContentStart = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMode = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPadding = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::iSalesDeskPlus.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_android_gravity = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_android_minHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_buttonGravity = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_logo = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_logoDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationIcon = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_popupTheme = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitle = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_title = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargin = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargins = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextColor = global::iSalesDeskPlus.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View = global::iSalesDeskPlus.Droid.Resource.Styleable.View;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_android_focusable = global::iSalesDeskPlus.Droid.Resource.Styleable.View_android_focusable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_android_theme = global::iSalesDeskPlus.Droid.Resource.Styleable.View_android_theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_paddingEnd = global::iSalesDeskPlus.Droid.Resource.Styleable.View_paddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_paddingStart = global::iSalesDeskPlus.Droid.Resource.Styleable.View_paddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_theme = global::iSalesDeskPlus.Droid.Resource.Styleable.View_theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewPagerIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewPagerIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Com.Android.DeskClock.Resource.String.library_name = global::iSalesDeskPlus.Droid.Resource.String.library_name;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCentered = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiCentered;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCirclePageIndicatorStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiFillColor = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiFillColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiOrientation = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiOrientation;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiPageColor = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiPageColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiRadius = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiRadius;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiSnap = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiSnap;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeColor = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiStrokeColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.vpiStrokeWidth;
+			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_centered = global::iSalesDeskPlus.Droid.Resource.Boolean.default_circle_indicator_centered;
+			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_snap = global::iSalesDeskPlus.Droid.Resource.Boolean.default_circle_indicator_snap;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_fill_color = global::iSalesDeskPlus.Droid.Resource.Color.default_circle_indicator_fill_color;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_page_color = global::iSalesDeskPlus.Droid.Resource.Color.default_circle_indicator_page_color;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_stroke_color = global::iSalesDeskPlus.Droid.Resource.Color.default_circle_indicator_stroke_color;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_dark = global::iSalesDeskPlus.Droid.Resource.Color.vpi__background_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_light = global::iSalesDeskPlus.Droid.Resource.Color.vpi__background_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_dark = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_light = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::iSalesDeskPlus.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_radius = global::iSalesDeskPlus.Droid.Resource.Dimension.default_circle_indicator_radius;
+			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_stroke_width = global::iSalesDeskPlus.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
+			global::Com.ViewPagerIndicator.Resource.Id.horizontal = global::iSalesDeskPlus.Droid.Resource.Id.horizontal;
+			global::Com.ViewPagerIndicator.Resource.Id.vertical = global::iSalesDeskPlus.Droid.Resource.Id.vertical;
+			global::Com.ViewPagerIndicator.Resource.Integer.default_circle_indicator_orientation = global::iSalesDeskPlus.Droid.Resource.Integer.default_circle_indicator_orientation;
+			global::Com.ViewPagerIndicator.Resource.String.library_name = global::iSalesDeskPlus.Droid.Resource.String.library_name;
+			global::Com.ViewPagerIndicator.Resource.Style.Theme_PageIndicatorDefaults = global::iSalesDeskPlus.Droid.Resource.Style.Theme_PageIndicatorDefaults;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget = global::iSalesDeskPlus.Droid.Resource.Style.Widget;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget_CirclePageIndicator = global::iSalesDeskPlus.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiCentered = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiRadius = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiSnap = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewPagerIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
+			global::Microcharts.Droid.Resource.String.library_name = global::iSalesDeskPlus.Droid.Resource.String.library_name;
 			global::AiForms.Renderers.Droid.Resource.Animation.abc_fade_in = global::iSalesDeskPlus.Droid.Resource.Animation.abc_fade_in;
 			global::AiForms.Renderers.Droid.Resource.Animation.abc_fade_out = global::iSalesDeskPlus.Droid.Resource.Animation.abc_fade_out;
 			global::AiForms.Renderers.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::iSalesDeskPlus.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2948,74 +8029,6 @@ namespace iSalesDeskPlus.Droid
 			global::AiForms.Renderers.Droid.Resource.Styleable.ViewStubCompat_android_id = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::AiForms.Renderers.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::AiForms.Renderers.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::iSalesDeskPlus.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::iSalesDeskPlus.Droid.Resource.Drawable.input_layout_drop_down_icon;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::iSalesDeskPlus.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::iSalesDeskPlus.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.agendaViewHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.agendaViewHeight;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.calendarFirstDayOfWeek = global::iSalesDeskPlus.Droid.Resource.Attribute.calendarFirstDayOfWeek;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.calendarSelectionMode = global::iSalesDeskPlus.Droid.Resource.Attribute.calendarSelectionMode;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.enableDatesInPast = global::iSalesDeskPlus.Droid.Resource.Attribute.enableDatesInPast;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.inlineViewMode = global::iSalesDeskPlus.Droid.Resource.Attribute.inlineViewMode;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.maximumEventIndicatorCount = global::iSalesDeskPlus.Droid.Resource.Attribute.maximumEventIndicatorCount;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.navigateToMonthOnInActiveDatesSelection = global::iSalesDeskPlus.Droid.Resource.Attribute.navigateToMonthOnInActiveDatesSelection;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.navigationArrowThickness = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationArrowThickness;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.navigationButtonHeight = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationButtonHeight;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.navigationButtonWidth = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationButtonWidth;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.navigationEnable = global::iSalesDeskPlus.Droid.Resource.Attribute.navigationEnable;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.showEventsInline = global::iSalesDeskPlus.Droid.Resource.Attribute.showEventsInline;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.showNavigationButtons = global::iSalesDeskPlus.Droid.Resource.Attribute.showNavigationButtons;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.showYearView = global::iSalesDeskPlus.Droid.Resource.Attribute.showYearView;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.toggleDaySelection = global::iSalesDeskPlus.Droid.Resource.Attribute.toggleDaySelection;
-			global::Com.Syncfusion.Calendar.Resource.Attribute.viewMode = global::iSalesDeskPlus.Droid.Resource.Attribute.viewMode;
-			global::Com.Syncfusion.Calendar.Resource.Dimension.activity_horizontal_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.activity_horizontal_margin;
-			global::Com.Syncfusion.Calendar.Resource.Dimension.activity_vertical_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.activity_vertical_margin;
-			global::Com.Syncfusion.Calendar.Resource.Dimension.date_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.date_text_size;
-			global::Com.Syncfusion.Calendar.Resource.Dimension.date_text_tab_size = global::iSalesDeskPlus.Droid.Resource.Dimension.date_text_tab_size;
-			global::Com.Syncfusion.Calendar.Resource.Dimension.month_row_size = global::iSalesDeskPlus.Droid.Resource.Dimension.month_row_size;
-			global::Com.Syncfusion.Calendar.Resource.Dimension.month_row_tab_size = global::iSalesDeskPlus.Droid.Resource.Dimension.month_row_tab_size;
-			global::Com.Syncfusion.Calendar.Resource.Dimension.month_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.month_text_size;
-			global::Com.Syncfusion.Calendar.Resource.Dimension.month_text_tab_size = global::iSalesDeskPlus.Droid.Resource.Dimension.month_text_tab_size;
-			global::Com.Syncfusion.Calendar.Resource.Id.agenda = global::iSalesDeskPlus.Droid.Resource.Id.agenda;
-			global::Com.Syncfusion.Calendar.Resource.Id.inline = global::iSalesDeskPlus.Droid.Resource.Id.inline;
-			global::Com.Syncfusion.Calendar.Resource.Id.monthView = global::iSalesDeskPlus.Droid.Resource.Id.monthView;
-			global::Com.Syncfusion.Calendar.Resource.Id.multiRangeSelection = global::iSalesDeskPlus.Droid.Resource.Id.multiRangeSelection;
-			global::Com.Syncfusion.Calendar.Resource.Id.multiSelection = global::iSalesDeskPlus.Droid.Resource.Id.multiSelection;
-			global::Com.Syncfusion.Calendar.Resource.Id.rangeSelection = global::iSalesDeskPlus.Droid.Resource.Id.rangeSelection;
-			global::Com.Syncfusion.Calendar.Resource.Id.singleSelection = global::iSalesDeskPlus.Droid.Resource.Id.singleSelection;
-			global::Com.Syncfusion.Calendar.Resource.Id.yearView = global::iSalesDeskPlus.Droid.Resource.Id.yearView;
-			global::Com.Syncfusion.Calendar.Resource.String.sfcalendar_inlineviewalldaytext = global::iSalesDeskPlus.Droid.Resource.String.sfcalendar_inlineviewalldaytext;
-			global::Com.Syncfusion.Calendar.Resource.String.sfcalendar_inlineviewnoappointmenttext = global::iSalesDeskPlus.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_agendaViewHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_agendaViewHeight;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_calendarFirstDayOfWeek = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_calendarFirstDayOfWeek;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_calendarSelectionMode = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_calendarSelectionMode;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_enableDatesInPast = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_enableDatesInPast;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_inlineViewMode = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_inlineViewMode;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_maximumEventIndicatorCount = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_maximumEventIndicatorCount;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_navigateToMonthOnInActiveDatesSelection = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_navigateToMonthOnInActiveDatesSelection;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_navigationArrowThickness = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_navigationArrowThickness;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_navigationButtonHeight = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_navigationButtonHeight;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_navigationButtonWidth = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_navigationButtonWidth;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_navigationEnable = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_navigationEnable;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_showEventsInline = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_showEventsInline;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_showNavigationButtons = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_showNavigationButtons;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_showYearView = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_showYearView;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_toggleDaySelection = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_toggleDaySelection;
-			global::Com.Syncfusion.Calendar.Resource.Styleable.SfCalendar_viewMode = global::iSalesDeskPlus.Droid.Resource.Styleable.SfCalendar_viewMode;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.activity_horizontal_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.activity_horizontal_margin;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.activity_vertical_margin = global::iSalesDeskPlus.Droid.Resource.Dimension.activity_vertical_margin;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.date_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.date_text_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.date_text_tab_size = global::iSalesDeskPlus.Droid.Resource.Dimension.date_text_tab_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_row_size = global::iSalesDeskPlus.Droid.Resource.Dimension.month_row_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_row_tab_size = global::iSalesDeskPlus.Droid.Resource.Dimension.month_row_tab_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_text_size = global::iSalesDeskPlus.Droid.Resource.Dimension.month_text_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_text_tab_size = global::iSalesDeskPlus.Droid.Resource.Dimension.month_text_tab_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Drawable.Icon = global::iSalesDeskPlus.Droid.Resource.Drawable.Icon;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Drawable.input_layout_drop_down_icon = global::iSalesDeskPlus.Droid.Resource.Drawable.input_layout_drop_down_icon;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::iSalesDeskPlus.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::iSalesDeskPlus.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.String.sfcalendar_inlineviewalldaytext = global::iSalesDeskPlus.Droid.Resource.String.sfcalendar_inlineviewalldaytext;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext = global::iSalesDeskPlus.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::iSalesDeskPlus.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::iSalesDeskPlus.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::iSalesDeskPlus.Droid.Resource.Attribute.font;
@@ -8577,9 +13590,6 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f010099
 			public const int activityChooserViewStyle = 2130772121;
 			
-			// aapt resource value: 0x7f0101f4
-			public const int agendaViewHeight = 2130772468;
-			
 			// aapt resource value: 0x7f0100be
 			public const int alertDialogButtonGroupStyle = 2130772158;
 			
@@ -8741,12 +13751,6 @@ namespace iSalesDeskPlus.Droid
 			
 			// aapt resource value: 0x7f0100d9
 			public const int buttonTintMode = 2130772185;
-			
-			// aapt resource value: 0x7f0101f3
-			public const int calendarFirstDayOfWeek = 2130772467;
-			
-			// aapt resource value: 0x7f0101f2
-			public const int calendarSelectionMode = 2130772466;
 			
 			// aapt resource value: 0x7f01001d
 			public const int cardBackgroundColor = 2130771997;
@@ -9030,9 +14034,6 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f010044
 			public const int elevation = 2130772036;
 			
-			// aapt resource value: 0x7f0101ff
-			public const int enableDatesInPast = 2130772479;
-			
 			// aapt resource value: 0x7f0101d9
 			public const int enforceMaterialTheme = 2130772441;
 			
@@ -9234,9 +14235,6 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f010047
 			public const int initialActivityCount = 2130772039;
 			
-			// aapt resource value: 0x7f0101f1
-			public const int inlineViewMode = 2130772465;
-			
 			// aapt resource value: 0x7f0101a1
 			public const int insetForeground = 2130772385;
 			
@@ -9402,9 +14400,6 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f010190
 			public const int maxImageSize = 2130772368;
 			
-			// aapt resource value: 0x7f0101fb
-			public const int maximumEventIndicatorCount = 2130772475;
-			
 			// aapt resource value: 0x7f0100e2
 			public const int measureWithLargestChild = 2130772194;
 			
@@ -9453,23 +14448,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f01004b
 			public const int multiChoiceItemLayout = 2130772043;
 			
-			// aapt resource value: 0x7f0101f8
-			public const int navigateToMonthOnInActiveDatesSelection = 2130772472;
-			
-			// aapt resource value: 0x7f0101fe
-			public const int navigationArrowThickness = 2130772478;
-			
-			// aapt resource value: 0x7f0101fc
-			public const int navigationButtonHeight = 2130772476;
-			
-			// aapt resource value: 0x7f0101fd
-			public const int navigationButtonWidth = 2130772477;
-			
 			// aapt resource value: 0x7f01011a
 			public const int navigationContentDescription = 2130772250;
-			
-			// aapt resource value: 0x7f0101f6
-			public const int navigationEnable = 2130772470;
 			
 			// aapt resource value: 0x7f010119
 			public const int navigationIcon = 2130772249;
@@ -9600,23 +14580,14 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0100e3
 			public const int showDividers = 2130772195;
 			
-			// aapt resource value: 0x7f0101f5
-			public const int showEventsInline = 2130772469;
-			
 			// aapt resource value: 0x7f010132
 			public const int showMotionSpec = 2130772274;
-			
-			// aapt resource value: 0x7f0101f7
-			public const int showNavigationButtons = 2130772471;
 			
 			// aapt resource value: 0x7f01010c
 			public const int showText = 2130772236;
 			
 			// aapt resource value: 0x7f01004e
 			public const int showTitle = 2130772046;
-			
-			// aapt resource value: 0x7f0101fa
-			public const int showYearView = 2130772474;
 			
 			// aapt resource value: 0x7f01004c
 			public const int singleChoiceItemLayout = 2130772044;
@@ -9936,9 +14907,6 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f01002f
 			public const int titleTextStyle = 2130772015;
 			
-			// aapt resource value: 0x7f0101f9
-			public const int toggleDaySelection = 2130772473;
-			
 			// aapt resource value: 0x7f010182
 			public const int toolbarId = 2130772354;
 			
@@ -9975,11 +14943,35 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0100d6
 			public const int viewInflaterClass = 2130772182;
 			
-			// aapt resource value: 0x7f0101f0
-			public const int viewMode = 2130772464;
-			
 			// aapt resource value: 0x7f0100fd
 			public const int voiceIcon = 2130772221;
+			
+			// aapt resource value: 0x7f0101f1
+			public const int vpiCentered = 2130772465;
+			
+			// aapt resource value: 0x7f0101f0
+			public const int vpiCirclePageIndicatorStyle = 2130772464;
+			
+			// aapt resource value: 0x7f0101f6
+			public const int vpiFillColor = 2130772470;
+			
+			// aapt resource value: 0x7f0101f3
+			public const int vpiOrientation = 2130772467;
+			
+			// aapt resource value: 0x7f0101f2
+			public const int vpiPageColor = 2130772466;
+			
+			// aapt resource value: 0x7f0101f5
+			public const int vpiRadius = 2130772469;
+			
+			// aapt resource value: 0x7f0101f4
+			public const int vpiSnap = 2130772468;
+			
+			// aapt resource value: 0x7f0101f7
+			public const int vpiStrokeColor = 2130772471;
+			
+			// aapt resource value: 0x7f0101f8
+			public const int vpiStrokeWidth = 2130772472;
 			
 			// aapt resource value: 0x7f010060
 			public const int windowActionBar = 2130772064;
@@ -10033,6 +15025,12 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0f0002
 			public const int abc_config_actionMenuItemAllCaps = 2131689474;
 			
+			// aapt resource value: 0x7f0f0004
+			public const int default_circle_indicator_centered = 2131689476;
+			
+			// aapt resource value: 0x7f0f0005
+			public const int default_circle_indicator_snap = 2131689477;
+			
 			// aapt resource value: 0x7f0f0003
 			public const int mtrl_btn_textappearance_all_caps = 2131689475;
 			
@@ -10049,44 +15047,44 @@ namespace iSalesDeskPlus.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0e005a
-			public const int abc_background_cache_hint_selector_material_dark = 2131624026;
+			// aapt resource value: 0x7f0e0065
+			public const int abc_background_cache_hint_selector_material_dark = 2131624037;
 			
-			// aapt resource value: 0x7f0e005b
-			public const int abc_background_cache_hint_selector_material_light = 2131624027;
+			// aapt resource value: 0x7f0e0066
+			public const int abc_background_cache_hint_selector_material_light = 2131624038;
 			
-			// aapt resource value: 0x7f0e005c
-			public const int abc_btn_colored_borderless_text_material = 2131624028;
+			// aapt resource value: 0x7f0e0067
+			public const int abc_btn_colored_borderless_text_material = 2131624039;
 			
-			// aapt resource value: 0x7f0e005d
-			public const int abc_btn_colored_text_material = 2131624029;
+			// aapt resource value: 0x7f0e0068
+			public const int abc_btn_colored_text_material = 2131624040;
 			
-			// aapt resource value: 0x7f0e005e
-			public const int abc_color_highlight_material = 2131624030;
+			// aapt resource value: 0x7f0e0069
+			public const int abc_color_highlight_material = 2131624041;
 			
-			// aapt resource value: 0x7f0e005f
-			public const int abc_hint_foreground_material_dark = 2131624031;
+			// aapt resource value: 0x7f0e006a
+			public const int abc_hint_foreground_material_dark = 2131624042;
 			
-			// aapt resource value: 0x7f0e0060
-			public const int abc_hint_foreground_material_light = 2131624032;
+			// aapt resource value: 0x7f0e006b
+			public const int abc_hint_foreground_material_light = 2131624043;
 			
 			// aapt resource value: 0x7f0e0004
 			public const int abc_input_method_navigation_guard = 2131623940;
 			
-			// aapt resource value: 0x7f0e0061
-			public const int abc_primary_text_disable_only_material_dark = 2131624033;
+			// aapt resource value: 0x7f0e006c
+			public const int abc_primary_text_disable_only_material_dark = 2131624044;
 			
-			// aapt resource value: 0x7f0e0062
-			public const int abc_primary_text_disable_only_material_light = 2131624034;
+			// aapt resource value: 0x7f0e006d
+			public const int abc_primary_text_disable_only_material_light = 2131624045;
 			
-			// aapt resource value: 0x7f0e0063
-			public const int abc_primary_text_material_dark = 2131624035;
+			// aapt resource value: 0x7f0e006e
+			public const int abc_primary_text_material_dark = 2131624046;
 			
-			// aapt resource value: 0x7f0e0064
-			public const int abc_primary_text_material_light = 2131624036;
+			// aapt resource value: 0x7f0e006f
+			public const int abc_primary_text_material_light = 2131624047;
 			
-			// aapt resource value: 0x7f0e0065
-			public const int abc_search_url_text = 2131624037;
+			// aapt resource value: 0x7f0e0070
+			public const int abc_search_url_text = 2131624048;
 			
 			// aapt resource value: 0x7f0e0005
 			public const int abc_search_url_text_normal = 2131623941;
@@ -10097,29 +15095,29 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0e0007
 			public const int abc_search_url_text_selected = 2131623943;
 			
-			// aapt resource value: 0x7f0e0066
-			public const int abc_secondary_text_material_dark = 2131624038;
+			// aapt resource value: 0x7f0e0071
+			public const int abc_secondary_text_material_dark = 2131624049;
 			
-			// aapt resource value: 0x7f0e0067
-			public const int abc_secondary_text_material_light = 2131624039;
+			// aapt resource value: 0x7f0e0072
+			public const int abc_secondary_text_material_light = 2131624050;
 			
-			// aapt resource value: 0x7f0e0068
-			public const int abc_tint_btn_checkable = 2131624040;
+			// aapt resource value: 0x7f0e0073
+			public const int abc_tint_btn_checkable = 2131624051;
 			
-			// aapt resource value: 0x7f0e0069
-			public const int abc_tint_default = 2131624041;
+			// aapt resource value: 0x7f0e0074
+			public const int abc_tint_default = 2131624052;
 			
-			// aapt resource value: 0x7f0e006a
-			public const int abc_tint_edittext = 2131624042;
+			// aapt resource value: 0x7f0e0075
+			public const int abc_tint_edittext = 2131624053;
 			
-			// aapt resource value: 0x7f0e006b
-			public const int abc_tint_seek_thumb = 2131624043;
+			// aapt resource value: 0x7f0e0076
+			public const int abc_tint_seek_thumb = 2131624054;
 			
-			// aapt resource value: 0x7f0e006c
-			public const int abc_tint_spinner = 2131624044;
+			// aapt resource value: 0x7f0e0077
+			public const int abc_tint_spinner = 2131624055;
 			
-			// aapt resource value: 0x7f0e006d
-			public const int abc_tint_switch_track = 2131624045;
+			// aapt resource value: 0x7f0e0078
+			public const int abc_tint_switch_track = 2131624056;
 			
 			// aapt resource value: 0x7f0e0008
 			public const int accent_material_dark = 2131623944;
@@ -10187,6 +15185,15 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0e0003
 			public const int cardview_shadow_start_color = 2131623939;
 			
+			// aapt resource value: 0x7f0e0062
+			public const int default_circle_indicator_fill_color = 2131624034;
+			
+			// aapt resource value: 0x7f0e0063
+			public const int default_circle_indicator_page_color = 2131624035;
+			
+			// aapt resource value: 0x7f0e0064
+			public const int default_circle_indicator_stroke_color = 2131624036;
+			
 			// aapt resource value: 0x7f0e0041
 			public const int design_bottom_navigation_shadow_color = 2131624001;
 			
@@ -10196,8 +15203,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0e0043
 			public const int design_default_color_primary_dark = 2131624003;
 			
-			// aapt resource value: 0x7f0e006e
-			public const int design_error = 2131624046;
+			// aapt resource value: 0x7f0e0079
+			public const int design_error = 2131624057;
 			
 			// aapt resource value: 0x7f0e0044
 			public const int design_fab_shadow_end_color = 2131624004;
@@ -10223,8 +15230,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0e004b
 			public const int design_snackbar_background_color = 2131624011;
 			
-			// aapt resource value: 0x7f0e006f
-			public const int design_tint_password_toggle = 2131624047;
+			// aapt resource value: 0x7f0e007a
+			public const int design_tint_password_toggle = 2131624058;
 			
 			// aapt resource value: 0x7f0e0016
 			public const int dim_foreground_disabled_material_dark = 2131623958;
@@ -10292,71 +15299,71 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0e002b
 			public const int material_grey_900 = 2131623979;
 			
-			// aapt resource value: 0x7f0e0070
-			public const int mtrl_bottom_nav_colored_item_tint = 2131624048;
+			// aapt resource value: 0x7f0e007b
+			public const int mtrl_bottom_nav_colored_item_tint = 2131624059;
 			
-			// aapt resource value: 0x7f0e0071
-			public const int mtrl_bottom_nav_item_tint = 2131624049;
+			// aapt resource value: 0x7f0e007c
+			public const int mtrl_bottom_nav_item_tint = 2131624060;
 			
 			// aapt resource value: 0x7f0e004c
 			public const int mtrl_btn_bg_color_disabled = 2131624012;
 			
-			// aapt resource value: 0x7f0e0072
-			public const int mtrl_btn_bg_color_selector = 2131624050;
+			// aapt resource value: 0x7f0e007d
+			public const int mtrl_btn_bg_color_selector = 2131624061;
 			
-			// aapt resource value: 0x7f0e0073
-			public const int mtrl_btn_ripple_color = 2131624051;
+			// aapt resource value: 0x7f0e007e
+			public const int mtrl_btn_ripple_color = 2131624062;
 			
-			// aapt resource value: 0x7f0e0074
-			public const int mtrl_btn_stroke_color_selector = 2131624052;
+			// aapt resource value: 0x7f0e007f
+			public const int mtrl_btn_stroke_color_selector = 2131624063;
 			
-			// aapt resource value: 0x7f0e0075
-			public const int mtrl_btn_text_btn_ripple_color = 2131624053;
+			// aapt resource value: 0x7f0e0080
+			public const int mtrl_btn_text_btn_ripple_color = 2131624064;
 			
 			// aapt resource value: 0x7f0e004d
 			public const int mtrl_btn_text_color_disabled = 2131624013;
 			
-			// aapt resource value: 0x7f0e0076
-			public const int mtrl_btn_text_color_selector = 2131624054;
+			// aapt resource value: 0x7f0e0081
+			public const int mtrl_btn_text_color_selector = 2131624065;
 			
 			// aapt resource value: 0x7f0e004e
 			public const int mtrl_btn_transparent_bg_color = 2131624014;
 			
-			// aapt resource value: 0x7f0e0077
-			public const int mtrl_chip_background_color = 2131624055;
+			// aapt resource value: 0x7f0e0082
+			public const int mtrl_chip_background_color = 2131624066;
 			
-			// aapt resource value: 0x7f0e0078
-			public const int mtrl_chip_close_icon_tint = 2131624056;
+			// aapt resource value: 0x7f0e0083
+			public const int mtrl_chip_close_icon_tint = 2131624067;
 			
-			// aapt resource value: 0x7f0e0079
-			public const int mtrl_chip_ripple_color = 2131624057;
+			// aapt resource value: 0x7f0e0084
+			public const int mtrl_chip_ripple_color = 2131624068;
 			
-			// aapt resource value: 0x7f0e007a
-			public const int mtrl_chip_text_color = 2131624058;
+			// aapt resource value: 0x7f0e0085
+			public const int mtrl_chip_text_color = 2131624069;
 			
-			// aapt resource value: 0x7f0e007b
-			public const int mtrl_fab_ripple_color = 2131624059;
+			// aapt resource value: 0x7f0e0086
+			public const int mtrl_fab_ripple_color = 2131624070;
 			
 			// aapt resource value: 0x7f0e004f
 			public const int mtrl_scrim_color = 2131624015;
 			
-			// aapt resource value: 0x7f0e007c
-			public const int mtrl_tabs_colored_ripple_color = 2131624060;
+			// aapt resource value: 0x7f0e0087
+			public const int mtrl_tabs_colored_ripple_color = 2131624071;
 			
-			// aapt resource value: 0x7f0e007d
-			public const int mtrl_tabs_icon_color_selector = 2131624061;
+			// aapt resource value: 0x7f0e0088
+			public const int mtrl_tabs_icon_color_selector = 2131624072;
 			
-			// aapt resource value: 0x7f0e007e
-			public const int mtrl_tabs_icon_color_selector_colored = 2131624062;
+			// aapt resource value: 0x7f0e0089
+			public const int mtrl_tabs_icon_color_selector_colored = 2131624073;
 			
-			// aapt resource value: 0x7f0e007f
-			public const int mtrl_tabs_legacy_text_color_selector = 2131624063;
+			// aapt resource value: 0x7f0e008a
+			public const int mtrl_tabs_legacy_text_color_selector = 2131624074;
 			
-			// aapt resource value: 0x7f0e0080
-			public const int mtrl_tabs_ripple_color = 2131624064;
+			// aapt resource value: 0x7f0e008b
+			public const int mtrl_tabs_ripple_color = 2131624075;
 			
-			// aapt resource value: 0x7f0e0081
-			public const int mtrl_text_btn_text_color_selector = 2131624065;
+			// aapt resource value: 0x7f0e008c
+			public const int mtrl_text_btn_text_color_selector = 2131624076;
 			
 			// aapt resource value: 0x7f0e0050
 			public const int mtrl_textinput_default_box_stroke_color = 2131624016;
@@ -10427,11 +15434,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0e003b
 			public const int switch_thumb_disabled_material_light = 2131623995;
 			
-			// aapt resource value: 0x7f0e0082
-			public const int switch_thumb_material_dark = 2131624066;
+			// aapt resource value: 0x7f0e008d
+			public const int switch_thumb_material_dark = 2131624077;
 			
-			// aapt resource value: 0x7f0e0083
-			public const int switch_thumb_material_light = 2131624067;
+			// aapt resource value: 0x7f0e008e
+			public const int switch_thumb_material_light = 2131624078;
 			
 			// aapt resource value: 0x7f0e003c
 			public const int switch_thumb_normal_material_dark = 2131623996;
@@ -10445,8 +15452,32 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0e003f
 			public const int tooltip_background_light = 2131623999;
 			
-			// aapt resource value: 0x7f0e0084
-			public const int white_disabled_material = 2131624068;
+			// aapt resource value: 0x7f0e005a
+			public const int vpi__background_holo_dark = 2131624026;
+			
+			// aapt resource value: 0x7f0e005b
+			public const int vpi__background_holo_light = 2131624027;
+			
+			// aapt resource value: 0x7f0e005e
+			public const int vpi__bright_foreground_disabled_holo_dark = 2131624030;
+			
+			// aapt resource value: 0x7f0e005f
+			public const int vpi__bright_foreground_disabled_holo_light = 2131624031;
+			
+			// aapt resource value: 0x7f0e005c
+			public const int vpi__bright_foreground_holo_dark = 2131624028;
+			
+			// aapt resource value: 0x7f0e005d
+			public const int vpi__bright_foreground_holo_light = 2131624029;
+			
+			// aapt resource value: 0x7f0e0060
+			public const int vpi__bright_foreground_inverse_holo_dark = 2131624032;
+			
+			// aapt resource value: 0x7f0e0061
+			public const int vpi__bright_foreground_inverse_holo_light = 2131624033;
+			
+			// aapt resource value: 0x7f0e008f
+			public const int white_disabled_material = 2131624079;
 			
 			static Color()
 			{
@@ -10686,12 +15717,6 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0a0012
 			public const int abc_text_size_title_material_toolbar = 2131361810;
 			
-			// aapt resource value: 0x7f0a00e3
-			public const int activity_horizontal_margin = 2131362019;
-			
-			// aapt resource value: 0x7f0a00e4
-			public const int activity_vertical_margin = 2131362020;
-			
 			// aapt resource value: 0x7f0a00cb
 			public const int browser_actions_context_menu_max_width = 2131361995;
 			
@@ -10728,11 +15753,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0a00d7
 			public const int compat_notification_large_icon_max_width = 2131362007;
 			
-			// aapt resource value: 0x7f0a00e5
-			public const int date_text_size = 2131362021;
+			// aapt resource value: 0x7f0a00e3
+			public const int default_circle_indicator_radius = 2131362019;
 			
-			// aapt resource value: 0x7f0a00e6
-			public const int date_text_tab_size = 2131362022;
+			// aapt resource value: 0x7f0a00e4
+			public const int default_circle_indicator_stroke_width = 2131362020;
 			
 			// aapt resource value: 0x7f0a0077
 			public const int design_appbar_elevation = 2131361911;
@@ -10910,18 +15935,6 @@ namespace iSalesDeskPlus.Droid
 			
 			// aapt resource value: 0x7f0a0005
 			public const int item_touch_helper_swipe_escape_velocity = 2131361797;
-			
-			// aapt resource value: 0x7f0a00e9
-			public const int month_row_size = 2131362025;
-			
-			// aapt resource value: 0x7f0a00ea
-			public const int month_row_tab_size = 2131362026;
-			
-			// aapt resource value: 0x7f0a00e7
-			public const int month_text_size = 2131362023;
-			
-			// aapt resource value: 0x7f0a00e8
-			public const int month_text_tab_size = 2131362024;
 			
 			// aapt resource value: 0x7f0a0006
 			public const int mr_controller_volume_group_list_item_height = 2131361798;
@@ -11474,655 +16487,649 @@ namespace iSalesDeskPlus.Droid
 			public const int design_snackbar_background = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_dark = 2130837596;
+			public const int Down = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_audiotrack_light = 2130837597;
+			public const int ic_audiotrack_dark = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_dark = 2130837598;
+			public const int ic_audiotrack_light = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_dialog_close_light = 2130837599;
+			public const int ic_dialog_close_dark = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_00 = 2130837600;
+			public const int ic_dialog_close_light = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_01 = 2130837601;
+			public const int ic_group_collapse_00 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_02 = 2130837602;
+			public const int ic_group_collapse_01 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_03 = 2130837603;
+			public const int ic_group_collapse_02 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_04 = 2130837604;
+			public const int ic_group_collapse_03 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_05 = 2130837605;
+			public const int ic_group_collapse_04 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_06 = 2130837606;
+			public const int ic_group_collapse_05 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_07 = 2130837607;
+			public const int ic_group_collapse_06 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_08 = 2130837608;
+			public const int ic_group_collapse_07 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_09 = 2130837609;
+			public const int ic_group_collapse_08 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_10 = 2130837610;
+			public const int ic_group_collapse_09 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_11 = 2130837611;
+			public const int ic_group_collapse_10 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_12 = 2130837612;
+			public const int ic_group_collapse_11 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_13 = 2130837613;
+			public const int ic_group_collapse_12 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_14 = 2130837614;
+			public const int ic_group_collapse_13 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_15 = 2130837615;
+			public const int ic_group_collapse_14 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_00 = 2130837616;
+			public const int ic_group_collapse_15 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_01 = 2130837617;
+			public const int ic_group_expand_00 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_02 = 2130837618;
+			public const int ic_group_expand_01 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_03 = 2130837619;
+			public const int ic_group_expand_02 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_04 = 2130837620;
+			public const int ic_group_expand_03 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_05 = 2130837621;
+			public const int ic_group_expand_04 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_06 = 2130837622;
+			public const int ic_group_expand_05 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_07 = 2130837623;
+			public const int ic_group_expand_06 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_08 = 2130837624;
+			public const int ic_group_expand_07 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_09 = 2130837625;
+			public const int ic_group_expand_08 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_10 = 2130837626;
+			public const int ic_group_expand_09 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_11 = 2130837627;
+			public const int ic_group_expand_10 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_12 = 2130837628;
+			public const int ic_group_expand_11 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_13 = 2130837629;
+			public const int ic_group_expand_12 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_14 = 2130837630;
+			public const int ic_group_expand_13 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_15 = 2130837631;
+			public const int ic_group_expand_14 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_dark = 2130837632;
+			public const int ic_group_expand_15 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_pause_light = 2130837633;
+			public const int ic_media_pause_dark = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_dark = 2130837634;
+			public const int ic_media_pause_light = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_play_light = 2130837635;
+			public const int ic_media_play_dark = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_dark = 2130837636;
+			public const int ic_media_play_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_stop_light = 2130837637;
+			public const int ic_media_stop_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_dark = 2130837638;
+			public const int ic_media_stop_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_00_light = 2130837639;
+			public const int ic_mr_button_connected_00_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_dark = 2130837640;
+			public const int ic_mr_button_connected_00_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_01_light = 2130837641;
+			public const int ic_mr_button_connected_01_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_dark = 2130837642;
+			public const int ic_mr_button_connected_01_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_02_light = 2130837643;
+			public const int ic_mr_button_connected_02_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_dark = 2130837644;
+			public const int ic_mr_button_connected_02_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_03_light = 2130837645;
+			public const int ic_mr_button_connected_03_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_dark = 2130837646;
+			public const int ic_mr_button_connected_03_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_04_light = 2130837647;
+			public const int ic_mr_button_connected_04_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_dark = 2130837648;
+			public const int ic_mr_button_connected_04_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_05_light = 2130837649;
+			public const int ic_mr_button_connected_05_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_dark = 2130837650;
+			public const int ic_mr_button_connected_05_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_06_light = 2130837651;
+			public const int ic_mr_button_connected_06_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_dark = 2130837652;
+			public const int ic_mr_button_connected_06_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_07_light = 2130837653;
+			public const int ic_mr_button_connected_07_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_dark = 2130837654;
+			public const int ic_mr_button_connected_07_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_08_light = 2130837655;
+			public const int ic_mr_button_connected_08_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_dark = 2130837656;
+			public const int ic_mr_button_connected_08_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_09_light = 2130837657;
+			public const int ic_mr_button_connected_09_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_dark = 2130837658;
+			public const int ic_mr_button_connected_09_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_10_light = 2130837659;
+			public const int ic_mr_button_connected_10_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_dark = 2130837660;
+			public const int ic_mr_button_connected_10_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_11_light = 2130837661;
+			public const int ic_mr_button_connected_11_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_dark = 2130837662;
+			public const int ic_mr_button_connected_11_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_12_light = 2130837663;
+			public const int ic_mr_button_connected_12_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_dark = 2130837664;
+			public const int ic_mr_button_connected_12_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_13_light = 2130837665;
+			public const int ic_mr_button_connected_13_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_dark = 2130837666;
+			public const int ic_mr_button_connected_13_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_14_light = 2130837667;
+			public const int ic_mr_button_connected_14_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_dark = 2130837668;
+			public const int ic_mr_button_connected_14_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_15_light = 2130837669;
+			public const int ic_mr_button_connected_15_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_dark = 2130837670;
+			public const int ic_mr_button_connected_15_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_16_light = 2130837671;
+			public const int ic_mr_button_connected_16_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_dark = 2130837672;
+			public const int ic_mr_button_connected_16_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_17_light = 2130837673;
+			public const int ic_mr_button_connected_17_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_dark = 2130837674;
+			public const int ic_mr_button_connected_17_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_18_light = 2130837675;
+			public const int ic_mr_button_connected_18_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_dark = 2130837676;
+			public const int ic_mr_button_connected_18_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_19_light = 2130837677;
+			public const int ic_mr_button_connected_19_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_dark = 2130837678;
+			public const int ic_mr_button_connected_19_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_20_light = 2130837679;
+			public const int ic_mr_button_connected_20_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_dark = 2130837680;
+			public const int ic_mr_button_connected_20_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_21_light = 2130837681;
+			public const int ic_mr_button_connected_21_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_dark = 2130837682;
+			public const int ic_mr_button_connected_21_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_22_light = 2130837683;
+			public const int ic_mr_button_connected_22_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_23_dark = 2130837684;
+			public const int ic_mr_button_connected_22_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_23_light = 2130837685;
+			public const int ic_mr_button_connected_23_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_24_dark = 2130837686;
+			public const int ic_mr_button_connected_23_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_24_light = 2130837687;
+			public const int ic_mr_button_connected_24_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_25_dark = 2130837688;
+			public const int ic_mr_button_connected_24_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_25_light = 2130837689;
+			public const int ic_mr_button_connected_25_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_26_dark = 2130837690;
+			public const int ic_mr_button_connected_25_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_26_light = 2130837691;
+			public const int ic_mr_button_connected_26_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_27_dark = 2130837692;
+			public const int ic_mr_button_connected_26_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_27_light = 2130837693;
+			public const int ic_mr_button_connected_27_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_28_dark = 2130837694;
+			public const int ic_mr_button_connected_27_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_28_light = 2130837695;
+			public const int ic_mr_button_connected_28_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_29_dark = 2130837696;
+			public const int ic_mr_button_connected_28_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_29_light = 2130837697;
+			public const int ic_mr_button_connected_29_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_30_dark = 2130837698;
+			public const int ic_mr_button_connected_29_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_30_light = 2130837699;
+			public const int ic_mr_button_connected_30_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_00_dark = 2130837700;
+			public const int ic_mr_button_connected_30_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_00_light = 2130837701;
+			public const int ic_mr_button_connecting_00_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_01_dark = 2130837702;
+			public const int ic_mr_button_connecting_00_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_01_light = 2130837703;
+			public const int ic_mr_button_connecting_01_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_02_dark = 2130837704;
+			public const int ic_mr_button_connecting_01_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_02_light = 2130837705;
+			public const int ic_mr_button_connecting_02_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_03_dark = 2130837706;
+			public const int ic_mr_button_connecting_02_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_03_light = 2130837707;
+			public const int ic_mr_button_connecting_03_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_04_dark = 2130837708;
+			public const int ic_mr_button_connecting_03_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_04_light = 2130837709;
+			public const int ic_mr_button_connecting_04_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_05_dark = 2130837710;
+			public const int ic_mr_button_connecting_04_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_05_light = 2130837711;
+			public const int ic_mr_button_connecting_05_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_06_dark = 2130837712;
+			public const int ic_mr_button_connecting_05_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_06_light = 2130837713;
+			public const int ic_mr_button_connecting_06_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_07_dark = 2130837714;
+			public const int ic_mr_button_connecting_06_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_07_light = 2130837715;
+			public const int ic_mr_button_connecting_07_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_08_dark = 2130837716;
+			public const int ic_mr_button_connecting_07_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_08_light = 2130837717;
+			public const int ic_mr_button_connecting_08_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_09_dark = 2130837718;
+			public const int ic_mr_button_connecting_08_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_09_light = 2130837719;
+			public const int ic_mr_button_connecting_09_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_10_dark = 2130837720;
+			public const int ic_mr_button_connecting_09_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_10_light = 2130837721;
+			public const int ic_mr_button_connecting_10_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_11_dark = 2130837722;
+			public const int ic_mr_button_connecting_10_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_11_light = 2130837723;
+			public const int ic_mr_button_connecting_11_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_12_dark = 2130837724;
+			public const int ic_mr_button_connecting_11_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_12_light = 2130837725;
+			public const int ic_mr_button_connecting_12_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_13_dark = 2130837726;
+			public const int ic_mr_button_connecting_12_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_13_light = 2130837727;
+			public const int ic_mr_button_connecting_13_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_14_dark = 2130837728;
+			public const int ic_mr_button_connecting_13_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_14_light = 2130837729;
+			public const int ic_mr_button_connecting_14_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_15_dark = 2130837730;
+			public const int ic_mr_button_connecting_14_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_15_light = 2130837731;
+			public const int ic_mr_button_connecting_15_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_16_dark = 2130837732;
+			public const int ic_mr_button_connecting_15_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_16_light = 2130837733;
+			public const int ic_mr_button_connecting_16_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_17_dark = 2130837734;
+			public const int ic_mr_button_connecting_16_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_17_light = 2130837735;
+			public const int ic_mr_button_connecting_17_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_18_dark = 2130837736;
+			public const int ic_mr_button_connecting_17_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_18_light = 2130837737;
+			public const int ic_mr_button_connecting_18_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_19_dark = 2130837738;
+			public const int ic_mr_button_connecting_18_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_19_light = 2130837739;
+			public const int ic_mr_button_connecting_19_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_20_dark = 2130837740;
+			public const int ic_mr_button_connecting_19_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_20_light = 2130837741;
+			public const int ic_mr_button_connecting_20_dark = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_21_dark = 2130837742;
+			public const int ic_mr_button_connecting_20_light = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_21_light = 2130837743;
+			public const int ic_mr_button_connecting_21_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_22_dark = 2130837744;
+			public const int ic_mr_button_connecting_21_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_22_light = 2130837745;
+			public const int ic_mr_button_connecting_22_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_23_dark = 2130837746;
+			public const int ic_mr_button_connecting_22_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_23_light = 2130837747;
+			public const int ic_mr_button_connecting_23_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_24_dark = 2130837748;
+			public const int ic_mr_button_connecting_23_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_24_light = 2130837749;
+			public const int ic_mr_button_connecting_24_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_25_dark = 2130837750;
+			public const int ic_mr_button_connecting_24_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_25_light = 2130837751;
+			public const int ic_mr_button_connecting_25_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_26_dark = 2130837752;
+			public const int ic_mr_button_connecting_25_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_26_light = 2130837753;
+			public const int ic_mr_button_connecting_26_dark = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_27_dark = 2130837754;
+			public const int ic_mr_button_connecting_26_light = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_27_light = 2130837755;
+			public const int ic_mr_button_connecting_27_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_28_dark = 2130837756;
+			public const int ic_mr_button_connecting_27_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_28_light = 2130837757;
+			public const int ic_mr_button_connecting_28_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_29_dark = 2130837758;
+			public const int ic_mr_button_connecting_28_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_29_light = 2130837759;
+			public const int ic_mr_button_connecting_29_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_30_dark = 2130837760;
+			public const int ic_mr_button_connecting_29_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_30_light = 2130837761;
+			public const int ic_mr_button_connecting_30_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_disabled_dark = 2130837762;
+			public const int ic_mr_button_connecting_30_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_disabled_light = 2130837763;
+			public const int ic_mr_button_disabled_dark = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_disconnected_dark = 2130837764;
+			public const int ic_mr_button_disabled_light = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_disconnected_light = 2130837765;
+			public const int ic_mr_button_disconnected_dark = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_grey = 2130837766;
+			public const int ic_mr_button_disconnected_light = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mtrl_chip_checked_black = 2130837767;
+			public const int ic_mr_button_grey = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mtrl_chip_checked_circle = 2130837768;
+			public const int ic_mtrl_chip_checked_black = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mtrl_chip_close_circle = 2130837769;
+			public const int ic_mtrl_chip_checked_circle = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_vol_type_speaker_dark = 2130837770;
+			public const int ic_mtrl_chip_close_circle = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_vol_type_speaker_group_dark = 2130837771;
+			public const int ic_vol_type_speaker_dark = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_vol_type_speaker_group_light = 2130837772;
+			public const int ic_vol_type_speaker_group_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_vol_type_speaker_light = 2130837773;
+			public const int ic_vol_type_speaker_group_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_vol_type_tv_dark = 2130837774;
+			public const int ic_vol_type_speaker_light = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_vol_type_tv_light = 2130837775;
+			public const int ic_vol_type_tv_dark = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int Icon = 2130837776;
+			public const int ic_vol_type_tv_light = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int input_layout_drop_down_icon = 2130837777;
+			public const int MaterialActivityIndicatorBackground = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int inputlayout_togglecollapseicon = 2130837778;
+			public const int MaterialProgressBar = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int inputlayout_togglevisibleicon = 2130837779;
+			public const int mr_button_connected_dark = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int MaterialActivityIndicatorBackground = 2130837780;
+			public const int mr_button_connected_light = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int MaterialProgressBar = 2130837781;
+			public const int mr_button_connecting_dark = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int mr_button_connected_dark = 2130837782;
+			public const int mr_button_connecting_light = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int mr_button_connected_light = 2130837783;
+			public const int mr_button_dark = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int mr_button_connecting_dark = 2130837784;
+			public const int mr_button_light = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int mr_button_connecting_light = 2130837785;
+			public const int mr_dialog_close_dark = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int mr_button_dark = 2130837786;
+			public const int mr_dialog_close_light = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int mr_button_light = 2130837787;
+			public const int mr_dialog_material_background_dark = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int mr_dialog_close_dark = 2130837788;
+			public const int mr_dialog_material_background_light = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mr_dialog_close_light = 2130837789;
+			public const int mr_group_collapse = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mr_dialog_material_background_dark = 2130837790;
+			public const int mr_group_expand = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_dialog_material_background_light = 2130837791;
+			public const int mr_media_pause_dark = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int mr_group_collapse = 2130837792;
+			public const int mr_media_pause_light = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int mr_group_expand = 2130837793;
+			public const int mr_media_play_dark = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int mr_media_pause_dark = 2130837794;
+			public const int mr_media_play_light = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int mr_media_pause_light = 2130837795;
+			public const int mr_media_stop_dark = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int mr_media_play_dark = 2130837796;
+			public const int mr_media_stop_light = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int mr_media_play_light = 2130837797;
+			public const int mr_vol_type_audiotrack_dark = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int mr_media_stop_dark = 2130837798;
+			public const int mr_vol_type_audiotrack_light = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int mr_media_stop_light = 2130837799;
+			public const int mtrl_snackbar_background = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int mr_vol_type_audiotrack_dark = 2130837800;
+			public const int mtrl_tabs_default_indicator = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int mr_vol_type_audiotrack_light = 2130837801;
+			public const int navigation_empty_icon = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int mtrl_snackbar_background = 2130837802;
+			public const int Next = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int mtrl_tabs_default_indicator = 2130837803;
+			public const int notification_action_background = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int navigation_empty_icon = 2130837804;
+			public const int notification_bg = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
-			public const int notification_action_background = 2130837805;
+			public const int notification_bg_low = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int notification_bg = 2130837806;
+			public const int notification_bg_low_normal = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int notification_bg_low = 2130837807;
+			public const int notification_bg_low_pressed = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int notification_bg_low_normal = 2130837808;
+			public const int notification_bg_normal = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int notification_bg_low_pressed = 2130837809;
+			public const int notification_bg_normal_pressed = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int notification_bg_normal = 2130837810;
-			
-			// aapt resource value: 0x7f020133
-			public const int notification_bg_normal_pressed = 2130837811;
-			
-			// aapt resource value: 0x7f020134
-			public const int notification_icon_background = 2130837812;
+			public const int notification_icon_background = 2130837810;
 			
 			// aapt resource value: 0x7f020139
 			public const int notification_template_icon_bg = 2130837817;
@@ -12130,17 +17137,23 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f02013a
 			public const int notification_template_icon_low_bg = 2130837818;
 			
+			// aapt resource value: 0x7f020133
+			public const int notification_tile_bg = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int notify_panel_notification_icon_bg = 2130837812;
+			
 			// aapt resource value: 0x7f020135
-			public const int notification_tile_bg = 2130837813;
+			public const int Prev = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int notify_panel_notification_icon_bg = 2130837814;
+			public const int tooltip_frame_dark = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int tooltip_frame_dark = 2130837815;
+			public const int tooltip_frame_light = 2130837815;
 			
 			// aapt resource value: 0x7f020138
-			public const int tooltip_frame_light = 2130837816;
+			public const int Up = 2130837816;
 			
 			static Drawable()
 			{
@@ -12161,44 +17174,44 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b003a
 			public const int CTRL = 2131427386;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int CellAccessoryView = 2131427502;
+			// aapt resource value: 0x7f0b00a8
+			public const int CellAccessoryView = 2131427496;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int CellBody = 2131427501;
+			// aapt resource value: 0x7f0b00a7
+			public const int CellBody = 2131427495;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int CellContentStack = 2131427503;
+			// aapt resource value: 0x7f0b00a9
+			public const int CellContentStack = 2131427497;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int CellDescription = 2131427505;
-			
-			// aapt resource value: 0x7f0b00b2
-			public const int CellHintText = 2131427506;
+			// aapt resource value: 0x7f0b00ab
+			public const int CellDescription = 2131427499;
 			
 			// aapt resource value: 0x7f0b00ac
-			public const int CellIcon = 2131427500;
+			public const int CellHintText = 2131427500;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int CellTitle = 2131427504;
+			// aapt resource value: 0x7f0b00a6
+			public const int CellIcon = 2131427494;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int ContentCellBody = 2131427507;
+			// aapt resource value: 0x7f0b00aa
+			public const int CellTitle = 2131427498;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int ContentCellBorder = 2131427508;
+			// aapt resource value: 0x7f0b00ad
+			public const int ContentCellBody = 2131427501;
+			
+			// aapt resource value: 0x7f0b00ae
+			public const int ContentCellBorder = 2131427502;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int FUNCTION = 2131427387;
 			
-			// aapt resource value: 0x7f0b00c3
-			public const int FooterCellText = 2131427523;
+			// aapt resource value: 0x7f0b00bd
+			public const int FooterCellText = 2131427517;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int HeaderCellBorder = 2131427525;
+			// aapt resource value: 0x7f0b00bf
+			public const int HeaderCellBorder = 2131427519;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int HeaderCellText = 2131427524;
+			// aapt resource value: 0x7f0b00be
+			public const int HeaderCellText = 2131427518;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int META = 2131427388;
@@ -12212,32 +17225,32 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b00f9
 			public const int action0 = 2131427577;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int action_bar = 2131427477;
+			// aapt resource value: 0x7f0b008f
+			public const int action_bar = 2131427471;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int action_bar_activity_content = 2131427329;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int action_bar_container = 2131427476;
+			// aapt resource value: 0x7f0b008e
+			public const int action_bar_container = 2131427470;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int action_bar_root = 2131427472;
+			// aapt resource value: 0x7f0b008a
+			public const int action_bar_root = 2131427466;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_bar_spinner = 2131427330;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int action_bar_subtitle = 2131427442;
+			// aapt resource value: 0x7f0b006c
+			public const int action_bar_subtitle = 2131427436;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int action_bar_title = 2131427441;
+			// aapt resource value: 0x7f0b006b
+			public const int action_bar_title = 2131427435;
 			
 			// aapt resource value: 0x7f0b00f6
 			public const int action_container = 2131427574;
 			
-			// aapt resource value: 0x7f0b0096
-			public const int action_context_bar = 2131427478;
+			// aapt resource value: 0x7f0b0090
+			public const int action_context_bar = 2131427472;
 			
 			// aapt resource value: 0x7f0b00fd
 			public const int action_divider = 2131427581;
@@ -12251,14 +17264,14 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0004
 			public const int action_menu_presenter = 2131427332;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int action_mode_bar = 2131427474;
+			// aapt resource value: 0x7f0b008c
+			public const int action_mode_bar = 2131427468;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int action_mode_bar_stub = 2131427473;
+			// aapt resource value: 0x7f0b008b
+			public const int action_mode_bar_stub = 2131427467;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int action_mode_close_button = 2131427443;
+			// aapt resource value: 0x7f0b006d
+			public const int action_mode_close_button = 2131427437;
 			
 			// aapt resource value: 0x7f0b00f8
 			public const int action_text = 2131427576;
@@ -12266,17 +17279,14 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0106
 			public const int actions = 2131427590;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int activity_chooser_view_content = 2131427444;
+			// aapt resource value: 0x7f0b006e
+			public const int activity_chooser_view_content = 2131427438;
 			
 			// aapt resource value: 0x7f0b002e
 			public const int add = 2131427374;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int agenda = 2131427435;
-			
-			// aapt resource value: 0x7f0b0087
-			public const int alertTitle = 2131427463;
+			// aapt resource value: 0x7f0b0081
+			public const int alertTitle = 2131427457;
 			
 			// aapt resource value: 0x7f0b0064
 			public const int all = 2131427428;
@@ -12299,29 +17309,29 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0044
 			public const int bottom = 2131427396;
 			
+			// aapt resource value: 0x7f0b009f
+			public const int bottomtab_navarea = 2131427487;
+			
+			// aapt resource value: 0x7f0b00a0
+			public const int bottomtab_tabbar = 2131427488;
+			
+			// aapt resource value: 0x7f0b00a2
+			public const int browser_actions_header_text = 2131427490;
+			
+			// aapt resource value: 0x7f0b00a4
+			public const int browser_actions_menu_item_icon = 2131427492;
+			
 			// aapt resource value: 0x7f0b00a5
-			public const int bottomtab_navarea = 2131427493;
+			public const int browser_actions_menu_item_text = 2131427493;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int bottomtab_tabbar = 2131427494;
+			// aapt resource value: 0x7f0b00a3
+			public const int browser_actions_menu_items = 2131427491;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int browser_actions_header_text = 2131427496;
+			// aapt resource value: 0x7f0b00a1
+			public const int browser_actions_menu_view = 2131427489;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int browser_actions_menu_item_icon = 2131427498;
-			
-			// aapt resource value: 0x7f0b00ab
-			public const int browser_actions_menu_item_text = 2131427499;
-			
-			// aapt resource value: 0x7f0b00a9
-			public const int browser_actions_menu_items = 2131427497;
-			
-			// aapt resource value: 0x7f0b00a7
-			public const int browser_actions_menu_view = 2131427495;
-			
-			// aapt resource value: 0x7f0b007a
-			public const int buttonPanel = 2131427450;
+			// aapt resource value: 0x7f0b0074
+			public const int buttonPanel = 2131427444;
 			
 			// aapt resource value: 0x7f0b00fa
 			public const int cancel_action = 2131427578;
@@ -12335,8 +17345,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0052
 			public const int center_vertical = 2131427410;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int checkbox = 2131427470;
+			// aapt resource value: 0x7f0b0088
+			public const int checkbox = 2131427464;
 			
 			// aapt resource value: 0x7f0b0102
 			public const int chronometer = 2131427586;
@@ -12350,50 +17360,50 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0040
 			public const int collapseActionView = 2131427392;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int container = 2131427511;
-			
-			// aapt resource value: 0x7f0b008a
-			public const int content = 2131427466;
-			
-			// aapt resource value: 0x7f0b007d
-			public const int contentPanel = 2131427453;
-			
-			// aapt resource value: 0x7f0b00b8
-			public const int coordinator = 2131427512;
+			// aapt resource value: 0x7f0b00b1
+			public const int container = 2131427505;
 			
 			// aapt resource value: 0x7f0b0084
-			public const int custom = 2131427460;
-			
-			// aapt resource value: 0x7f0b0083
-			public const int customPanel = 2131427459;
-			
-			// aapt resource value: 0x7f0b0093
-			public const int decor_content_parent = 2131427475;
+			public const int content = 2131427460;
 			
 			// aapt resource value: 0x7f0b0077
-			public const int default_activity_button = 2131427447;
+			public const int contentPanel = 2131427447;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int design_bottom_sheet = 2131427514;
+			// aapt resource value: 0x7f0b00b2
+			public const int coordinator = 2131427506;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int design_menu_item_action_area = 2131427519;
+			// aapt resource value: 0x7f0b007e
+			public const int custom = 2131427454;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int design_menu_item_action_area_stub = 2131427518;
+			// aapt resource value: 0x7f0b007d
+			public const int customPanel = 2131427453;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int design_menu_item_text = 2131427517;
+			// aapt resource value: 0x7f0b008d
+			public const int decor_content_parent = 2131427469;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int design_navigation_view = 2131427516;
+			// aapt resource value: 0x7f0b0071
+			public const int default_activity_button = 2131427441;
+			
+			// aapt resource value: 0x7f0b00b4
+			public const int design_bottom_sheet = 2131427508;
+			
+			// aapt resource value: 0x7f0b00b9
+			public const int design_menu_item_action_area = 2131427513;
+			
+			// aapt resource value: 0x7f0b00b8
+			public const int design_menu_item_action_area_stub = 2131427512;
+			
+			// aapt resource value: 0x7f0b00b7
+			public const int design_menu_item_text = 2131427511;
+			
+			// aapt resource value: 0x7f0b00b6
+			public const int design_navigation_view = 2131427510;
 			
 			// aapt resource value: 0x7f0b0027
 			public const int disableHome = 2131427367;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int edit_query = 2131427479;
+			// aapt resource value: 0x7f0b0091
+			public const int edit_query = 2131427473;
 			
 			// aapt resource value: 0x7f0b0037
 			public const int end = 2131427383;
@@ -12410,11 +17420,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0048
 			public const int exitUntilCollapsed = 2131427400;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int expand_activities_button = 2131427445;
+			// aapt resource value: 0x7f0b006f
+			public const int expand_activities_button = 2131427439;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int expanded_menu = 2131427469;
+			// aapt resource value: 0x7f0b0087
+			public const int expanded_menu = 2131427463;
 			
 			// aapt resource value: 0x7f0b005e
 			public const int fill = 2131427422;
@@ -12431,11 +17441,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b005c
 			public const int @fixed = 2131427420;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int flyoutcontent_appbar = 2131427521;
+			// aapt resource value: 0x7f0b00bb
+			public const int flyoutcontent_appbar = 2131427515;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int flyoutcontent_recycler = 2131427522;
+			// aapt resource value: 0x7f0b00bc
+			public const int flyoutcontent_recycler = 2131427516;
 			
 			// aapt resource value: 0x7f0b0067
 			public const int forever = 2131427431;
@@ -12443,8 +17453,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b000a
 			public const int ghost_view = 2131427338;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int group_divider = 2131427465;
+			// aapt resource value: 0x7f0b0083
+			public const int group_divider = 2131427459;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int home = 2131427333;
@@ -12452,8 +17462,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0028
 			public const int homeAsUp = 2131427368;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int icon = 2131427449;
+			// aapt resource value: 0x7f0b0069
+			public const int horizontal = 2131427433;
+			
+			// aapt resource value: 0x7f0b0073
+			public const int icon = 2131427443;
 			
 			// aapt resource value: 0x7f0b0107
 			public const int icon_group = 2131427591;
@@ -12461,14 +17474,14 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0041
 			public const int ifRoom = 2131427393;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int image = 2131427446;
+			// aapt resource value: 0x7f0b0070
+			public const int image = 2131427440;
+			
+			// aapt resource value: 0x7f0b00c5
+			public const int indicator = 2131427525;
 			
 			// aapt resource value: 0x7f0b0103
 			public const int info = 2131427587;
-			
-			// aapt resource value: 0x7f0b006c
-			public const int inline = 2131427436;
 			
 			// aapt resource value: 0x7f0b0068
 			public const int italic = 2131427432;
@@ -12479,8 +17492,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b004e
 			public const int labeled = 2131427406;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int largeLabel = 2131427510;
+			// aapt resource value: 0x7f0b00b0
+			public const int largeLabel = 2131427504;
 			
 			// aapt resource value: 0x7f0b0054
 			public const int left = 2131427412;
@@ -12494,8 +17507,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0024
 			public const int listMode = 2131427364;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int list_item = 2131427448;
+			// aapt resource value: 0x7f0b0072
+			public const int list_item = 2131427442;
 			
 			// aapt resource value: 0x7f0b0109
 			public const int main_appbar = 2131427593;
@@ -12518,17 +17531,14 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b00fc
 			public const int media_actions = 2131427580;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int message = 2131427492;
+			// aapt resource value: 0x7f0b009e
+			public const int message = 2131427486;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int middle = 2131427384;
 			
 			// aapt resource value: 0x7f0b0059
 			public const int mini = 2131427417;
-			
-			// aapt resource value: 0x7f0b0069
-			public const int monthView = 2131427433;
 			
 			// aapt resource value: 0x7f0b00e3
 			public const int mr_art = 2131427555;
@@ -12674,20 +17684,20 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0015
 			public const int mtrl_internal_children_alpha_tag = 2131427349;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int multiRangeSelection = 2131427437;
-			
-			// aapt resource value: 0x7f0b006e
-			public const int multiSelection = 2131427438;
-			
 			// aapt resource value: 0x7f0b002f
 			public const int multiply = 2131427375;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int navigation_header_container = 2131427515;
+			// aapt resource value: 0x7f0b00b5
+			public const int navigation_header_container = 2131427509;
 			
 			// aapt resource value: 0x7f0b0042
 			public const int never = 2131427394;
+			
+			// aapt resource value: 0x7f0b00c3
+			public const int next = 2131427523;
+			
+			// aapt resource value: 0x7f0b00c4
+			public const int nextArrow = 2131427524;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int none = 2131427369;
@@ -12707,11 +17717,14 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0060
 			public const int outline = 2131427424;
 			
+			// aapt resource value: 0x7f0b00c0
+			public const int pager = 2131427520;
+			
 			// aapt resource value: 0x7f0b0057
 			public const int parallax = 2131427415;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int parentPanel = 2131427452;
+			// aapt resource value: 0x7f0b0076
+			public const int parentPanel = 2131427446;
 			
 			// aapt resource value: 0x7f0b000b
 			public const int parent_matrix = 2131427339;
@@ -12719,17 +17732,20 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0058
 			public const int pin = 2131427416;
 			
+			// aapt resource value: 0x7f0b00c1
+			public const int prev = 2131427521;
+			
+			// aapt resource value: 0x7f0b00c2
+			public const int prevArrow = 2131427522;
+			
 			// aapt resource value: 0x7f0b0006
 			public const int progress_circular = 2131427334;
 			
 			// aapt resource value: 0x7f0b0007
 			public const int progress_horizontal = 2131427335;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int radio = 2131427471;
-			
-			// aapt resource value: 0x7f0b006f
-			public const int rangeSelection = 2131427439;
+			// aapt resource value: 0x7f0b0089
+			public const int radio = 2131427465;
 			
 			// aapt resource value: 0x7f0b0055
 			public const int right = 2131427413;
@@ -12755,50 +17771,50 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0049
 			public const int scroll = 2131427401;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int scrollIndicatorDown = 2131427458;
+			// aapt resource value: 0x7f0b007c
+			public const int scrollIndicatorDown = 2131427452;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int scrollIndicatorUp = 2131427454;
+			// aapt resource value: 0x7f0b0078
+			public const int scrollIndicatorUp = 2131427448;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int scrollView = 2131427455;
+			// aapt resource value: 0x7f0b0079
+			public const int scrollView = 2131427449;
 			
 			// aapt resource value: 0x7f0b005d
 			public const int scrollable = 2131427421;
 			
+			// aapt resource value: 0x7f0b0093
+			public const int search_badge = 2131427475;
+			
+			// aapt resource value: 0x7f0b0092
+			public const int search_bar = 2131427474;
+			
+			// aapt resource value: 0x7f0b0094
+			public const int search_button = 2131427476;
+			
 			// aapt resource value: 0x7f0b0099
-			public const int search_badge = 2131427481;
+			public const int search_close_btn = 2131427481;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int search_bar = 2131427480;
-			
-			// aapt resource value: 0x7f0b009a
-			public const int search_button = 2131427482;
-			
-			// aapt resource value: 0x7f0b009f
-			public const int search_close_btn = 2131427487;
+			// aapt resource value: 0x7f0b0095
+			public const int search_edit_frame = 2131427477;
 			
 			// aapt resource value: 0x7f0b009b
-			public const int search_edit_frame = 2131427483;
+			public const int search_go_btn = 2131427483;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int search_go_btn = 2131427489;
+			// aapt resource value: 0x7f0b0096
+			public const int search_mag_icon = 2131427478;
+			
+			// aapt resource value: 0x7f0b0097
+			public const int search_plate = 2131427479;
+			
+			// aapt resource value: 0x7f0b0098
+			public const int search_src_text = 2131427480;
 			
 			// aapt resource value: 0x7f0b009c
-			public const int search_mag_icon = 2131427484;
+			public const int search_voice_btn = 2131427484;
 			
 			// aapt resource value: 0x7f0b009d
-			public const int search_plate = 2131427485;
-			
-			// aapt resource value: 0x7f0b009e
-			public const int search_src_text = 2131427486;
-			
-			// aapt resource value: 0x7f0b00a2
-			public const int search_voice_btn = 2131427490;
-			
-			// aapt resource value: 0x7f0b00a3
-			public const int select_dialog_listview = 2131427491;
+			public const int select_dialog_listview = 2131427485;
 			
 			// aapt resource value: 0x7f0b004f
 			public const int selected = 2131427407;
@@ -12812,8 +17828,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b010e
 			public const int shellcontent_toolbar = 2131427598;
 			
-			// aapt resource value: 0x7f0b008b
-			public const int shortcut = 2131427467;
+			// aapt resource value: 0x7f0b0085
+			public const int shortcut = 2131427461;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int showCustom = 2131427370;
@@ -12824,14 +17840,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b002c
 			public const int showTitle = 2131427372;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int singleSelection = 2131427440;
-			
 			// aapt resource value: 0x7f0b0110
 			public const int sliding_tabs = 2131427600;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int smallLabel = 2131427509;
+			// aapt resource value: 0x7f0b00af
+			public const int smallLabel = 2131427503;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int snackbar_action = 2131427350;
@@ -12845,8 +17858,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b004b
 			public const int snapMargins = 2131427403;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int spacer = 2131427451;
+			// aapt resource value: 0x7f0b0075
+			public const int spacer = 2131427445;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int split_action_bar = 2131427336;
@@ -12869,11 +17882,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b005b
 			public const int stretch = 2131427419;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int submenuarrow = 2131427468;
+			// aapt resource value: 0x7f0b0086
+			public const int submenuarrow = 2131427462;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int submit_area = 2131427488;
+			// aapt resource value: 0x7f0b009a
+			public const int submit_area = 2131427482;
 			
 			// aapt resource value: 0x7f0b0026
 			public const int tabMode = 2131427366;
@@ -12893,17 +17906,17 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0022
 			public const int text2 = 2131427362;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int textSpacerNoButtons = 2131427457;
+			// aapt resource value: 0x7f0b007b
+			public const int textSpacerNoButtons = 2131427451;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int textSpacerNoTitle = 2131427456;
+			// aapt resource value: 0x7f0b007a
+			public const int textSpacerNoTitle = 2131427450;
 			
 			// aapt resource value: 0x7f0b005a
 			public const int textStart = 2131427418;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int text_input_password_toggle = 2131427520;
+			// aapt resource value: 0x7f0b00ba
+			public const int text_input_password_toggle = 2131427514;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int textinput_counter = 2131427352;
@@ -12920,11 +17933,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0023
 			public const int title = 2131427363;
 			
-			// aapt resource value: 0x7f0b0088
-			public const int titleDividerNoCustom = 2131427464;
+			// aapt resource value: 0x7f0b0082
+			public const int titleDividerNoCustom = 2131427458;
 			
-			// aapt resource value: 0x7f0b0086
-			public const int title_template = 2131427462;
+			// aapt resource value: 0x7f0b0080
+			public const int title_template = 2131427456;
 			
 			// aapt resource value: 0x7f0b0111
 			public const int toolbar = 2131427601;
@@ -12932,11 +17945,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b0045
 			public const int top = 2131427397;
 			
-			// aapt resource value: 0x7f0b0085
-			public const int topPanel = 2131427461;
+			// aapt resource value: 0x7f0b007f
+			public const int topPanel = 2131427455;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int touch_outside = 2131427513;
+			// aapt resource value: 0x7f0b00b3
+			public const int touch_outside = 2131427507;
 			
 			// aapt resource value: 0x7f0b000f
 			public const int transition_current_scene = 2131427343;
@@ -12965,6 +17978,9 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0b002d
 			public const int useLogo = 2131427373;
 			
+			// aapt resource value: 0x7f0b006a
+			public const int vertical = 2131427434;
+			
 			// aapt resource value: 0x7f0b001b
 			public const int view_offset_helper = 2131427355;
 			
@@ -12979,9 +17995,6 @@ namespace iSalesDeskPlus.Droid
 			
 			// aapt resource value: 0x7f0b0035
 			public const int wrap_content = 2131427381;
-			
-			// aapt resource value: 0x7f0b006a
-			public const int yearView = 2131427434;
 			
 			static Id()
 			{
@@ -13013,6 +18026,9 @@ namespace iSalesDeskPlus.Droid
 			
 			// aapt resource value: 0x7f0d0007
 			public const int config_tooltipAnimTime = 2131558407;
+			
+			// aapt resource value: 0x7f0d0013
+			public const int default_circle_indicator_orientation = 2131558419;
 			
 			// aapt resource value: 0x7f0d0008
 			public const int design_snackbar_text_max_lines = 2131558408;
@@ -13248,127 +18264,133 @@ namespace iSalesDeskPlus.Droid
 			public const int HeaderCell = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int MaterialPickerTextInput = 2130968626;
+			public const int horizontal_viewpager = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int mr_cast_dialog = 2130968627;
+			public const int MaterialPickerTextInput = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int mr_cast_group_item = 2130968628;
+			public const int mr_cast_dialog = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int mr_cast_group_volume_item = 2130968629;
+			public const int mr_cast_group_item = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int mr_cast_media_metadata = 2130968630;
+			public const int mr_cast_group_volume_item = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int mr_cast_route_item = 2130968631;
+			public const int mr_cast_media_metadata = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int mr_chooser_dialog = 2130968632;
+			public const int mr_cast_route_item = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int mr_chooser_list_item = 2130968633;
+			public const int mr_chooser_dialog = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int mr_controller_material_dialog_b = 2130968634;
+			public const int mr_chooser_list_item = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int mr_controller_volume_item = 2130968635;
+			public const int mr_controller_material_dialog_b = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int mr_dialog_header_item = 2130968636;
+			public const int mr_controller_volume_item = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int mr_picker_dialog = 2130968637;
+			public const int mr_dialog_header_item = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int mr_picker_route_item = 2130968638;
+			public const int mr_picker_dialog = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int mr_playback_control = 2130968639;
+			public const int mr_picker_route_item = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int mr_volume_control = 2130968640;
+			public const int mr_playback_control = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int mtrl_layout_snackbar = 2130968641;
+			public const int mr_volume_control = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int mtrl_layout_snackbar_include = 2130968642;
+			public const int mtrl_layout_snackbar = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int notification_action = 2130968643;
+			public const int mtrl_layout_snackbar_include = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int notification_action_tombstone = 2130968644;
+			public const int notification_action = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int notification_media_action = 2130968645;
+			public const int notification_action_tombstone = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int notification_media_cancel_action = 2130968646;
+			public const int notification_media_action = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int notification_template_big_media = 2130968647;
+			public const int notification_media_cancel_action = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int notification_template_big_media_custom = 2130968648;
+			public const int notification_template_big_media = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int notification_template_big_media_narrow = 2130968649;
+			public const int notification_template_big_media_custom = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int notification_template_big_media_narrow_custom = 2130968650;
+			public const int notification_template_big_media_narrow = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int notification_template_custom_big = 2130968651;
+			public const int notification_template_big_media_narrow_custom = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int notification_template_icon_group = 2130968652;
+			public const int notification_template_custom_big = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int notification_template_lines_media = 2130968653;
+			public const int notification_template_icon_group = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int notification_template_media = 2130968654;
+			public const int notification_template_lines_media = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int notification_template_media_custom = 2130968655;
+			public const int notification_template_media = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int notification_template_part_chronometer = 2130968656;
+			public const int notification_template_media_custom = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int notification_template_part_time = 2130968657;
+			public const int notification_template_part_chronometer = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int RootLayout = 2130968658;
+			public const int notification_template_part_time = 2130968658;
 			
 			// aapt resource value: 0x7f040053
-			public const int select_dialog_item_material = 2130968659;
+			public const int RootLayout = 2130968659;
 			
 			// aapt resource value: 0x7f040054
-			public const int select_dialog_multichoice_material = 2130968660;
+			public const int select_dialog_item_material = 2130968660;
 			
 			// aapt resource value: 0x7f040055
-			public const int select_dialog_singlechoice_material = 2130968661;
+			public const int select_dialog_multichoice_material = 2130968661;
 			
 			// aapt resource value: 0x7f040056
-			public const int ShellContent = 2130968662;
+			public const int select_dialog_singlechoice_material = 2130968662;
 			
 			// aapt resource value: 0x7f040057
-			public const int support_simple_spinner_dropdown_item = 2130968663;
+			public const int ShellContent = 2130968663;
 			
 			// aapt resource value: 0x7f040058
-			public const int Tabbar = 2130968664;
+			public const int support_simple_spinner_dropdown_item = 2130968664;
 			
 			// aapt resource value: 0x7f040059
-			public const int TextInputLayoutFilledBox = 2130968665;
+			public const int Tabbar = 2130968665;
 			
 			// aapt resource value: 0x7f04005a
-			public const int Toolbar = 2130968666;
+			public const int TextInputLayoutFilledBox = 2130968666;
+			
+			// aapt resource value: 0x7f04005b
+			public const int Toolbar = 2130968667;
+			
+			// aapt resource value: 0x7f04005c
+			public const int vertical_viewpager = 2130968668;
 			
 			static Layout()
 			{
@@ -13543,8 +18565,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0c0046
 			public const int hide_bottom_view_on_scroll_behavior = 2131492934;
 			
-			// aapt resource value: 0x7f0c0050
-			public const int library_name = 2131492944;
+			// aapt resource value: 0x7f0c004e
+			public const int library_name = 2131492942;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int mr_button_content_description = 2131492864;
@@ -13639,12 +18661,6 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f0c0033
 			public const int search_menu_title = 2131492915;
 			
-			// aapt resource value: 0x7f0c004f
-			public const int sfcalendar_inlineviewalldaytext = 2131492943;
-			
-			// aapt resource value: 0x7f0c004e
-			public const int sfcalendar_inlineviewnoappointmenttext = 2131492942;
-			
 			// aapt resource value: 0x7f0c004d
 			public const int status_bar_notification_info_overflow = 2131492941;
 			
@@ -13679,8 +18695,8 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f090176
 			public const int Animation_Design_BottomSheetDialog = 2131296630;
 			
-			// aapt resource value: 0x7f09020a
-			public const int AppCompatDialogStyle = 2131296778;
+			// aapt resource value: 0x7f09020d
+			public const int AppCompatDialogStyle = 2131296781;
 			
 			// aapt resource value: 0x7f0900a6
 			public const int Base_AlertDialog_AppCompat = 2131296422;
@@ -14255,11 +19271,11 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f090017
 			public const int CardView_Light = 2131296279;
 			
-			// aapt resource value: 0x7f090208
-			public const int MainTheme = 2131296776;
+			// aapt resource value: 0x7f09020b
+			public const int MainTheme = 2131296779;
 			
-			// aapt resource value: 0x7f090209
-			public const int MainTheme_Base = 2131296777;
+			// aapt resource value: 0x7f09020c
+			public const int MainTheme_Base = 2131296780;
 			
 			// aapt resource value: 0x7f090087
 			public const int Platform_AppCompat = 2131296391;
@@ -14771,6 +19787,9 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 0x7f09000f
 			public const int Theme_MediaRouter_LightControlPanel = 2131296271;
 			
+			// aapt resource value: 0x7f090208
+			public const int Theme_PageIndicatorDefaults = 2131296776;
+			
 			// aapt resource value: 0x7f09011b
 			public const int ThemeOverlay_AppCompat = 2131296539;
 			
@@ -14833,6 +19852,9 @@ namespace iSalesDeskPlus.Droid
 			
 			// aapt resource value: 0x7f090011
 			public const int ThemeOverlay_MediaRouter_Light = 2131296273;
+			
+			// aapt resource value: 0x7f090209
+			public const int Widget = 2131296777;
 			
 			// aapt resource value: 0x7f090122
 			public const int Widget_AppCompat_ActionBar = 2131296546;
@@ -15049,6 +20071,9 @@ namespace iSalesDeskPlus.Droid
 			
 			// aapt resource value: 0x7f090169
 			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131296617;
+			
+			// aapt resource value: 0x7f09020a
+			public const int Widget_CirclePageIndicator = 2131296778;
 			
 			// aapt resource value: 0x7f090205
 			public const int Widget_Compat_NotificationActionContainer = 2131296773;
@@ -16477,6 +21502,40 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 4
 			public const int ChipGroup_singleSelection = 4;
 			
+			public static int[] CirclePageIndicator = new int[] {
+					2130772465,
+					2130772466,
+					2130772467,
+					2130772468,
+					2130772469,
+					2130772470,
+					2130772471,
+					2130772472};
+			
+			// aapt resource value: 0
+			public const int CirclePageIndicator_vpiCentered = 0;
+			
+			// aapt resource value: 5
+			public const int CirclePageIndicator_vpiFillColor = 5;
+			
+			// aapt resource value: 2
+			public const int CirclePageIndicator_vpiOrientation = 2;
+			
+			// aapt resource value: 1
+			public const int CirclePageIndicator_vpiPageColor = 1;
+			
+			// aapt resource value: 4
+			public const int CirclePageIndicator_vpiRadius = 4;
+			
+			// aapt resource value: 3
+			public const int CirclePageIndicator_vpiSnap = 3;
+			
+			// aapt resource value: 6
+			public const int CirclePageIndicator_vpiStrokeColor = 6;
+			
+			// aapt resource value: 7
+			public const int CirclePageIndicator_vpiStrokeWidth = 7;
+			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130772011,
 					2130772345,
@@ -17533,72 +22592,6 @@ namespace iSalesDeskPlus.Droid
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
 			
-			public static int[] SfCalendar = new int[] {
-					2130772464,
-					2130772465,
-					2130772466,
-					2130772467,
-					2130772468,
-					2130772469,
-					2130772470,
-					2130772471,
-					2130772472,
-					2130772473,
-					2130772474,
-					2130772475,
-					2130772476,
-					2130772477,
-					2130772478,
-					2130772479};
-			
-			// aapt resource value: 4
-			public const int SfCalendar_agendaViewHeight = 4;
-			
-			// aapt resource value: 3
-			public const int SfCalendar_calendarFirstDayOfWeek = 3;
-			
-			// aapt resource value: 2
-			public const int SfCalendar_calendarSelectionMode = 2;
-			
-			// aapt resource value: 15
-			public const int SfCalendar_enableDatesInPast = 15;
-			
-			// aapt resource value: 1
-			public const int SfCalendar_inlineViewMode = 1;
-			
-			// aapt resource value: 11
-			public const int SfCalendar_maximumEventIndicatorCount = 11;
-			
-			// aapt resource value: 8
-			public const int SfCalendar_navigateToMonthOnInActiveDatesSelection = 8;
-			
-			// aapt resource value: 14
-			public const int SfCalendar_navigationArrowThickness = 14;
-			
-			// aapt resource value: 12
-			public const int SfCalendar_navigationButtonHeight = 12;
-			
-			// aapt resource value: 13
-			public const int SfCalendar_navigationButtonWidth = 13;
-			
-			// aapt resource value: 6
-			public const int SfCalendar_navigationEnable = 6;
-			
-			// aapt resource value: 5
-			public const int SfCalendar_showEventsInline = 5;
-			
-			// aapt resource value: 7
-			public const int SfCalendar_showNavigationButtons = 7;
-			
-			// aapt resource value: 10
-			public const int SfCalendar_showYearView = 10;
-			
-			// aapt resource value: 9
-			public const int SfCalendar_toggleDaySelection = 9;
-			
-			// aapt resource value: 0
-			public const int SfCalendar_viewMode = 0;
-			
 			public static int[] Snackbar = new int[] {
 					2130772387,
 					2130772388};
@@ -18186,6 +23179,12 @@ namespace iSalesDeskPlus.Droid
 			
 			// aapt resource value: 2
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
+			
+			public static int[] ViewPagerIndicator = new int[] {
+					2130772464};
+			
+			// aapt resource value: 0
+			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
 			
 			public static int[] ViewStubCompat = new int[] {
 					16842960,

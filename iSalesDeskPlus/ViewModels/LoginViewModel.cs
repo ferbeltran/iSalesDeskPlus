@@ -79,14 +79,12 @@ namespace iSalesDeskPlus.ViewModels
 
                     await NavigationService.NavigateAsync("Tabs");
                     
-       
                 }
             }
             catch
             {
 
             }
-
 
             IsLoading = false;
         }

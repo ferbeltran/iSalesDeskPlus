@@ -30,7 +30,7 @@
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="HorizontalOptions" Value="FillAndExpand" />
         <Setter Property="TextColor" Value="White" />
-        <Setter Property="BackgroundColor" Value="{StaticResource PrimaryDarkColor}" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
     </Style>
 
     <!--  Entries de Email y Password  -->

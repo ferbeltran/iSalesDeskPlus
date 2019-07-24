@@ -7,7 +7,7 @@
     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
     xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
     prism:ViewModelLocator.AutowireViewModel="True"
-    BackgroundColor="{StaticResource PrimaryColor}">
+    BackgroundColor="{DynamicResource PrimaryColor}">
 
     <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <Image
@@ -26,16 +26,14 @@
 
                 <Label
                     Margin="0,70,0,0"
-                    FontAttributes="Bold"
-                    FontFamily="{StaticResource MontserratRegular}"
+                    FontFamily="{StaticResource OpenSansRegular}"
                     FontSize="30"
                     Text="Welcome to"
                     TextColor="White" />
 
                 <Label
                     Margin="0,-20,0,0"
-                    FontAttributes="Bold"
-                    FontFamily="{StaticResource MontserratSemibold}"
+                    FontFamily="{StaticResource OpenSansBold}"
                     FontSize="26"
                     Text="iSalesDesk+"
                     TextColor="White" />

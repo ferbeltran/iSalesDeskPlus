@@ -6,24 +6,42 @@
                 xmlns:views="clr-namespace:iSalesDeskPlus.Views"
                 Title="iSalesDesk+"
                 prism:ViewModelLocator.AutowireViewModel="True"
-                SelectedTabColor="{StaticResource PrimaryColor}"
-                UnselectedTabColor="{StaticResource DarkerLightAccentColor}">
+                BarBackgroundColor="{DynamicResource TabBarColor}"
+                SelectedTabColor="{DynamicResource TabIconSelectedColor}"
+                UnselectedTabColor="{DynamicResource TabIconUnselectedColor}">
 
 
-        <NavigationPage BarBackgroundColor="Transparent"
-                        BarTextColor="{StaticResource PrimaryColor}"
-                        IconImageSource="warehouse.png">
-
+        <NavigationPage BarBackgroundColor="{DynamicResource NavigationBarColor}"
+                        BarTextColor="{DynamicResource TitleColor}"
+                        IconImageSource="combo_chart.png">
             <x:Arguments>
                 <views:Inventory />
             </x:Arguments>
         </NavigationPage>
 
 
+        <NavigationPage BarBackgroundColor="{DynamicResource NavigationBarColor}"
+                        BarTextColor="{DynamicResource TitleColor}"
+                        IconImageSource="myorder.png">
+
+            <x:Arguments>
+                <views:MyOrder />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage BarBackgroundColor="{DynamicResource NavigationBarColor}"
+                        BarTextColor="{DynamicResource TitleColor}"
+                        IconImageSource="documents.png">
+
+            <x:Arguments>
+                <views:Orders />
+            </x:Arguments>
+        </NavigationPage>
+
         <NavigationPage Title="Settings"
-                        BarBackgroundColor="Transparent"
-                        BarTextColor="{StaticResource PrimaryColor}"
-                        IconImageSource="cog.png">
+                        BarBackgroundColor="{DynamicResource NavigationBarColor}"
+                        BarTextColor="{DynamicResource TitleColor}"
+                        IconImageSource="settings.png">
 
             <x:Arguments>
                 <views:Settings />

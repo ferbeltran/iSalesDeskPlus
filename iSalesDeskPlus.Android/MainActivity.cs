@@ -2,6 +2,7 @@
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
+using CarouselView.FormsPlugin.Android;
 using iSalesDeskPlus.Droid.Services;
 using iSalesDeskPlus.Services;
 using Prism;
@@ -26,6 +27,7 @@ namespace iSalesDeskPlus.Droid
             global::Xamarin.Forms.Forms.Init(this, bundle);
 
             AiForms.Renderers.Droid.SettingsViewInit.Init();
+            CarouselViewRenderer.Init();
             FormsMaterial.Init(this, bundle);
             LoadApplication(new App(new AndroidInitializer()));
 

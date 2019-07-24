@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using Microcharts.Forms;
 
 namespace iSalesDeskPlus.Views
 {
@@ -7,6 +8,7 @@ namespace iSalesDeskPlus.Views
         public Inventory()
         {
             InitializeComponent();
+            
         }
     }
 }

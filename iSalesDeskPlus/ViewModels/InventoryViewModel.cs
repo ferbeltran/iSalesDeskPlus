@@ -14,5 +14,12 @@ namespace iSalesDeskPlus.ViewModels
         {
             Title = "Inventory";
         }
+
+        private DateTime date = DateTime.Now;
+        public DateTime Date
+        {
+            get { return date; }
+            set { SetProperty(ref date, value); }
+        }
     }
 }

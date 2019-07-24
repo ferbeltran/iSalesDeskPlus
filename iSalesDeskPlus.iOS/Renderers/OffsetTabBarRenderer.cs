@@ -17,6 +17,13 @@ namespace iSalesDeskPlus.iOS.Renderers
     {
         readonly nfloat imageYOffset = 7.0f;
 
+        public OffsetTabBarRenderer()
+        {
+            TabBar.Translucent = false;
+            TabBar.Opaque = true;
+        }
+                    
+
         protected override void OnElementChanged(VisualElementChangedEventArgs e)
         {
             base.OnElementChanged(e);

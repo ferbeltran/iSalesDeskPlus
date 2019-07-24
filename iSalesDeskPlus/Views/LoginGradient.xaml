@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+                 prism:ViewModelLocator.AutowireViewModel="True"
+                 xmlns:behaviors="clr-namespace:iSalesDeskPlus.Utils.Behaviors"
+                 xmlns:xfx="clr-namespace:Xfx;assembly=Xfx.Controls"
+                 xmlns:icons="clr-namespace:iSalesDeskPlus.Utils"
+                 xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+                 x:Class="iSalesDeskPlus.Views.LoginGradient">
+
+        <yummy:PancakeView BackgroundGradientStartColor="#04b7cf"
+                           BackgroundGradientEndColor="#00cdcd" 
+                           BackgroundGradientAngle="300"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="FillAndExpand">
+
+            <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+                <StackLayout
+                    Padding="{StaticResource PagePadding}"
+                    HorizontalOptions="CenterAndExpand"
+                    Orientation="Vertical"
+                    Spacing="{StaticResource PageSpacing}"
+                    VerticalOptions="FillAndExpand">
+
+                    <Label
+                        Margin="0,70,0,0"
+                        FontFamily="{StaticResource OpenSansRegular}"
+                        FontSize="30"
+                        Text="Welcome to"
+                        TextColor="White" />
+
+                    <Label
+                        Margin="0,-20,0,0"
+                        FontFamily="{StaticResource OpenSansBold}"
+                        FontSize="26"
+                        Text="iSalesDesk+"
+                        TextColor="White" />
+
+
+                    <BoxView Style="{StaticResource BoxViewStyle}" />
+
+
+                <StackLayout Orientation="Horizontal" Spacing="10">
+
+                        <Label Text="{Binding Source={x:Static icons:MaterialIcons.Email}}"
+                               VerticalOptions="CenterAndExpand"
+                               TextColor="{Binding Source={x:Reference emailEntry}, Path=PlaceholderColor}"
+                               FontFamily="{StaticResource MaterialIcons}"/>
+                        <xfx:XfxEntry
+                            x:Name="emailEntry"
+                            ActivePlaceholderColor="White"
+                            Placeholder="Email"
+                            PlaceholderColor="WhiteSmoke"
+                            Style="{StaticResource LoginEntryStyle}"
+                            Text="{Binding Email}"
+                            TextColor="#3d414b" />
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Label Text="{Binding Source={x:Static icons:MaterialIcons.KeyOutline}}"
+                               VerticalOptions="CenterAndExpand"
+                               TextColor="{Binding Source={x:Reference passwordEntry}, Path=PlaceholderColor}"
+                               FontFamily="{StaticResource MaterialIcons}"/>
+                        <xfx:XfxEntry
+                            x:Name="passwordEntry"
+                            ActivePlaceholderColor="White"
+                            ErrorText="{Binding PasswordErrorText}"
+                            IsPassword="True"
+                            Placeholder="Password"
+                            PlaceholderColor="WhiteSmoke"
+                            Style="{StaticResource LoginEntryStyle}"
+                            Text="{Binding Password}"
+                            TextColor="#3d414b" />
+                    </StackLayout>
+
+
+
+                    <Button
+                        Command="{Binding LoginCommand}"
+                        CornerRadius="20"
+                        BackgroundColor="#3d414b"
+                        Text="LOG IN"
+                        TextColor="White">
+                        <Button.Behaviors>
+                            <behaviors:ViewTappedAnimation AnimationType="{Binding Animation}" />
+                        </Button.Behaviors>
+                    </Button>
+
+
+
+                    <Label Style="{StaticResource PoweredByStyle}" Text="Powered by iSolve Produce" />
+
+
+                    <ActivityIndicator
+                        Margin="0,40,0,0"
+                        IsRunning="{Binding IsLoading}"
+                        Visual="Material"
+                        Color="Crimson" />
+                </StackLayout>
+            </ScrollView>
+
+
+        </yummy:PancakeView>
+
+
+    </ContentPage>
